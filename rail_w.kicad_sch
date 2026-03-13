@@ -1,0 +1,10235 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2d7cf4ab-f0ca-4c6a-8b57-6756dbfc9088")
+	(paper "A4")
+	(lib_symbols
+		(symbol "CL21B106KOQNNNE_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL21B106KOQNNNE"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:C0805"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C95841"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL21B106KOQNNNE_4_0_1"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.81) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 1.27 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EasyEDA:WS2812B-2020"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C965555"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(rectangle
+					(start 2.54 0)
+					(end 15.24 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 3.81 -1.27)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 43.18 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "034dcfb2-6f37-4fe8-8b79-8507d687bfa2")
+	)
+	(junction
+		(at 63.5 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03dcbf84-9ebd-456b-8677-92453e82ee4d")
+	)
+	(junction
+		(at 86.36 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d32140-de5d-454d-9a84-ecba7e7c7438")
+	)
+	(junction
+		(at 163.83 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e2be19-edfe-4111-b535-40f850573e5b")
+	)
+	(junction
+		(at 109.22 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "061937ba-ea51-4f6e-a940-2bd5835b826c")
+	)
+	(junction
+		(at 64.77 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06bb3630-e632-47b5-b298-4dce80e0dd5e")
+	)
+	(junction
+		(at 83.82 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0792943c-d6c1-48ab-8605-6a5886149f84")
+	)
+	(junction
+		(at 170.18 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "082490bb-3225-43b5-8061-f5ace46d8f21")
+	)
+	(junction
+		(at 19.05 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11fc4a33-c51f-4e1b-bce0-c83445df8edb")
+	)
+	(junction
+		(at 82.55 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "133366ec-64f4-4d93-b228-6fffaa1d455f")
+	)
+	(junction
+		(at 128.27 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1340e7b7-6f9a-445f-99b5-a739f5d78023")
+	)
+	(junction
+		(at 190.5 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18237201-38c7-4455-aa51-abbafda353b2")
+	)
+	(junction
+		(at 102.87 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "188b94e6-6b4e-4449-acc6-0a8979fbe894")
+	)
+	(junction
+		(at 43.18 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c9248b2-3607-47ce-bb67-2926c67c572c")
+	)
+	(junction
+		(at 59.69 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cded379-5fc1-462e-ba14-d9f392c1fe66")
+	)
+	(junction
+		(at 275.59 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d0fe237-d97b-457c-bb8c-e7257f781ac4")
+	)
+	(junction
+		(at 210.82 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea40c1e-892b-4608-b106-9013bc599f4c")
+	)
+	(junction
+		(at 106.68 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f56fc89-1671-48bd-924b-80cd3eae9c41")
+	)
+	(junction
+		(at 62.23 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "209dc2f2-8a3e-4991-b9a6-0b047a43ade5")
+	)
+	(junction
+		(at 63.5 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2367b146-64b3-4d61-a252-1c432731130c")
+	)
+	(junction
+		(at 66.04 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2609271e-1fcf-43fc-ae92-a0701180ffd2")
+	)
+	(junction
+		(at 19.05 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "275b3f80-8e27-48b4-affa-a011c24d2f34")
+	)
+	(junction
+		(at 80.01 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27d164d2-ca72-47ed-a654-68c2cb78d0e7")
+	)
+	(junction
+		(at 144.78 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28104a3f-6fcb-453b-974b-49d7904ec432")
+	)
+	(junction
+		(at 19.05 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db7a55d-fefd-4f29-b736-e815f3101cd5")
+	)
+	(junction
+		(at 66.04 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30166570-f2ce-44b6-ab0e-08ef0b78039d")
+	)
+	(junction
+		(at 187.96 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31ecb8e5-8fa5-4b6b-bdb7-f366d74918b8")
+	)
+	(junction
+		(at 185.42 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "362c1bde-c888-484b-ac54-b5ee573b36da")
+	)
+	(junction
+		(at 19.05 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36cf12df-c19a-4589-ab21-1b8e48ff5042")
+	)
+	(junction
+		(at 129.54 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37a98d56-7cb3-41ad-b824-113e24348af4")
+	)
+	(junction
+		(at 68.58 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "387834ce-eb0d-4540-bc54-f6093ac46bb5")
+	)
+	(junction
+		(at 167.64 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c2d4525-1b87-4475-82da-7a10315148a1")
+	)
+	(junction
+		(at 19.05 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e5ed17f-ca7f-4f88-b4ff-3a78a7f21d10")
+	)
+	(junction
+		(at 41.91 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f6403cd-3bb3-4001-a949-c4b68d39cdc7")
+	)
+	(junction
+		(at 67.31 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa3f993-4aad-47ad-87cf-baca9a621d22")
+	)
+	(junction
+		(at 19.05 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dd67c9b-9f18-41fd-9d81-40baac44e5d9")
+	)
+	(junction
+		(at 127 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57cbf6ac-eccd-46e9-a01e-4825162d9339")
+	)
+	(junction
+		(at 189.23 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b3cb08b-c62e-40d1-8315-cfa1f59b1066")
+	)
+	(junction
+		(at 83.82 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f5d11a7-c4be-4512-a38b-35f9b175742b")
+	)
+	(junction
+		(at 109.22 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fb700f3-8fb7-47cd-b702-735bc7d7a9d9")
+	)
+	(junction
+		(at 149.86 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "603f807b-8001-49aa-a1b9-9a9ce091f5a2")
+	)
+	(junction
+		(at 88.9 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62158815-a249-4cf3-81a5-c4c4a483ceeb")
+	)
+	(junction
+		(at 181.61 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686c0658-8543-4ca7-ad51-0ae62e01fd39")
+	)
+	(junction
+		(at 222.25 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a0fbee3-77c4-437d-be16-4dcd82a8a8c6")
+	)
+	(junction
+		(at 209.55 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a97ef57-6a28-4b56-b179-4f8725072c0f")
+	)
+	(junction
+		(at 127 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6adde471-b827-4e9b-8729-e910da2cffe7")
+	)
+	(junction
+		(at 125.73 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74aaea9e-9010-44ad-8cb7-60ae9f9d6b65")
+	)
+	(junction
+		(at 106.68 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "762e42ea-2781-4169-b273-fc6061af2521")
+	)
+	(junction
+		(at 184.15 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7874c040-f65c-428a-b3b6-5cb075ad10ef")
+	)
+	(junction
+		(at 147.32 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b5fd2ae-b591-4c9d-8ebf-796b08f5b072")
+	)
+	(junction
+		(at 168.91 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f4bb443-6aed-4574-a02a-21dab94b40ff")
+	)
+	(junction
+		(at 187.96 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "814e910e-da99-4dbc-beb2-ff1faa56f497")
+	)
+	(junction
+		(at 147.32 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "822c090f-e0c1-4cf6-b4d8-b30931d58f7d")
+	)
+	(junction
+		(at 129.54 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8247dc00-fef7-4297-8634-e2a4b87e2685")
+	)
+	(junction
+		(at 105.41 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8278b850-ff80-405a-b1d0-ab82a76565f2")
+	)
+	(junction
+		(at 106.68 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8362fd3e-d3ee-47a9-9f7d-210e31b7801d")
+	)
+	(junction
+		(at 44.45 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84bbb9d3-d106-4165-9f3e-cd7648400b1f")
+	)
+	(junction
+		(at 201.93 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87682d37-5a26-4ed0-b8fd-489fa7496f16")
+	)
+	(junction
+		(at 85.09 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e4c4e8-bc72-4161-add8-26c730e90f2d")
+	)
+	(junction
+		(at 275.59 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a0c3375-9e3f-4af4-9702-c3ad68f6b766")
+	)
+	(junction
+		(at 45.72 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b6b5324-2fe4-4da4-bc7b-758c4f57736d")
+	)
+	(junction
+		(at 148.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c877758-00f4-41d9-b619-aaa116b77bb9")
+	)
+	(junction
+		(at 275.59 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dd9d35a-8a1a-4b1c-9411-f59c83d7e27e")
+	)
+	(junction
+		(at 104.14 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f661278-ae39-425f-9f67-e330dfc91b14")
+	)
+	(junction
+		(at 208.28 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9181c5cc-f6c4-4e98-bd40-f423540599a1")
+	)
+	(junction
+		(at 107.95 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93c66d8d-f474-4dfa-a792-619dfbbd1642")
+	)
+	(junction
+		(at 120.65 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4d29a2-a7ce-437d-9e82-e654f8f721d0")
+	)
+	(junction
+		(at 146.05 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b283651-90a2-4632-a385-39a8be037851")
+	)
+	(junction
+		(at 45.72 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca0941d-9a61-426d-a68e-175380348fe3")
+	)
+	(junction
+		(at 149.86 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e33838e-5d15-4743-95b0-04bac4be307c")
+	)
+	(junction
+		(at 86.36 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8c35e9-f7f4-4bda-842d-811e01c47f7b")
+	)
+	(junction
+		(at 124.46 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7653b89-460b-40c5-9cb3-375cf2a0d86c")
+	)
+	(junction
+		(at 143.51 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b06d6e0f-2d0b-4731-a931-0b03bca15b96")
+	)
+	(junction
+		(at 166.37 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b07a3f25-0eda-42b9-b576-5feeb66b4b8d")
+	)
+	(junction
+		(at 224.79 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0d631cd-f05b-46fe-962a-684871ba5b55")
+	)
+	(junction
+		(at 275.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2743f70-2174-4218-a79e-39b17dce54e5")
+	)
+	(junction
+		(at 127 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57d6da0-f272-4f4d-a9be-63b2e6394a2d")
+	)
+	(junction
+		(at 204.47 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb1c9757-1790-42b5-9e1a-e380220be08c")
+	)
+	(junction
+		(at 88.9 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c035a8bc-71a7-4733-8e32-51756408749f")
+	)
+	(junction
+		(at 170.18 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3969a90-0786-48d9-a534-5af9ebd87f47")
+	)
+	(junction
+		(at 68.58 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ed77f4-3c40-4607-b8fa-f1679326140f")
+	)
+	(junction
+		(at 123.19 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbb1dfe4-4bdd-475f-940b-15240ef99d5c")
+	)
+	(junction
+		(at 161.29 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd334a38-7c2e-4b76-8d3d-dbc5566cbf0d")
+	)
+	(junction
+		(at 45.72 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4d97cc7-4728-4191-8a86-20433861bee9")
+	)
+	(junction
+		(at 66.04 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8314c65-dfed-4d41-962e-aa251ba719bd")
+	)
+	(junction
+		(at 45.72 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db9e33f4-7704-40e8-bf80-23c944d13e1d")
+	)
+	(junction
+		(at 165.1 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4b1225-9bb6-4c2d-8d90-2fe7531cbc2a")
+	)
+	(junction
+		(at 48.26 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e164c752-dfd2-4446-bdaa-f657ab379ce0")
+	)
+	(junction
+		(at 86.36 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1ab751b-b712-430c-bfb3-5c2f66fc7f12")
+	)
+	(junction
+		(at 86.36 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4bef792-b291-4753-a130-71f4fb1b3c13")
+	)
+	(junction
+		(at 210.82 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e116cd-11ff-43c3-8659-c58ea072d5cd")
+	)
+	(junction
+		(at 205.74 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6a92da8-c582-4339-8741-286285a45134")
+	)
+	(junction
+		(at 100.33 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea163406-0a40-48d4-89a6-a545d2d9bda0")
+	)
+	(junction
+		(at 46.99 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb1c645f-5e0a-4497-8e23-01d119257c58")
+	)
+	(junction
+		(at 207.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb61033c-1b32-4862-a533-06da730375e3")
+	)
+	(junction
+		(at 208.28 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee402a27-8e35-421c-bab5-66c822acce7a")
+	)
+	(junction
+		(at 167.64 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2250394-03c5-4e5d-8a28-0deada779253")
+	)
+	(junction
+		(at 87.63 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f32eed61-49eb-4fd9-a3f6-d6b5789231e0")
+	)
+	(junction
+		(at 190.5 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3863519-aa2f-47b5-909c-0b36da6fc3b0")
+	)
+	(junction
+		(at 186.69 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c30888-d5b5-4ecf-b225-39f13513d65e")
+	)
+	(junction
+		(at 19.05 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7094ee7-9c4d-437a-884c-438882c9418d")
+	)
+	(junction
+		(at 140.97 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8b21600-3344-4dda-a4e1-7d0102b1b8c4")
+	)
+	(wire
+		(pts
+			(xy 210.82 43.18) (xy 275.59 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0288e98a-e810-4bb3-ae82-ea881b5caac0")
+	)
+	(wire
+		(pts
+			(xy 275.59 119.38) (xy 275.59 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a9664c-7849-40ce-9db0-fd67e387b691")
+	)
+	(wire
+		(pts
+			(xy 27.94 43.18) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037c4ca4-60a9-4bd1-bb79-3a5e4d075f12")
+	)
+	(wire
+		(pts
+			(xy 201.93 31.75) (xy 203.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c1695d-827e-4cf2-9533-6485b45580b4")
+	)
+	(wire
+		(pts
+			(xy 222.25 34.29) (xy 222.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0434577d-68da-438f-b4c9-5d7f2993b87c")
+	)
+	(wire
+		(pts
+			(xy 62.23 20.32) (xy 82.55 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0469d27a-6c49-4921-ba35-87a5bcd47bf5")
+	)
+	(wire
+		(pts
+			(xy 204.47 20.32) (xy 204.47 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c26f74-322f-4d53-a6f8-f935d05672e7")
+	)
+	(wire
+		(pts
+			(xy 102.87 20.32) (xy 123.19 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c7b548-0a91-4675-8393-9a55bd650b6e")
+	)
+	(wire
+		(pts
+			(xy 85.09 130.81) (xy 86.36 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07be6513-b21d-429c-8da6-54abfde4fc1d")
+	)
+	(wire
+		(pts
+			(xy 102.87 154.94) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082b8f38-68af-447e-a5a3-bcb4983184e3")
+	)
+	(wire
+		(pts
+			(xy 190.5 69.85) (xy 210.82 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089091df-b2b6-4d7e-9fb1-bdac30018cbb")
+	)
+	(wire
+		(pts
+			(xy 161.29 39.37) (xy 181.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a71c8f1-dd10-4154-b5ff-7abedaf5fe6e")
+	)
+	(wire
+		(pts
+			(xy 121.92 33.02) (xy 123.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae466ee-5065-4122-98fe-2d681e9842fc")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85) (xy 149.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b171fbc-ee28-40d1-bd72-835c964cb95c")
+	)
+	(wire
+		(pts
+			(xy 88.9 69.85) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0baf4c22-0339-43df-9b4d-fa7549824e27")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bdf7612-4ee3-4334-9658-ac56d3cc938e")
+	)
+	(wire
+		(pts
+			(xy 129.54 54.61) (xy 129.54 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf269ff-f92f-405c-a7ba-101f3791302f")
+	)
+	(wire
+		(pts
+			(xy 168.91 80.01) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db82544-73bb-477b-8a37-294f9052b1c7")
+	)
+	(wire
+		(pts
+			(xy 39.37 31.75) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df329af-9dc6-49df-aa6d-4fb5678c42dd")
+	)
+	(wire
+		(pts
+			(xy 48.26 53.34) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f8213ea-b59d-4c6f-992d-1f8249cd02fe")
+	)
+	(wire
+		(pts
+			(xy 189.23 93.98) (xy 209.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1027c99f-d457-4f32-8d15-6cdc230f36b6")
+	)
+	(wire
+		(pts
+			(xy 228.6 60.96) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1085be1b-51e2-4dbf-8ccb-690e91d208e0")
+	)
+	(wire
+		(pts
+			(xy 209.55 81.28) (xy 210.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12a57d90-a4de-4838-b7c4-0bd29ec5c664")
+	)
+	(wire
+		(pts
+			(xy 63.5 129.54) (xy 64.77 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12dc06bf-877d-4003-b1e6-419663b6ccd5")
+	)
+	(wire
+		(pts
+			(xy 223.52 33.02) (xy 224.79 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14121463-8b27-4425-9e8e-d3ac9387a307")
+	)
+	(wire
+		(pts
+			(xy 43.18 129.54) (xy 44.45 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14784fdd-8302-441e-9e90-5335d2034f2c")
+	)
+	(wire
+		(pts
+			(xy 101.6 33.02) (xy 102.87 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160c46de-5c2b-4429-b2ca-504347498957")
+	)
+	(wire
+		(pts
+			(xy 101.6 31.75) (xy 101.6 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165ae30f-2e60-4caf-8438-fedc56172e1d")
+	)
+	(wire
+		(pts
+			(xy 207.01 106.68) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16de676a-fd8c-45fd-bd76-0b5b274652b2")
+	)
+	(wire
+		(pts
+			(xy 64.77 104.14) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ec3e1c-e824-4e2d-a1c2-0f0e1d86699e")
+	)
+	(wire
+		(pts
+			(xy 86.36 104.14) (xy 86.36 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185f1108-5430-4d7e-8848-890f08b05c40")
+	)
+	(wire
+		(pts
+			(xy 66.04 154.94) (xy 66.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f8e099-92e9-4bf3-8e9d-b0a9c3b3eeee")
+	)
+	(wire
+		(pts
+			(xy 161.29 34.29) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19068568-4936-479a-b2a8-529476cbc6c7")
+	)
+	(wire
+		(pts
+			(xy 242.57 31.75) (xy 248.92 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193a10ba-67ce-420d-8f2e-74e1be568968")
+	)
+	(wire
+		(pts
+			(xy 224.79 33.02) (xy 224.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196088c6-a7d2-44ad-923e-775f76883f7a")
+	)
+	(wire
+		(pts
+			(xy 208.28 130.81) (xy 208.28 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c5d66c-542e-4209-82e5-7b079a135a9e")
+	)
+	(wire
+		(pts
+			(xy 102.87 20.32) (xy 102.87 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a83dd29-e101-4c8e-8656-ce8e007efbe3")
+	)
+	(wire
+		(pts
+			(xy 228.6 116.84) (xy 21.59 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7bfebe-7e93-414f-beb0-04b7ca1fce6c")
+	)
+	(wire
+		(pts
+			(xy 67.31 104.14) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca01846-7279-45b1-8460-ba4fffecc4e0")
+	)
+	(wire
+		(pts
+			(xy 21.59 116.84) (xy 21.59 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d23dbed-f146-4758-a0ad-6906629f3f62")
+	)
+	(wire
+		(pts
+			(xy 46.99 105.41) (xy 46.99 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e01c013-6a96-49bd-8c47-8c744182c116")
+	)
+	(wire
+		(pts
+			(xy 275.59 143.51) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe8a9e2-fd16-4aab-af89-62ae73eef383")
+	)
+	(wire
+		(pts
+			(xy 186.69 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2148cefd-23b0-4acb-bd52-78f2219bd711")
+	)
+	(wire
+		(pts
+			(xy 57.15 80.01) (xy 57.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cbf68d-e7dd-4a06-812d-a0a8bcf55310")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 87.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2356f6d3-a51f-4988-a073-a18386c087e7")
+	)
+	(wire
+		(pts
+			(xy 207.01 111.76) (xy 227.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d472df-9051-49ce-8b6c-e363a5b13f21")
+	)
+	(wire
+		(pts
+			(xy 59.69 33.02) (xy 62.23 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2482f511-9950-42e3-bcb8-7deae9922574")
+	)
+	(wire
+		(pts
+			(xy 228.6 104.14) (xy 228.6 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e5b936-98a4-4333-9b67-93f4d55699ff")
+	)
+	(wire
+		(pts
+			(xy 63.5 132.08) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4f9a15-8b0a-43f1-9b17-8734b0c2a5d1")
+	)
+	(wire
+		(pts
+			(xy 19.05 17.78) (xy 19.05 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6afa05-087c-4844-a951-9e5006d87d71")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6d0ab4-af72-43b6-bf91-6195c3de29f7")
+	)
+	(wire
+		(pts
+			(xy 125.73 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d05dc14-c213-4b6e-aa3a-65ed6e009c96")
+	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d110b1f-34cd-486e-b6ee-4901205c252b")
+	)
+	(wire
+		(pts
+			(xy 148.59 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef5e089-7ba5-4806-a94b-a4111c828941")
+	)
+	(wire
+		(pts
+			(xy 208.28 104.14) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa0a3b5-3189-4a4b-93c9-632339c01d61")
+	)
+	(wire
+		(pts
+			(xy 44.45 154.94) (xy 44.45 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3209f6ba-dec3-49a9-8c50-d1b47830bd0a")
+	)
+	(wire
+		(pts
+			(xy 83.82 137.16) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332367c2-5ae3-4da1-b178-65a7a69fa1e6")
+	)
+	(wire
+		(pts
+			(xy 209.55 105.41) (xy 209.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e23a67-3546-4bb0-86b0-852052f9d18b")
+	)
+	(wire
+		(pts
+			(xy 148.59 104.14) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f3db27-132e-44e2-9299-712adfab1c0c")
+	)
+	(wire
+		(pts
+			(xy 68.58 80.01) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345249b3-d3d5-445c-be9e-a007ccd62f99")
+	)
+	(wire
+		(pts
+			(xy 228.6 139.7) (xy 21.59 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c410d8-31c0-4d14-9f1b-250b665ecf4e")
+	)
+	(wire
+		(pts
+			(xy 82.55 20.32) (xy 102.87 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350f1054-88a5-4613-9578-1deefb7e9664")
+	)
+	(wire
+		(pts
+			(xy 45.72 130.81) (xy 45.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355d6b37-6c0d-410d-b28a-703d7540024d")
+	)
+	(wire
+		(pts
+			(xy 209.55 80.01) (xy 209.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356c9020-297d-45b4-8ad7-d328946db8b5")
+	)
+	(wire
+		(pts
+			(xy 45.72 156.21) (xy 45.72 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3682a758-e68e-4594-a13e-03e388bab62b")
+	)
+	(wire
+		(pts
+			(xy 163.83 20.32) (xy 184.15 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374a35a2-270f-4b97-ab86-0a98fb51e95b")
+	)
+	(wire
+		(pts
+			(xy 143.51 20.32) (xy 143.51 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3752014f-eeaa-468f-91bb-b383377f59ea")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d07ade-3b67-4ddc-a7cd-dc4b44267658")
+	)
+	(wire
+		(pts
+			(xy 45.72 143.51) (xy 25.4 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38378f52-c34c-49f8-873d-49b2bca96d5f")
+	)
+	(wire
+		(pts
+			(xy 187.96 82.55) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384cadf3-0b51-4c99-a456-97f811a57340")
+	)
+	(wire
+		(pts
+			(xy 184.15 33.02) (xy 184.15 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a197c1-a360-4d46-99d3-2b1927ccc637")
+	)
+	(wire
+		(pts
+			(xy 82.55 20.32) (xy 82.55 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3962b841-816f-4dd5-b2b2-1bbb1214980d")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 149.86 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39911f9a-0bed-4ab6-b6c5-7e014232dc88")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 210.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399d7f36-79ec-45f5-88df-8d9781af9c9c")
+	)
+	(wire
+		(pts
+			(xy 124.46 129.54) (xy 125.73 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39da7bde-8c71-44ba-b762-8fb2e1faf380")
+	)
+	(wire
+		(pts
+			(xy 182.88 33.02) (xy 184.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a353f8c-cada-422b-9916-057cf108a893")
+	)
+	(wire
+		(pts
+			(xy 66.04 156.21) (xy 66.04 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0d2319-9f6e-43b3-983c-46ad87a7b7b5")
+	)
+	(wire
+		(pts
+			(xy 24.13 55.88) (xy 27.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b5bf0fb-23e3-48b1-9f99-096d0d9e6b97")
+	)
+	(wire
+		(pts
+			(xy 210.82 53.34) (xy 210.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8ca7ad-9948-479a-ad31-484407143408")
+	)
+	(wire
+		(pts
+			(xy 167.64 105.41) (xy 168.91 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca17d7d-0c21-4a82-8d09-e6c4cb014b5d")
+	)
+	(wire
+		(pts
+			(xy 19.05 60.96) (xy 19.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db04a33-d513-4ed4-b3a8-36adcf22df60")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dbc7aec-71ed-4c8b-910c-7852ad973ca9")
+	)
+	(wire
+		(pts
+			(xy 46.99 93.98) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddfabcd-292e-425b-81fd-20a8c6ac9a7d")
+	)
+	(wire
+		(pts
+			(xy 104.14 132.08) (xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1aa557-7b8e-4cc4-9015-ed384b030a78")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7c5ab2-058c-44f5-b573-bccfaf7149a3")
+	)
+	(wire
+		(pts
+			(xy 275.59 69.85) (xy 275.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef58840-7c8b-40d0-8bf2-7c6b62baf54a")
+	)
+	(wire
+		(pts
+			(xy 181.61 31.75) (xy 182.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7580b7-c71c-4d90-a663-f5b75ca2eca8")
+	)
+	(wire
+		(pts
+			(xy 86.36 105.41) (xy 87.63 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f96b4d9-b83b-487e-be31-c2f0bb2be899")
+	)
+	(wire
+		(pts
+			(xy 105.41 130.81) (xy 106.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb3a527-33ad-45e4-a85a-0d783079e754")
+	)
+	(wire
+		(pts
+			(xy 229.87 66.04) (xy 24.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbff18f-7881-4fab-9133-10b86d857558")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 187.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3feeb06d-5376-4fbe-ae11-c4ac0a31383c")
+	)
+	(wire
+		(pts
+			(xy 19.05 88.9) (xy 19.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4069e9b7-21ab-447b-8e00-423afc5d1148")
+	)
+	(wire
+		(pts
+			(xy 128.27 105.41) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4101f6f8-6df7-4f98-a762-ca187fe83b60")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4174d107-d62c-44e3-a7be-57a129600096")
+	)
+	(wire
+		(pts
+			(xy 107.95 81.28) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41901062-9a70-444a-9c4f-e47e333a5e94")
+	)
+	(wire
+		(pts
+			(xy 64.77 106.68) (xy 64.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426566dc-2d26-4b98-8980-fe8d80fb5ac6")
+	)
+	(wire
+		(pts
+			(xy 127 82.55) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428907d7-343e-4733-a210-576fff3c4f23")
+	)
+	(wire
+		(pts
+			(xy 66.04 53.34) (xy 67.31 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e82393-10b8-4ec2-8dcb-a82a40aac09c")
+	)
+	(wire
+		(pts
+			(xy 105.41 106.68) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43332e90-55e0-4f48-9091-cd763fd65910")
+	)
+	(wire
+		(pts
+			(xy 24.13 82.55) (xy 27.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4515453e-cfbe-4a82-8fb8-c83aeba29e8b")
+	)
+	(wire
+		(pts
+			(xy 167.64 55.88) (xy 167.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466ccce5-8565-4b45-8d0b-6252af4e053d")
+	)
+	(wire
+		(pts
+			(xy 222.25 31.75) (xy 223.52 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47744a10-8f9e-497f-986b-4e750e4fdd04")
+	)
+	(wire
+		(pts
+			(xy 80.01 34.29) (xy 80.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480b9d0b-2a7c-41b3-96b9-12942de8b61c")
+	)
+	(wire
+		(pts
+			(xy 168.91 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488e6b0b-8a89-4e9b-8d5d-a39f6e1700fd")
+	)
+	(wire
+		(pts
+			(xy 45.72 119.38) (xy 66.04 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b0376e-595a-4967-b88e-dccd927a0699")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497919db-0bd9-4c4f-bc78-332121a754d9")
+	)
+	(wire
+		(pts
+			(xy 43.18 157.48) (xy 43.18 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4984abd9-3252-4d4d-8739-d0261d5cb0f6")
+	)
+	(wire
+		(pts
+			(xy 125.73 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d9ac3a-729e-47b4-b8d6-c02ce16fb03e")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a473c38-03b5-4948-a4e1-10db05aacfd4")
+	)
+	(wire
+		(pts
+			(xy 25.4 119.38) (xy 45.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a57f093-39f7-4014-ad6b-262df863838d")
+	)
+	(wire
+		(pts
+			(xy 275.59 43.18) (xy 275.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a609509-9d61-4f05-8392-8fa98e5dc3ac")
+	)
+	(wire
+		(pts
+			(xy 83.82 154.94) (xy 83.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8045d5-9277-4d5d-9182-95d0954b7a18")
+	)
+	(wire
+		(pts
+			(xy 187.96 60.96) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8da189-83ef-4a8b-b836-d2e1f5d80b80")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 109.22 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9d8024-6e71-4e47-b413-1d1661f791e9")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 168.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4baad987-5bf2-4c92-952e-1303d7cd5567")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bad90b8-0d75-4ea7-82eb-93172e34b5e1")
+	)
+	(wire
+		(pts
+			(xy 39.37 34.29) (xy 41.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc35332-75f0-4cd1-a69d-3e159be8ce91")
+	)
+	(wire
+		(pts
+			(xy 107.95 80.01) (xy 107.95 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfce8c9-05a5-4142-804b-24f352d9250e")
+	)
+	(wire
+		(pts
+			(xy 162.56 33.02) (xy 163.83 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0e3c4a-c809-4613-b980-8a31c714da7d")
+	)
+	(wire
+		(pts
+			(xy 19.05 34.29) (xy 19.05 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4f0ea2-9a83-491d-b2aa-dfbb14fb2d3a")
+	)
+	(wire
+		(pts
+			(xy 189.23 80.01) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6ffa85-28c4-451e-b500-b205cba095a3")
+	)
+	(wire
+		(pts
+			(xy 124.46 132.08) (xy 124.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8ef49d-d3f4-461e-a479-55f479e813b4")
+	)
+	(wire
+		(pts
+			(xy 209.55 54.61) (xy 210.82 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d933a94-4155-4a92-b29f-86b8ffb07c6b")
+	)
+	(wire
+		(pts
+			(xy 146.05 106.68) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebf4241-2da1-4c99-b16e-765a6ed3f6d4")
+	)
+	(wire
+		(pts
+			(xy 19.05 165.1) (xy 19.05 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50a9f1aa-3c05-489b-9be2-2137d58fbb09")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 129.54 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513ab205-18cb-4d70-88d3-77f0e7bb8e1a")
+	)
+	(wire
+		(pts
+			(xy 147.32 82.55) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51602881-fcf6-410a-825e-3a80661217d3")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 149.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e05317-5b63-4979-8f2b-b97b97fa6fd6")
+	)
+	(wire
+		(pts
+			(xy 88.9 81.28) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534752cb-a06c-4688-8913-93f41fdbe0b6")
+	)
+	(wire
+		(pts
+			(xy 85.09 129.54) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5382ff6b-bb35-428b-9139-c36af2f2d9c7")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a6e05c-4731-4598-a351-26a6d815f1b6")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d8e233-4bd9-4338-961c-442755bf84d7")
+	)
+	(wire
+		(pts
+			(xy 167.64 60.96) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543c4c57-703d-4149-88e6-386db74c48ad")
+	)
+	(wire
+		(pts
+			(xy 189.23 81.28) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a42a81-b7a6-4214-9a40-64ada48ba16e")
+	)
+	(wire
+		(pts
+			(xy 80.01 33.02) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d07064-aba3-4b82-8c29-fa67491eb1a4")
+	)
+	(wire
+		(pts
+			(xy 45.72 143.51) (xy 66.04 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55542c0a-1c35-4e47-8829-33623483824d")
+	)
+	(wire
+		(pts
+			(xy 128.27 104.14) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5587eef5-c7bf-4f39-823d-21b62c358d8f")
+	)
+	(wire
+		(pts
+			(xy 128.27 80.01) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f6e8a9-37a2-423d-a32d-45adfb619246")
+	)
+	(wire
+		(pts
+			(xy 86.36 154.94) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56191e27-9e43-47fa-b42d-6966bb3dfdc3")
+	)
+	(wire
+		(pts
+			(xy 24.13 104.14) (xy 24.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56da341d-7c8d-462d-ae1b-1f5cf177ae1c")
+	)
+	(wire
+		(pts
+			(xy 24.13 66.04) (xy 24.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e68026-3f16-490b-99de-910a87b43a6d")
+	)
+	(wire
+		(pts
+			(xy 140.97 39.37) (xy 161.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c8796a-80f9-4248-92cd-9718ef8fdf63")
+	)
+	(wire
+		(pts
+			(xy 87.63 54.61) (xy 88.9 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cb2df0-3876-4f28-8150-a7cf3c5ca52c")
+	)
+	(wire
+		(pts
+			(xy 186.69 111.76) (xy 207.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1b1727-a9f1-48da-bf09-544b64ce734f")
+	)
+	(wire
+		(pts
+			(xy 66.04 143.51) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8c7db5-72fd-4dc9-bebc-d9a492845e72")
+	)
+	(wire
+		(pts
+			(xy 24.13 93.98) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afa4e1f-a81a-4b13-80d7-a12832e8953b")
+	)
+	(wire
+		(pts
+			(xy 227.33 104.14) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7c5fe8-b693-4f6b-ae45-9450037a9ff7")
+	)
+	(wire
+		(pts
+			(xy 143.51 33.02) (xy 143.51 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba7aef5-05d8-460f-b223-e806f6b50b10")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.34) (xy 107.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c095466-b9e7-4618-be7a-fa466895d54c")
+	)
+	(wire
+		(pts
+			(xy 165.1 132.08) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd25314-ad7d-4daa-8419-fa2d1885f678")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 167.64 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2d2db9-3fd9-4054-94af-195e81ede2fc")
+	)
+	(wire
+		(pts
+			(xy 46.99 93.98) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0bb4a8-3c71-47e4-9690-dc8fbd41c54a")
+	)
+	(wire
+		(pts
+			(xy 83.82 156.21) (xy 85.09 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5da070-852c-4987-87f1-eb21a8428dd9")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 127 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f97e051-e688-46cf-98af-0b293b1d3345")
+	)
+	(wire
+		(pts
+			(xy 129.54 43.18) (xy 149.86 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe15807-d13f-4b7e-ac5d-b2cc2fed90d6")
+	)
+	(wire
+		(pts
+			(xy 25.4 129.54) (xy 25.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604c9938-41e8-480f-bf2b-a9000ac81d23")
+	)
+	(wire
+		(pts
+			(xy 189.23 93.98) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f14886-4d0a-4cab-a44f-c199235b9824")
+	)
+	(wire
+		(pts
+			(xy 44.45 106.68) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fd0dc3-f6ea-4870-a94e-b25c55cdde17")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 109.22 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621178a3-a296-4fe6-9ac8-6d309cf0b63a")
+	)
+	(wire
+		(pts
+			(xy 203.2 31.75) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639a653b-cb73-4a41-b038-572436b78b10")
+	)
+	(wire
+		(pts
+			(xy 125.73 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c10214-0e68-4b11-9dab-34958ecdd950")
+	)
+	(wire
+		(pts
+			(xy 147.32 80.01) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64236866-e664-4537-9d09-d532315b4f47")
+	)
+	(wire
+		(pts
+			(xy 229.87 53.34) (xy 229.87 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ae1f5c-2a7d-432b-91ae-87e278bf9b6e")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6550ff05-797a-4c99-9439-1f2285f91251")
+	)
+	(wire
+		(pts
+			(xy 19.05 20.32) (xy 19.05 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65a7f446-f4bb-4966-ad9c-d8af8bf12541")
+	)
+	(wire
+		(pts
+			(xy 64.77 154.94) (xy 64.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662d0f2b-7822-4290-b79e-7b9b733300b9")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 128.27 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66f167d1-9f0d-498f-babd-c9873a1f3f95")
+	)
+	(wire
+		(pts
+			(xy 201.93 34.29) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6701c660-fdf9-4e9d-8c34-b80b5d0d6f21")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6711bd51-89a8-43b4-8c56-47e76f64ec36")
+	)
+	(wire
+		(pts
+			(xy 123.19 33.02) (xy 123.19 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67b5d923-989f-4db8-a8fa-5ee62b3d78bd")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ec27be-3f7f-4be9-ba6a-e1cf8946ff79")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 86.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69043e77-ecb8-4483-af55-471abf40ed61")
+	)
+	(wire
+		(pts
+			(xy 207.01 129.54) (xy 207.01 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8ad290-0ac8-47cf-b40a-6552c32cb360")
+	)
+	(wire
+		(pts
+			(xy 66.04 60.96) (xy 86.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa649d6-03d5-47af-8a3c-313084d65ffa")
+	)
+	(wire
+		(pts
+			(xy 210.82 54.61) (xy 210.82 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac10536-be72-4d4d-8571-65c6d242772d")
+	)
+	(wire
+		(pts
+			(xy 170.18 80.01) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1420a4-e396-45c2-967b-44ba1a221d5b")
+	)
+	(wire
+		(pts
+			(xy 166.37 106.68) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b93d73d-b1a6-4b4c-a6ad-d3dfbcf8a008")
+	)
+	(wire
+		(pts
+			(xy 162.56 31.75) (xy 162.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc412b3-df2b-4335-9a1c-a2b9f41ac386")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c092df8-6819-4d79-a89f-cdf965ee20ef")
+	)
+	(wire
+		(pts
+			(xy 210.82 69.85) (xy 275.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5dfb70-d245-40da-8554-06195e9fff66")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 170.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9a6ab0-5f36-49a1-897d-ed6c79a289f6")
+	)
+	(wire
+		(pts
+			(xy 59.69 39.37) (xy 80.01 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3f7146-bbca-458e-b6d0-72ef5b1b9e7e")
+	)
+	(wire
+		(pts
+			(xy 85.09 106.68) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1198ca-3a66-439a-a842-d6bca6e0114c")
+	)
+	(wire
+		(pts
+			(xy 168.91 54.61) (xy 170.18 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef4ca6e-268f-4df2-b1fa-0d83a1da8d8a")
+	)
+	(wire
+		(pts
+			(xy 149.86 69.85) (xy 170.18 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717da533-94e8-42ec-9aec-c320a7a48cbc")
+	)
+	(wire
+		(pts
+			(xy 100.33 31.75) (xy 101.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a9e4c5-2c2b-4d54-a1c3-42f622946ce9")
+	)
+	(wire
+		(pts
+			(xy 170.18 69.85) (xy 190.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dc1495-cc1e-4531-8324-4edefad5be40")
+	)
+	(wire
+		(pts
+			(xy 165.1 137.16) (xy 144.78 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72007c5f-d6d0-42bc-a05c-3da77f9b550d")
+	)
+	(wire
+		(pts
+			(xy 185.42 129.54) (xy 186.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7275e301-5326-4812-a8a1-0caa00773dd0")
+	)
+	(wire
+		(pts
+			(xy 168.91 53.34) (xy 168.91 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bb636a-95c8-4fc2-8c5f-11eacb0c1c1d")
+	)
+	(wire
+		(pts
+			(xy 226.06 132.08) (xy 226.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735b0348-6cbd-4754-80cd-0c8f7ae31660")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 67.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c57a44-340a-4316-a1c4-275f8964fd56")
+	)
+	(wire
+		(pts
+			(xy 208.28 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7404e7a2-76e0-4435-ad96-ce1a30e69119")
+	)
+	(wire
+		(pts
+			(xy 147.32 130.81) (xy 147.32 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ab415a-8c33-41c0-b541-95f9c7a57dca")
+	)
+	(wire
+		(pts
+			(xy 86.36 60.96) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "762e4772-888f-48b0-a320-8e190061daf8")
+	)
+	(wire
+		(pts
+			(xy 63.5 165.1) (xy 83.82 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76c29a26-9d10-432a-b179-14514d37a90e")
+	)
+	(wire
+		(pts
+			(xy 205.74 137.16) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78389552-c8c6-44e1-a1b8-029a183da211")
+	)
+	(wire
+		(pts
+			(xy 48.26 54.61) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7862f48e-72ce-4fdd-84e7-d01c54caac07")
+	)
+	(wire
+		(pts
+			(xy 64.77 111.76) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4b0771-a168-4b89-8e71-29a2a8dc7a8e")
+	)
+	(wire
+		(pts
+			(xy 80.01 31.75) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a974d1e-bfc5-4aa9-8a0e-94736dee38ba")
+	)
+	(wire
+		(pts
+			(xy 63.5 157.48) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2c409d-6045-4bb3-a572-728baabc0e66")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b553524-9d5b-47d6-90df-f663166a5087")
+	)
+	(wire
+		(pts
+			(xy 184.15 20.32) (xy 184.15 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c089d03-1d95-4634-b720-d16aad27c8f7")
+	)
+	(wire
+		(pts
+			(xy 121.92 31.75) (xy 121.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c45b4cb-fdbf-43f5-9f63-84626ebfac16")
+	)
+	(wire
+		(pts
+			(xy 125.73 129.54) (xy 125.73 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c551130-6914-4e22-ba6a-35684b83e991")
+	)
+	(wire
+		(pts
+			(xy 19.05 60.96) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c84ceaf-7856-4ac3-b05e-04269f251359")
+	)
+	(wire
+		(pts
+			(xy 83.82 129.54) (xy 85.09 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1bb788-0634-41b1-8702-b9e2574c9be5")
+	)
+	(wire
+		(pts
+			(xy 148.59 54.61) (xy 149.86 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d45129e-fd3f-430d-a428-334d8f1fe611")
+	)
+	(wire
+		(pts
+			(xy 102.87 33.02) (xy 102.87 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dacd458-1d92-463d-b2b1-43045074047c")
+	)
+	(wire
+		(pts
+			(xy 275.59 93.98) (xy 275.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e7033d4-ac0b-4a68-b654-843a6faff253")
+	)
+	(wire
+		(pts
+			(xy 44.45 104.14) (xy 45.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ed8723a-a947-4be1-91d9-ac5acbc3ce3b")
+	)
+	(wire
+		(pts
+			(xy 41.91 20.32) (xy 62.23 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0bc171-034b-432e-97ba-29bfcf43be7d")
+	)
+	(wire
+		(pts
+			(xy 166.37 111.76) (xy 186.69 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f42bcba-2485-4dc3-8303-43d36cd21c2a")
+	)
+	(wire
+		(pts
+			(xy 24.13 40.64) (xy 24.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fab37fb-9f41-4b4f-8a31-05c3cbf31ad4")
+	)
+	(wire
+		(pts
+			(xy 142.24 33.02) (xy 143.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcfd156-7379-44ec-9105-5f8bdd5ef32b")
+	)
+	(wire
+		(pts
+			(xy 64.77 156.21) (xy 66.04 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821cf583-733d-4e3c-9a2b-e800b3ed702b")
+	)
+	(wire
+		(pts
+			(xy 208.28 53.34) (xy 209.55 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836abc38-330a-4619-befe-50ec1955d002")
+	)
+	(wire
+		(pts
+			(xy 19.05 39.37) (xy 19.05 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838312d7-55d3-4935-b639-2a8ac160ffa7")
+	)
+	(wire
+		(pts
+			(xy 44.45 129.54) (xy 44.45 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846a0799-44f1-4ff7-8a5a-c4ea1a73cce2")
+	)
+	(wire
+		(pts
+			(xy 127 129.54) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85367d55-dd0d-4057-b220-840d216c9e3d")
+	)
+	(wire
+		(pts
+			(xy 85.09 156.21) (xy 85.09 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858c14ce-657e-4746-92f6-901e5e906eec")
+	)
+	(wire
+		(pts
+			(xy 144.78 137.16) (xy 124.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85aff984-4ec0-4d93-95cd-b96c198f6d05")
+	)
+	(wire
+		(pts
+			(xy 68.58 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85efbdce-a90b-460d-a5ab-79ed85e32133")
+	)
+	(wire
+		(pts
+			(xy 167.64 104.14) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862bac39-8bea-4c43-98f9-e08bfdd99cf4")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 64.77 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8723fdb6-0587-4131-8084-2d0e1a839919")
+	)
+	(wire
+		(pts
+			(xy 43.18 165.1) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "873047ba-b824-4a50-b8bb-d9f62a094bca")
+	)
+	(wire
+		(pts
+			(xy 87.63 105.41) (xy 87.63 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887c9ffa-9a16-43ec-84ca-59849de734a0")
+	)
+	(wire
+		(pts
+			(xy 228.6 129.54) (xy 228.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88872c9f-609c-4bad-a14d-924c5c7fb3e8")
+	)
+	(wire
+		(pts
+			(xy 102.87 157.48) (xy 102.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897826c8-62db-4b9d-8a19-fc1f9aa5e249")
+	)
+	(wire
+		(pts
+			(xy 184.15 20.32) (xy 204.47 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c1f75e-297f-42bd-850f-4d80f9556d90")
+	)
+	(wire
+		(pts
+			(xy 86.36 55.88) (xy 86.36 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b35e479-e991-430c-995a-1a4c9083b01b")
+	)
+	(wire
+		(pts
+			(xy 87.63 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c88811c-2e75-46b5-b53d-d491020410d8")
+	)
+	(wire
+		(pts
+			(xy 167.64 80.01) (xy 168.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c89277f-11ee-46cd-9636-f4adfbfd99a2")
+	)
+	(wire
+		(pts
+			(xy 45.72 143.51) (xy 45.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d061398-72ce-4fed-967e-f86063368e90")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 186.69 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddf2124-6f59-4de4-82e2-b55ddb10dec3")
+	)
+	(wire
+		(pts
+			(xy 25.4 143.51) (xy 25.4 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ddfdc2d-b970-4082-9eb5-deb8bcddcf01")
+	)
+	(wire
+		(pts
+			(xy 148.59 53.34) (xy 148.59 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3c690f-e993-4c36-8eb3-712f18541ca1")
+	)
+	(wire
+		(pts
+			(xy 21.59 157.48) (xy 25.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7d3715-d227-41b1-be63-4df4e8a59a19")
+	)
+	(wire
+		(pts
+			(xy 26.67 104.14) (xy 24.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fdd3a00-3e93-4676-a01d-e36b4e436206")
+	)
+	(wire
+		(pts
+			(xy 223.52 31.75) (xy 223.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe6ef6c-9895-46e2-b1f6-8245aeeec5c8")
+	)
+	(wire
+		(pts
+			(xy 187.96 104.14) (xy 187.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff32926-2947-4612-a89c-2954b1aea05e")
+	)
+	(wire
+		(pts
+			(xy 128.27 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90065661-0366-412a-bb59-d2a428e9c3e5")
+	)
+	(wire
+		(pts
+			(xy 187.96 53.34) (xy 189.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9014dca3-42cb-4617-9920-5cd5c9f21da9")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.96) (xy 167.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902dfbee-28dc-4cda-93b6-7872afa10e59")
+	)
+	(wire
+		(pts
+			(xy 185.42 132.08) (xy 185.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90488058-a846-4ec0-9fc0-b7d2ed378e7f")
+	)
+	(wire
+		(pts
+			(xy 189.23 54.61) (xy 190.5 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90688e1f-83d9-4550-8551-64e7a0562261")
+	)
+	(wire
+		(pts
+			(xy 204.47 33.02) (xy 204.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924926fb-e163-4479-be5f-a7f5bbc469b1")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9316c529-85fc-4acf-8a3f-e565356bff07")
+	)
+	(wire
+		(pts
+			(xy 88.9 69.85) (xy 88.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e43620-a40f-45c2-bfa4-0ad2f90836fb")
+	)
+	(wire
+		(pts
+			(xy 106.68 119.38) (xy 106.68 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9583fbac-4522-40c5-beaf-23fcc07491bf")
+	)
+	(wire
+		(pts
+			(xy 45.72 82.55) (xy 45.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96665ece-915b-4b05-8759-6b8e6f2b129a")
+	)
+	(wire
+		(pts
+			(xy 224.79 31.75) (xy 224.79 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b48802-997d-48f3-be71-7fdb3a8ffff6")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f7f21d-dd28-448a-9c4d-4416522592c2")
+	)
+	(wire
+		(pts
+			(xy 166.37 130.81) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97526f80-7f31-4a5f-9bff-db9fdab70cb0")
+	)
+	(wire
+		(pts
+			(xy 208.28 55.88) (xy 208.28 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cf93d4-f8ff-438a-96b2-664765eabe67")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 87.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998fada0-f461-4b5b-a111-dd3a6a6c21da")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a14dafd-71a7-407d-ad10-8607b2eccca4")
+	)
+	(wire
+		(pts
+			(xy 163.83 31.75) (xy 163.83 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa13731-ba34-4580-9e7d-a39b19b47771")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 149.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2a44d5-8ab0-4506-aa3a-0f76741f1cd0")
+	)
+	(wire
+		(pts
+			(xy 146.05 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2e7dee-2e20-4997-9858-861005baf2ec")
+	)
+	(wire
+		(pts
+			(xy 86.36 130.81) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3594ca-8522-4302-b1c9-24764b8899e4")
+	)
+	(wire
+		(pts
+			(xy 85.09 154.94) (xy 86.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b7488c0-5e0c-4952-a3ba-34fe5ea98ec2")
+	)
+	(wire
+		(pts
+			(xy 204.47 20.32) (xy 224.79 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf7c320-fb37-473b-9769-cfc730fb31f8")
+	)
+	(wire
+		(pts
+			(xy 210.82 81.28) (xy 210.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c14cb8a-b5d2-407d-892d-35d3664b36db")
+	)
+	(wire
+		(pts
+			(xy 190.5 81.28) (xy 190.5 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c161555-b497-4a5e-a095-f86a346d4d3d")
+	)
+	(wire
+		(pts
+			(xy 205.74 129.54) (xy 207.01 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2faa9a-7c86-4788-b93a-a65bb31f34f2")
+	)
+	(wire
+		(pts
+			(xy 86.36 119.38) (xy 86.36 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9df0feff-2d71-44bc-9f3d-d0519586061b")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a07d19f0-9902-4d8c-a44f-6b41ded78945")
+	)
+	(wire
+		(pts
+			(xy 106.68 105.41) (xy 107.95 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15816b1-3246-484e-98a3-112c760e999c")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 66.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e6c7d2-6f1e-4258-aea9-393d238a27e7")
+	)
+	(wire
+		(pts
+			(xy 142.24 31.75) (xy 142.24 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a229c07e-82ff-4a38-90ed-d690c8cc7471")
+	)
+	(wire
+		(pts
+			(xy 203.2 33.02) (xy 204.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2434f02-6600-4d84-bba8-cb315b852bc9")
+	)
+	(wire
+		(pts
+			(xy 45.72 105.41) (xy 46.99 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3882b29-9db5-4a8e-9e53-857203fa15aa")
+	)
+	(wire
+		(pts
+			(xy 170.18 54.61) (xy 170.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e6a585-2239-4f17-b1c6-235b38d6f19e")
+	)
+	(wire
+		(pts
+			(xy 125.73 130.81) (xy 127 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4687ecc-4e63-45f6-8550-d506bfe8d613")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 186.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5031f74-2d42-4d17-bc00-6a2dc685e7ef")
+	)
+	(wire
+		(pts
+			(xy 21.59 132.08) (xy 25.4 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5950872-0f8f-4123-8462-6ed2798024b3")
+	)
+	(wire
+		(pts
+			(xy 127 55.88) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e32d23-1762-41db-822e-5f09e164ff06")
+	)
+	(wire
+		(pts
+			(xy 125.73 106.68) (xy 125.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e21511-81e7-4862-9491-0b8a76149ef9")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72d2026-d0ab-48d2-b8e6-3ea097e3d276")
+	)
+	(wire
+		(pts
+			(xy 166.37 129.54) (xy 166.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75d6c1e-b62c-42aa-9473-1d3ccf6972d4")
+	)
+	(wire
+		(pts
+			(xy 201.93 39.37) (xy 222.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8418526-9ac9-46db-a00e-5f44df633c69")
+	)
+	(wire
+		(pts
+			(xy 228.6 53.34) (xy 229.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c7f94e-541a-4242-a6fc-ce1f847d358f")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9144e2b-9407-4384-8fb5-84a43ac07125")
+	)
+	(wire
+		(pts
+			(xy 170.18 43.18) (xy 190.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91d0c65-198d-4ecb-aeb4-1f38d98287cd")
+	)
+	(wire
+		(pts
+			(xy 86.36 82.55) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93a3e66-c1d8-4ca5-a99c-79449dea07a8")
+	)
+	(wire
+		(pts
+			(xy 148.59 80.01) (xy 148.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98b5602-4921-4b5c-a938-a148eb656a61")
+	)
+	(wire
+		(pts
+			(xy 86.36 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a8706c-fedf-484c-9f01-579db38786fb")
+	)
+	(wire
+		(pts
+			(xy 207.01 130.81) (xy 208.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa95ebba-acab-498a-9690-d232f77aba98")
+	)
+	(wire
+		(pts
+			(xy 88.9 54.61) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc74d1d-e02d-4f86-a386-3835543e8fd2")
+	)
+	(wire
+		(pts
+			(xy 63.5 137.16) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac37c608-5a63-4f04-ad92-3e4bffe68cbe")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac57c388-b1ec-4bc4-b6f4-21c5304d1a70")
+	)
+	(wire
+		(pts
+			(xy 127 60.96) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8311e3-4689-49bc-87ce-883ff99c9af9")
+	)
+	(wire
+		(pts
+			(xy 82.55 33.02) (xy 82.55 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad74c0d0-0d2f-4721-8e0e-c4763b0ccfc4")
+	)
+	(wire
+		(pts
+			(xy 129.54 43.18) (xy 129.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf84a2f-b77c-4bd8-9904-4e8b81a26609")
+	)
+	(wire
+		(pts
+			(xy 100.33 39.37) (xy 120.65 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae61106a-4158-4915-9ff7-deb682b0f076")
+	)
+	(wire
+		(pts
+			(xy 43.18 154.94) (xy 44.45 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6219ab-1c09-4003-a9fd-163a29c49c30")
+	)
+	(wire
+		(pts
+			(xy 227.33 106.68) (xy 227.33 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affa4113-ce17-4757-9a1b-100446472092")
+	)
+	(wire
+		(pts
+			(xy 120.65 31.75) (xy 121.92 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03850a2-f9ff-4072-ba48-6f5c391b4bb0")
+	)
+	(wire
+		(pts
+			(xy 163.83 33.02) (xy 163.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f64ab1-df04-498d-9dba-80fb8e29391a")
+	)
+	(wire
+		(pts
+			(xy 208.28 82.55) (xy 208.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2101cd8-2f19-407b-9c55-6500cb8a8793")
+	)
+	(wire
+		(pts
+			(xy 43.18 137.16) (xy 19.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b315cf27-801d-48ba-ac57-9feb2351bace")
+	)
+	(wire
+		(pts
+			(xy 85.09 111.76) (xy 64.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45ae661-0df8-4e52-a9c5-73aadbe21383")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6256eb7-9242-479c-9c5f-8ecdc48eb4a6")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.01) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7202a54-c9bb-46c5-86e6-4a942ad8f5d2")
+	)
+	(wire
+		(pts
+			(xy 46.99 54.61) (xy 48.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87df8a0-78f0-4e0f-b7be-adf7f7cbbf32")
+	)
+	(wire
+		(pts
+			(xy 167.64 53.34) (xy 168.91 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c66ea3-6f8f-43e7-a148-6426639e0176")
+	)
+	(wire
+		(pts
+			(xy 83.82 132.08) (xy 83.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a502e7-8348-433c-bf29-225a1688173f")
+	)
+	(wire
+		(pts
+			(xy 123.19 20.32) (xy 143.51 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c83588-ddcc-44c5-8d1b-f36696b52c92")
+	)
+	(wire
+		(pts
+			(xy 189.23 53.34) (xy 189.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ea929e-1532-4207-a2f1-6eeb957084f8")
+	)
+	(wire
+		(pts
+			(xy 187.96 80.01) (xy 189.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2d495f-615c-4947-9a2e-7241fe96dd3b")
+	)
+	(wire
+		(pts
+			(xy 44.45 130.81) (xy 45.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5e3c14-4b4c-415c-9836-68f55da37662")
+	)
+	(wire
+		(pts
+			(xy 59.69 34.29) (xy 59.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babf77d8-3be3-48e2-a77e-0a19472cd698")
+	)
+	(wire
+		(pts
+			(xy 146.05 129.54) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae79a96-8f25-4e66-a9dd-667b76f0db12")
+	)
+	(wire
+		(pts
+			(xy 64.77 130.81) (xy 66.04 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2e508d-ebde-4133-98b6-ff658dedc2b8")
+	)
+	(wire
+		(pts
+			(xy 146.05 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb645b50-9509-444d-be98-51ae5d047082")
+	)
+	(wire
+		(pts
+			(xy 248.92 40.64) (xy 24.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd62428e-7029-435f-a682-3222bb62ca0d")
+	)
+	(wire
+		(pts
+			(xy 187.96 55.88) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd69a50f-49d2-4ff1-9757-e7f56a9b524f")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb74fc6-5d7e-4053-a7e1-1985bcd49819")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 148.59 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be038040-2eae-4966-bb38-a3512f8dd1cd")
+	)
+	(wire
+		(pts
+			(xy 231.14 80.01) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be61b249-bdff-44d3-879a-562a9930e832")
+	)
+	(wire
+		(pts
+			(xy 88.9 43.18) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf4a0c41-a54b-4614-a1f3-a88bbcd51bb0")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 87.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffcb704-9baa-4278-ad9a-671cd8dd0525")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 66.04 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c041073a-9a74-4f4e-a8bf-0e8ace3955fc")
+	)
+	(wire
+		(pts
+			(xy 45.72 88.9) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c076616c-2122-45a4-b8f9-1ce064e900a2")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 68.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c126d37d-0e8d-4e38-aea9-3b71167958e3")
+	)
+	(wire
+		(pts
+			(xy 248.92 31.75) (xy 248.92 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1284b26-ff1a-4a72-b031-78f5eff5a4cc")
+	)
+	(wire
+		(pts
+			(xy 62.23 20.32) (xy 62.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29a0f8a-f8c7-4ab7-83e0-e4e2a81f0119")
+	)
+	(wire
+		(pts
+			(xy 181.61 39.37) (xy 201.93 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34f3715-5a4f-44ac-aafe-fb9176920e44")
+	)
+	(wire
+		(pts
+			(xy 106.68 80.01) (xy 107.95 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ff9533-3b68-4b11-bba1-20e283b4285b")
+	)
+	(wire
+		(pts
+			(xy 140.97 31.75) (xy 142.24 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c453553a-3ef1-4a17-8f14-5852b489c3fc")
+	)
+	(wire
+		(pts
+			(xy 165.1 129.54) (xy 166.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f644fe-5f5a-43b0-8fbe-6f6f6a4b6231")
+	)
+	(wire
+		(pts
+			(xy 67.31 105.41) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5463086-b830-47bd-8800-b37bf6e4bc23")
+	)
+	(wire
+		(pts
+			(xy 167.64 82.55) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a06227-fc23-46be-8a07-dd63803fcd5c")
+	)
+	(wire
+		(pts
+			(xy 59.69 31.75) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72c66fe-da11-429e-91e2-599f10dfa169")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 68.58 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7415bf3-73d2-4858-9015-7925f62d5364")
+	)
+	(wire
+		(pts
+			(xy 41.91 20.32) (xy 41.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88cae78-aa5e-4283-8b32-c5214802ef8e")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 147.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb547405-a723-4be9-8ca2-0cc10b232b18")
+	)
+	(wire
+		(pts
+			(xy 80.01 39.37) (xy 100.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbecaa1c-322b-41fc-ae96-3c73587a0935")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 106.68 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfaea4f-a1c3-4d01-b8c8-a99cc8807fdf")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 83.82 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc89aef9-de08-43ef-8e66-588db84232f4")
+	)
+	(wire
+		(pts
+			(xy 182.88 31.75) (xy 182.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc99f177-ed3a-49d5-a6d5-fe7d89828318")
+	)
+	(wire
+		(pts
+			(xy 19.05 111.76) (xy 19.05 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf046b5f-5e3d-4486-9a33-b7117aa05a3b")
+	)
+	(wire
+		(pts
+			(xy 231.14 91.44) (xy 21.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf29de70-637e-48d2-b267-f1d25e38198c")
+	)
+	(wire
+		(pts
+			(xy 106.68 53.34) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfcc7b24-8197-48d5-a820-e655b4dcc910")
+	)
+	(wire
+		(pts
+			(xy 275.59 20.32) (xy 275.59 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd8367e-d97b-422e-a9e8-7bdbd5b152e0")
+	)
+	(wire
+		(pts
+			(xy 190.5 43.18) (xy 210.82 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d047dc71-61d2-4ee4-be97-76581341b7f6")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0aa21d4-690f-4955-bb3a-2df23d67be3d")
+	)
+	(wire
+		(pts
+			(xy 19.05 20.32) (xy 41.91 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0cd757d-e8dd-4dc6-a347-a0afa7ef14ad")
+	)
+	(wire
+		(pts
+			(xy 226.06 137.16) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d125f6fd-1e35-47fb-aed3-b8bbd8231b83")
+	)
+	(wire
+		(pts
+			(xy 36.83 31.75) (xy 39.37 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16b221d-275b-4bff-bc98-8b4ed8354167")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 86.36 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1e026f9-f31c-4440-9042-ce7256367c6c")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d38138ea-a6a7-42d5-ab86-13e41aa7c5f3")
+	)
+	(wire
+		(pts
+			(xy 143.51 20.32) (xy 163.83 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d438f796-49c1-4b04-9615-4f743c5d6b64")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d43be277-2c0f-4c44-be2b-a1f3fcffaddc")
+	)
+	(wire
+		(pts
+			(xy 209.55 53.34) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b88385-aa44-4045-a0e3-ce3339e98386")
+	)
+	(wire
+		(pts
+			(xy 66.04 130.81) (xy 66.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59a0da7-1ea8-45d0-918a-536852af2f97")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 228.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d690c15a-d991-44ad-9dbb-2e7f6cd7a571")
+	)
+	(wire
+		(pts
+			(xy 190.5 69.85) (xy 190.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72de46d-6a57-4d72-83dc-ec7c8188e939")
+	)
+	(wire
+		(pts
+			(xy 46.99 53.34) (xy 46.99 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99d8839-3816-42f4-ae09-7cbf46cb09b5")
+	)
+	(wire
+		(pts
+			(xy 186.69 104.14) (xy 187.96 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bd361d-a49f-486f-93bf-adf458be751b")
+	)
+	(wire
+		(pts
+			(xy 64.77 129.54) (xy 64.77 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da017829-dacc-4b8f-a531-853443d72b85")
+	)
+	(wire
+		(pts
+			(xy 149.86 43.18) (xy 170.18 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da082098-78ca-4936-9a61-cd41523c3a83")
+	)
+	(wire
+		(pts
+			(xy 68.58 54.61) (xy 68.58 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7f33e1-983b-4b17-9e8e-817dbb04b8b1")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 275.59 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db72667e-16f6-4f75-b14e-c2a576a9c183")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 228.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9c2be1-ddff-407b-b178-85420be086f8")
+	)
+	(wire
+		(pts
+			(xy 208.28 105.41) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcac8e33-8713-4a69-8efb-6d667db5d8ac")
+	)
+	(wire
+		(pts
+			(xy 19.05 88.9) (xy 45.72 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd54b206-0824-4128-a1df-c84a96ecd208")
+	)
+	(wire
+		(pts
+			(xy 27.94 69.85) (xy 27.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7780d9-d1a5-4551-91bc-2cfe0a4d52e3")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddadd33f-ac95-4360-aa73-4f1d57ea0464")
+	)
+	(wire
+		(pts
+			(xy 45.72 104.14) (xy 45.72 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de910445-d651-4bec-9a47-269ceec53b78")
+	)
+	(wire
+		(pts
+			(xy 45.72 119.38) (xy 45.72 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee00ec7-68f1-4dc2-acca-37d2d770a938")
+	)
+	(wire
+		(pts
+			(xy 19.05 137.16) (xy 19.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e152d435-d568-45e7-8ba0-f74735e33274")
+	)
+	(wire
+		(pts
+			(xy 120.65 39.37) (xy 140.97 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1535cb6-8ae8-4163-a930-2904d59c033a")
+	)
+	(wire
+		(pts
+			(xy 27.94 69.85) (xy 68.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e19dabbb-f7b2-4b60-a24a-752a6ef9a7a6")
+	)
+	(wire
+		(pts
+			(xy 105.41 129.54) (xy 105.41 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26e51d6-8d24-4ed0-b19d-07bb06d9c843")
+	)
+	(wire
+		(pts
+			(xy 120.65 34.29) (xy 120.65 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d6d9d7-40b6-4d53-8d52-3403bccd43e9")
+	)
+	(wire
+		(pts
+			(xy 100.33 34.29) (xy 100.33 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30b50cb-b234-48e7-9ad9-69874e545598")
+	)
+	(wire
+		(pts
+			(xy 181.61 34.29) (xy 181.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42cd596-d978-4c07-9a74-3007ef5e493d")
+	)
+	(wire
+		(pts
+			(xy 43.18 132.08) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5311ba1-c067-4c5c-9c6c-39b4d452db6b")
+	)
+	(wire
+		(pts
+			(xy 66.04 55.88) (xy 66.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e534be85-f9dc-4db9-b78a-997119a5ddf0")
+	)
+	(wire
+		(pts
+			(xy 209.55 93.98) (xy 275.59 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e53dfe5a-466e-4cac-88e2-a02e4bc23c32")
+	)
+	(wire
+		(pts
+			(xy 144.78 132.08) (xy 144.78 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a83598-5e83-43df-8e5a-cf6318857651")
+	)
+	(wire
+		(pts
+			(xy 161.29 31.75) (xy 162.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b71189-3d66-4e30-8acc-3a88eb37ad01")
+	)
+	(wire
+		(pts
+			(xy 57.15 82.55) (xy 68.58 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6ad09ca-25d4-4e00-b956-9dd8bbb497a5")
+	)
+	(wire
+		(pts
+			(xy 109.22 54.61) (xy 109.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b3a325-c30d-4497-9545-172f841c6bfd")
+	)
+	(wire
+		(pts
+			(xy 45.72 55.88) (xy 45.72 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70d478f-340b-4853-a15e-bc597a6cec7a")
+	)
+	(wire
+		(pts
+			(xy 88.9 43.18) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71b9d3a-3954-40fa-9969-ef9745391bc0")
+	)
+	(wire
+		(pts
+			(xy 124.46 137.16) (xy 104.14 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76cdf08-a860-45aa-b07a-0776285f9d59")
+	)
+	(wire
+		(pts
+			(xy 242.57 39.37) (xy 242.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f96b65-cf33-40c5-b4ea-df93f23a5437")
+	)
+	(wire
+		(pts
+			(xy 19.05 39.37) (xy 59.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8285791-5c91-438a-b6ad-b8a64a7b7c49")
+	)
+	(wire
+		(pts
+			(xy 104.14 129.54) (xy 105.41 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83504bd-59b0-4740-bf6b-b37e68210d84")
+	)
+	(wire
+		(pts
+			(xy 104.14 137.16) (xy 83.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e845caf3-caa1-4f88-9250-c2ca9e934f67")
+	)
+	(wire
+		(pts
+			(xy 170.18 81.28) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e864de48-aeea-4125-9952-ce922af4d990")
+	)
+	(wire
+		(pts
+			(xy 109.22 69.85) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89d556b-cea1-4773-9efa-0843bfd55651")
+	)
+	(wire
+		(pts
+			(xy 228.6 88.9) (xy 208.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea403c0f-d61c-4c0e-926f-1bb6c995a756")
+	)
+	(wire
+		(pts
+			(xy 44.45 156.21) (xy 45.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7d317b-a133-4356-bc90-00db700389af")
+	)
+	(wire
+		(pts
+			(xy 86.36 53.34) (xy 87.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac3d815-b212-4ca6-a0cc-f50c0a1859f8")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 107.95 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebad2fa6-6925-4313-8ad6-99e005839558")
+	)
+	(wire
+		(pts
+			(xy 66.04 105.41) (xy 67.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3739a6-63f8-4b2e-b46b-d35d1876b0f7")
+	)
+	(wire
+		(pts
+			(xy 66.04 119.38) (xy 66.04 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc216da-8fe1-48ea-9bac-5fcbcd8a0c89")
+	)
+	(wire
+		(pts
+			(xy 207.01 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece0b4b5-e460-4a6d-8cb3-dd67bc62b93a")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 127 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece70a43-b362-4ce5-bd7f-6714586a2d11")
+	)
+	(wire
+		(pts
+			(xy 226.06 129.54) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece8e004-0d79-4ee2-b136-81a4f1adfd9d")
+	)
+	(wire
+		(pts
+			(xy 144.78 129.54) (xy 146.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1964ac-0a4b-496b-aa81-e8f884b57275")
+	)
+	(wire
+		(pts
+			(xy 106.68 104.14) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee33a48c-5502-482c-bb22-5011a1c45494")
+	)
+	(wire
+		(pts
+			(xy 187.96 105.41) (xy 189.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee50ebbd-3343-4a3d-810e-9a9df5b27066")
+	)
+	(wire
+		(pts
+			(xy 83.82 165.1) (xy 102.87 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9893ee-d57d-489a-bae0-290e7a333631")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f152c376-1dd6-4c30-b02e-d3f2d0cd3dc2")
+	)
+	(wire
+		(pts
+			(xy 21.59 106.68) (xy 26.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1814414-c9bd-47ae-95f4-450fc3f2ee67")
+	)
+	(wire
+		(pts
+			(xy 123.19 20.32) (xy 123.19 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25d4346-e4e4-473a-9e9a-50837082a76c")
+	)
+	(wire
+		(pts
+			(xy 208.28 80.01) (xy 209.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a70cda-09c2-4f37-919b-8f497eb5dee1")
+	)
+	(wire
+		(pts
+			(xy 224.79 20.32) (xy 275.59 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d298c2-83e6-4f8e-8484-26a49a4634ab")
+	)
+	(wire
+		(pts
+			(xy 21.59 139.7) (xy 21.59 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47422c7-5f1f-46b3-b77b-2e6a26cbb93d")
+	)
+	(wire
+		(pts
+			(xy 189.23 105.41) (xy 189.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5463823-a4a4-4721-b5a8-bacee473578d")
+	)
+	(wire
+		(pts
+			(xy 106.68 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f579c097-8750-4818-ba54-021e68506c50")
+	)
+	(wire
+		(pts
+			(xy 190.5 43.18) (xy 190.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f639c6d3-9af6-4a50-b851-99e92dfbfa71")
+	)
+	(wire
+		(pts
+			(xy 44.45 111.76) (xy 19.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8158ded-958e-486a-94f7-86e26e1dc4bd")
+	)
+	(wire
+		(pts
+			(xy 190.5 54.61) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8632483-83d3-4953-b392-5d4a9943189a")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f925af6e-4d64-4e1d-997c-bbc9124b42b3")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.41) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa29e098-ece8-474a-963c-51d5b3c11539")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 129.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faad67b1-0cc9-4003-a637-f7ffb61349de")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 148.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabdfd30-8992-4e45-9348-67d005070077")
+	)
+	(wire
+		(pts
+			(xy 107.95 105.41) (xy 107.95 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facf4fee-d5a2-433a-82e7-c439ef24a014")
+	)
+	(wire
+		(pts
+			(xy 185.42 137.16) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb517735-bd95-4c44-bfbb-d12d0a44ed3b")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 128.27 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbbcdd0f-a5db-404f-93fb-02536a02aa0c")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcc108f-3f05-4a46-acf0-af2b5896a742")
+	)
+	(wire
+		(pts
+			(xy 21.59 91.44) (xy 21.59 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbce4fd2-ad21-4df2-80fa-a2fc40c1378f")
+	)
+	(wire
+		(pts
+			(xy 222.25 39.37) (xy 242.57 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe05955-983c-4dfa-8a3f-8239fa338d22")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 140.97 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc04dd3f-c737-45e4-9fb8-158eed2ce050")
+	)
+	(wire
+		(pts
+			(xy 43.18 165.1) (xy 19.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc5c9ca7-1268-486d-a5b2-a9323e5c8394")
+	)
+	(wire
+		(pts
+			(xy 109.22 43.18) (xy 129.54 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7f6c0c-efc8-400c-900e-53c79b3820dc")
+	)
+	(wire
+		(pts
+			(xy 86.36 80.01) (xy 87.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fedb1e89-aac6-4c66-9ce3-163023bd2534")
+	)
+	(wire
+		(pts
+			(xy 168.91 105.41) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feede061-093e-40c4-8cf6-ca0e5cf3af2a")
+	)
+	(global_label "Rail W"
+		(shape input)
+		(at 36.83 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "037b1018-513f-4b2e-96c0-af9030fe371c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.7368 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Rail W Southbound"
+		(shape input)
+		(at 107.95 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e666b298-2abd-4107-9390-f189287a31f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.138 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 63.5 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00cc4d46-2f11-408d-8174-b8330198f5a3")
+		(property "Reference" "LED251"
+			(at 54.61 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 54.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 63.5 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60e60e9a-2ecb-42a5-8cb2-e8cebeaaec2f")
+		)
+		(pin "2"
+			(uuid "71ff8df9-4e11-4d2b-a68b-272e504ae4e0")
+		)
+		(pin "4"
+			(uuid "b084865f-ae55-4bf1-a61f-b55a43c23743")
+		)
+		(pin "3"
+			(uuid "47b33ded-452d-4db4-9dd1-264736f848ee")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 19.05 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02f89eaa-6ec9-4fd9-8693-ff45a9630848")
+		(property "Reference" "#PWR0210"
+			(at 19.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VLED"
+			(at 19.05 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 19.05 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1549406d-c1e2-4da4-a07a-f2ae067ee54a")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 104.14 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03916d53-36ce-46d1-b7e0-c537240a25c8")
+		(property "Reference" "LED243"
+			(at 95.25 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 95.25 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 104.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 104.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0c4d6bb-dbb3-4dbd-8d55-5e48b003197b")
+		)
+		(pin "2"
+			(uuid "1d14c84b-da98-451f-869f-404b6ca2c5c3")
+		)
+		(pin "4"
+			(uuid "b13a817d-f989-42c7-abb5-b554df2059db")
+		)
+		(pin "3"
+			(uuid "57237100-28aa-403b-8b82-381b0418c7d9")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED243")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 45.72 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a5c0141-ddfa-4d93-8b12-7f0de18fb3b1")
+		(property "Reference" "LED221"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 36.83 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 45.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 45.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e450b84f-f6ab-4fc9-80a7-b2ac6087735f")
+		)
+		(pin "2"
+			(uuid "8b4f2aea-22f8-41c3-858b-ece66bef531d")
+		)
+		(pin "4"
+			(uuid "2b174536-30ec-4b8a-bbb2-59dea8b83608")
+		)
+		(pin "3"
+			(uuid "056e0e75-47ab-44b8-839e-15c3d889edeb")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 147.32 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "168d3c8d-211c-445f-a865-ea58b08d32e4")
+		(property "Reference" "LED225"
+			(at 138.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 147.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "250871b0-e272-4827-8e07-8b9919c5e4f4")
+		)
+		(pin "2"
+			(uuid "453f9d51-a67a-426d-8496-b03c8901d6f4")
+		)
+		(pin "4"
+			(uuid "39b283bd-057c-42bd-8eb2-8c1926fe101b")
+		)
+		(pin "3"
+			(uuid "81c07652-bed6-477c-8524-f6a25a10397a")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 146.05 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1accff6c-5f0a-49c7-bae8-65d4cc30d1df")
+		(property "Reference" "LED235"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 146.05 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 146.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 146.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d582eaf5-722e-4542-a860-abe84c5740e0")
+		)
+		(pin "2"
+			(uuid "7072d68b-890d-41bf-ba02-ad717c93762e")
+		)
+		(pin "4"
+			(uuid "6bba8953-af92-41ee-98e5-10f6042609ca")
+		)
+		(pin "3"
+			(uuid "6b2fddb9-0d53-43b4-8487-0ef8153da927")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 63.5 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "234f3f8f-c2ae-404d-96c5-38ffc7b2e018")
+		(property "Reference" "LED241"
+			(at 54.61 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 54.61 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 63.5 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 63.5 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 63.5 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7952a524-13da-49f7-85a3-de7d2c3c6363")
+		)
+		(pin "2"
+			(uuid "9dadd4e0-75c1-4e9e-b188-efe13245ddfb")
+		)
+		(pin "4"
+			(uuid "97600ccd-e8c5-4acb-8bea-00b7f4f09623")
+		)
+		(pin "3"
+			(uuid "5595aeed-6f0a-4c2c-b5e6-e04c16a17ada")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED241")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 59.69 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f86c622-0ef5-4eb1-a4b8-32f0be25c4bf")
+		(property "Reference" "LED201"
+			(at 50.8 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 50.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 59.69 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe0a6988-5924-4660-ae72-b75d973d507f")
+		)
+		(pin "2"
+			(uuid "d264d8dc-736c-42ed-b73a-dd0c0a053fd7")
+		)
+		(pin "4"
+			(uuid "a694de41-436b-438c-86bc-d9bf86f5fef7")
+		)
+		(pin "3"
+			(uuid "8831c912-a347-44c2-98eb-ccaaaabfd7ad")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 222.25 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32578bab-d95b-4840-b3e7-c1600ec4f59f")
+		(property "Reference" "LED209"
+			(at 213.36 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 222.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 222.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea5d1677-ebdf-40bb-a3ef-fe1618ebb11a")
+		)
+		(pin "2"
+			(uuid "04c53c96-1028-4568-b6d6-ea17e9cec950")
+		)
+		(pin "4"
+			(uuid "dcfef78b-f365-4b9b-9016-9b69d5431ea8")
+		)
+		(pin "3"
+			(uuid "36944e2d-0b19-409c-8728-9cd2eb7185a4")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 66.04 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "343e7a20-4067-41fa-8bed-954305bb5625")
+		(property "Reference" "LED212"
+			(at 57.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 57.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 66.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd85538e-181f-4dc3-a88a-dbe58b0b6873")
+		)
+		(pin "2"
+			(uuid "cd97b1af-549b-4706-addb-425168f4ee95")
+		)
+		(pin "4"
+			(uuid "6b2ce04f-4c75-463e-863d-5f0cd59a718c")
+		)
+		(pin "3"
+			(uuid "b644b193-d473-424d-b5d3-248758a2d53c")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 105.41 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3527cb34-1430-4e3d-9305-31315d4abda9")
+		(property "Reference" "LED233"
+			(at 96.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 96.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 105.41 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 105.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 105.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60396db1-aabd-427d-afc1-4483b5e68045")
+		)
+		(pin "2"
+			(uuid "8ee1ba85-a019-427d-9d16-ab0ac665d588")
+		)
+		(pin "4"
+			(uuid "5df38639-ee8b-4716-be6d-75c8fe6df416")
+		)
+		(pin "3"
+			(uuid "bc7f0f9d-08d4-4737-b398-e25c4e7a5e28")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED233")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 144.78 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39eac763-0128-4170-9093-ef559468f67b")
+		(property "Reference" "LED245"
+			(at 135.89 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 144.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 144.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f25ec063-defb-4fac-8f9c-66e34fef48e9")
+		)
+		(pin "2"
+			(uuid "c0aea871-bc7f-47cd-bc82-c2ff0fd252e2")
+		)
+		(pin "4"
+			(uuid "ba90b275-db0e-4a25-8a2d-aa5a9d813c15")
+		)
+		(pin "3"
+			(uuid "a14ee29e-b045-4f24-922d-952e92c48dec")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED245")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 187.96 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b05526b-116b-4edd-b659-e2dbfa53f1fd")
+		(property "Reference" "LED218"
+			(at 179.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 187.96 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23092167-605c-4a0a-9fb6-bdedba0616b6")
+		)
+		(pin "2"
+			(uuid "cd84abe9-b150-41fc-9f6f-0edb51a28e9a")
+		)
+		(pin "4"
+			(uuid "ab4aef01-562e-4de3-9afc-47c2402973c8")
+		)
+		(pin "3"
+			(uuid "97754fe0-74d9-4a06-9789-a47dca0c1f78")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED218")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 187.96 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "405a9f75-ed80-415f-991e-060335149c78")
+		(property "Reference" "LED227"
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 179.07 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 187.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 187.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e914f570-1b0e-469e-906f-b8bdde851f18")
+		)
+		(pin "2"
+			(uuid "061cc4fa-03f3-402d-b6bf-87648da11d2f")
+		)
+		(pin "4"
+			(uuid "73379b90-2c0b-4c4d-8e15-b803d640ddf1")
+		)
+		(pin "3"
+			(uuid "f9d60cdc-a0c4-4ba0-ae31-eda6baa2b487")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 147.32 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40f96f8b-476d-4c01-ab55-825af70ba9bd")
+		(property "Reference" "LED216"
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 147.32 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78144413-526f-4ee9-8c2f-87648898a32a")
+		)
+		(pin "2"
+			(uuid "0c4a5532-6200-47fa-a255-7e5cdd5407f3")
+		)
+		(pin "4"
+			(uuid "cc7ac037-2c56-4e0a-8877-b620abf47a9c")
+		)
+		(pin "3"
+			(uuid "0a08f3c5-bcf1-415c-b0ec-d9425df4722e")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 64.77 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "437e7c94-0c63-40a9-a0d1-b4ca02421a5e")
+		(property "Reference" "LED231"
+			(at 55.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 64.77 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 64.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eef42e88-ce86-48ad-b29f-4407a5fca86f")
+		)
+		(pin "2"
+			(uuid "1bd264ea-5d2f-460a-9328-7e8150b74aff")
+		)
+		(pin "4"
+			(uuid "6a5a0b3b-4f82-4ee3-aaa9-73539243798a")
+		)
+		(pin "3"
+			(uuid "197d6bbb-af8a-461d-a649-07f1ac68e270")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 228.6 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43a59930-421f-4d73-8438-022ed8b762c4")
+		(property "Reference" "LED220"
+			(at 219.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 219.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 228.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e606b4e-998b-4050-b2a5-e6c9d6a117c5")
+		)
+		(pin "2"
+			(uuid "2d1fc8cc-eab1-49aa-821f-0c63c1618629")
+		)
+		(pin "4"
+			(uuid "cf916fc5-1814-4def-a26d-71e48a64baed")
+		)
+		(pin "3"
+			(uuid "9b2efe80-1c95-4fc9-9a70-382f7540dd81")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 127 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a0e031f-eb3e-4f60-bbed-86610259dddf")
+		(property "Reference" "LED224"
+			(at 118.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 127 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 127 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f5e9df-6f04-4ca1-aa84-c21867a596c4")
+		)
+		(pin "2"
+			(uuid "ce728673-5b35-480c-9e30-f76784d75c60")
+		)
+		(pin "4"
+			(uuid "83484120-20c6-4d3a-b156-419cc38b9d47")
+		)
+		(pin "3"
+			(uuid "58ffe33d-29eb-460f-bfb1-1cbf2396ef9d")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 85.09 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a678b50-60a7-4b36-bb26-2877bb4e8476")
+		(property "Reference" "LED232"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 85.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "614a31eb-caf3-4ab8-9e4d-e2b62ac69312")
+		)
+		(pin "2"
+			(uuid "d142586e-f286-41fb-ba37-99acdae440cd")
+		)
+		(pin "4"
+			(uuid "a304533f-4c81-4ea1-bcb0-4982c94deb23")
+		)
+		(pin "3"
+			(uuid "95795890-883d-4c51-9524-1d8274e2faa8")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED232")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 208.28 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51936b33-6cb4-4f68-957e-4375e013e0b0")
+		(property "Reference" "LED228"
+			(at 199.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 208.28 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "047ed9d4-e05f-49b9-a4ce-9aa2d27ba6de")
+		)
+		(pin "2"
+			(uuid "780cde25-8982-4176-bbe3-1351534c5dde")
+		)
+		(pin "4"
+			(uuid "d4036856-4ed8-4e05-9266-f3b0071e118b")
+		)
+		(pin "3"
+			(uuid "ecc4e6ff-56da-44c5-ad14-87a54028c35d")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 45.72 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "563d4c60-e129-470f-ad41-c336d2fa2b37")
+		(property "Reference" "LED211"
+			(at 36.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 36.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 45.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 45.72 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 45.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "580f9e59-db69-4e54-9406-6207b7e9932f")
+		)
+		(pin "2"
+			(uuid "5c45d018-6bd3-4106-b883-1bfa01d2fe07")
+		)
+		(pin "4"
+			(uuid "4cd29d03-b13e-4ed5-9964-34a6afb0a2d6")
+		)
+		(pin "3"
+			(uuid "ef922066-6387-4e26-818c-e0c197f4e03d")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 226.06 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "586fd78b-8840-4f6a-a6b2-e3f7ce27a65a")
+		(property "Reference" "LED249"
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 217.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 226.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 226.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5eb6470-057a-40ee-b6f8-c33708df7e14")
+		)
+		(pin "2"
+			(uuid "bffb4e54-02cb-4103-bd8d-f1cd95bcfe5a")
+		)
+		(pin "4"
+			(uuid "ba1db953-5720-47f4-aa4e-d9e47cb48b08")
+		)
+		(pin "3"
+			(uuid "d97f24b5-5d26-4e00-a6c7-07c38e745807")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED249")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 86.36 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5abc134b-fbf7-4142-ba3c-1a639f13456e")
+		(property "Reference" "LED222"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 86.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4612aa67-64ac-4f13-82a8-55f9d18c9b71")
+		)
+		(pin "2"
+			(uuid "6411e316-b5bc-47fb-8329-495c95fd7680")
+		)
+		(pin "4"
+			(uuid "9a9e179e-fbd7-484e-b572-6ab6fca5d983")
+		)
+		(pin "3"
+			(uuid "c1730647-adf7-4e07-9ed0-5a258c2b67ee")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 201.93 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d9529ae-2293-4757-a42a-24f0e1a6b218")
+		(property "Reference" "LED208"
+			(at 193.04 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08d8f350-bd74-4dae-b51b-f95ce6cf413e")
+		)
+		(pin "2"
+			(uuid "b0e2d55e-5f87-4270-bda6-13d4c7083694")
+		)
+		(pin "4"
+			(uuid "100b34e4-c9da-4266-9352-0e1336e87a0a")
+		)
+		(pin "3"
+			(uuid "73b17c1b-c82f-461d-b5b3-c62778a5d3fc")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 207.01 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5db2edf4-18cd-4880-a7fd-7cf21f017967")
+		(property "Reference" "LED238"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 198.12 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 207.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 207.01 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 207.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83245f4f-89f1-4825-a3e5-8d267a920eaf")
+		)
+		(pin "2"
+			(uuid "8c850bef-0187-4d1b-a55f-a2aaa71c2794")
+		)
+		(pin "4"
+			(uuid "845ee2bc-5df5-44c5-aa55-63c4744d455f")
+		)
+		(pin "3"
+			(uuid "0803291d-16dd-4078-ab65-c15d3d234214")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 127 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dfb3a06-84ae-4964-a6b0-5b6e71107ef3")
+		(property "Reference" "LED215"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55fc1c69-df64-4cb3-8f0e-64103086a499")
+		)
+		(pin "2"
+			(uuid "4911836f-1540-4bea-a21e-6dc71e323bcd")
+		)
+		(pin "4"
+			(uuid "b1316389-0618-48b3-b5f9-a51ad749d8b4")
+		)
+		(pin "3"
+			(uuid "237856ff-9d39-47c1-9f86-be9b9375b221")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 43.18 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f6e6c8f-38f3-44b0-bbcf-487c9923697c")
+		(property "Reference" "LED240"
+			(at 34.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 34.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 43.18 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 43.18 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75c41c26-29a7-48f5-a75d-101287fb1050")
+		)
+		(pin "2"
+			(uuid "ebd1e6e4-a86a-4762-86cf-33a0b512b67a")
+		)
+		(pin "4"
+			(uuid "b30276aa-fbc7-4779-9be2-ced1c99f3972")
+		)
+		(pin "3"
+			(uuid "e31be8a5-6ba5-4840-b955-fd2d8f6f409c")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED240")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 166.37 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ea10ce-7e09-45c6-b893-9c23db58048c")
+		(property "Reference" "LED236"
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 157.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30a8ee65-fcbc-4ac9-8200-593fa5a92085")
+		)
+		(pin "2"
+			(uuid "23e701e1-f430-43b6-bbbc-aadd372d421d")
+		)
+		(pin "4"
+			(uuid "b2e69a5c-50e1-433d-812b-c73a0bc8131d")
+		)
+		(pin "3"
+			(uuid "90097850-6b9c-4226-9e60-68594018e4ce")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED236")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 19.05 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65fd4dea-0904-4279-851c-c61a5251f266")
+		(property "Reference" "#PWR0211"
+			(at 19.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 18.796 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8a8408-7dd8-4c94-b232-544d6f7de42f")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 165.1 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66b354d8-3516-48ae-8f35-791deeff3f9d")
+		(property "Reference" "LED246"
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 156.21 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 165.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 165.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c880eedd-a09b-473f-9a8a-805d9eb5349d")
+		)
+		(pin "2"
+			(uuid "25b54bed-374d-4516-8e89-6e5c0771933e")
+		)
+		(pin "4"
+			(uuid "05a654f6-91fa-4543-ab55-a3b2e6041bf6")
+		)
+		(pin "3"
+			(uuid "21b02c62-292b-4caf-a217-ce246cc55a82")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "CL21B106KOQNNNE_4")
+		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(at 21.59 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ac309a3-fa6d-4198-be3e-8051d96b2226")
+		(property "Reference" "C201"
+			(at 21.59 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150u"
+			(at 19.685 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:CAP-SMD_L3.5-W2.8"
+			(at 11.43 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C212682.pdf"
+			(at 8.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150uF ±20% 6.3V Tantalum Capacitors 35mΩ@100kHz CASE-B-3528-21(mm)"
+			(at 21.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C212682"
+			(at 6.35 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ba273b0-4273-4487-9bbe-7d2d7309354d")
+		)
+		(pin "1"
+			(uuid "198d4d11-db2e-4010-bfa2-ec51b43a4a67")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 167.64 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70459c66-e31f-4560-9986-6bf3c8291f0e")
+		(property "Reference" "LED217"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 158.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 167.64 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52c9b72c-6095-47d6-8933-b844b14f2391")
+		)
+		(pin "2"
+			(uuid "bc9666b4-8c6a-4b59-bba5-8c288b1b61ab")
+		)
+		(pin "4"
+			(uuid "a800b269-8fc0-466e-9ff8-43cf55b9dfe8")
+		)
+		(pin "3"
+			(uuid "3dcab8e1-bedd-457e-bd69-893a9074c5b6")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 44.45 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "710a9515-301c-4ca6-8f2c-867a550a604a")
+		(property "Reference" "LED230"
+			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 44.45 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 44.45 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8aa13a6b-5061-4241-aa4b-d1fd7cd44123")
+		)
+		(pin "2"
+			(uuid "0124f153-32d9-4a72-a427-3270563ee8d8")
+		)
+		(pin "4"
+			(uuid "e834e2d2-f6c1-49de-86f6-c86b6849d7d7")
+		)
+		(pin "3"
+			(uuid "5c01a042-7a1e-46f9-9350-d80f511adeb5")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 167.64 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73215adb-698b-4a82-9c85-3e5e55e557f9")
+		(property "Reference" "LED226"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 158.75 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 167.64 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b613664-ec01-46e3-b2d2-3c8c3961e911")
+		)
+		(pin "2"
+			(uuid "4d20c500-88f5-4b34-8d64-93f646548740")
+		)
+		(pin "4"
+			(uuid "da54483e-4e6e-473e-b541-38868905af95")
+		)
+		(pin "3"
+			(uuid "28191663-e951-4070-a1c8-9715d1a35db4")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 227.33 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7461fdc8-982f-4589-ab4e-38648224732b")
+		(property "Reference" "LED239"
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 218.44 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 227.33 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 227.33 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 227.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "923f628b-6266-4f7d-9d93-40c32f445037")
+		)
+		(pin "2"
+			(uuid "62ed852e-b7a1-4b41-86b5-15b632fd2618")
+		)
+		(pin "4"
+			(uuid "c79791d5-4aae-4cca-8d5d-85c51acf7b0e")
+		)
+		(pin "3"
+			(uuid "a970fb36-ad95-4e6b-bbc7-e94da50010da")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED239")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 140.97 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7535e06a-9d89-472a-b043-94c772b8e4e5")
+		(property "Reference" "LED205"
+			(at 132.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 132.08 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 140.97 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 140.97 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 140.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534a5ff1-a70b-40c8-8c6f-b51e4f8dc2bd")
+		)
+		(pin "2"
+			(uuid "6c78de22-727f-4586-a63d-35c102c5f950")
+		)
+		(pin "4"
+			(uuid "82773556-0eb9-4cbe-b639-3c4e3fb91e46")
+		)
+		(pin "3"
+			(uuid "0f6c423a-8b33-4765-b3ee-1fd9154d3a2f")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 120.65 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d068b19-06f7-4c22-ad35-9eca132cd8f6")
+		(property "Reference" "LED204"
+			(at 111.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 111.76 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 120.65 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72cec818-6040-4ad1-9b06-4757de6d3c15")
+		)
+		(pin "2"
+			(uuid "59c95095-641b-4e0e-bde3-2a338fbb601e")
+		)
+		(pin "4"
+			(uuid "2c880758-e36b-4fea-abcb-64bda3f07081")
+		)
+		(pin "3"
+			(uuid "04bd05c2-604a-4892-94fc-0d5554f10ec4")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 80.01 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8be9e11e-63b0-48a9-ab93-ac4c7c80979c")
+		(property "Reference" "LED202"
+			(at 71.12 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 80.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "059fb7aa-d15d-4c17-9858-de4f83fa02f0")
+		)
+		(pin "2"
+			(uuid "b7326ffb-f615-4828-a008-b7a9a87e27b8")
+		)
+		(pin "4"
+			(uuid "e4d75f53-a104-4719-95b9-5baab17bb16e")
+		)
+		(pin "3"
+			(uuid "a257ee76-14ed-4c4d-a0e4-c02d7b46a4ec")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 161.29 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98166568-810b-4b81-a3b3-e238d3e28412")
+		(property "Reference" "LED206"
+			(at 152.4 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 152.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 161.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 161.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 161.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c964528-d922-4e77-84bb-ac37a14aac9c")
+		)
+		(pin "2"
+			(uuid "3e5e0f65-8d74-40f2-8c22-c024685015d6")
+		)
+		(pin "4"
+			(uuid "6a6ffbd9-e666-4b2d-8486-a743ff7311c5")
+		)
+		(pin "3"
+			(uuid "6ca494d3-2793-4b52-91d6-05e3a3eb6765")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 102.87 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f985838-d3cb-4236-ad81-346b2847b461")
+		(property "Reference" "LED253"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 93.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 102.87 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 102.87 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 102.87 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "608504a7-4568-4d8a-a849-a886d0372916")
+		)
+		(pin "2"
+			(uuid "69152c3b-3116-4fd0-8053-edfe1cb1ddab")
+		)
+		(pin "4"
+			(uuid "c207a445-96ad-40c5-a6c9-6184502c7f18")
+		)
+		(pin "3"
+			(uuid "74a9f84d-32da-43ea-92c5-dc154bc689f5")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 83.82 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5b7059b-7d1e-42f6-9eef-3dae3f8e0301")
+		(property "Reference" "LED252"
+			(at 74.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 83.82 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 83.82 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7f70289-cb91-47d9-b1bd-0a0cae14c925")
+		)
+		(pin "2"
+			(uuid "326055d1-d6df-4de4-9ad6-e95a22bb4902")
+		)
+		(pin "4"
+			(uuid "3aa36d7e-da8b-4f4c-ac6d-64ace0a2a7d7")
+		)
+		(pin "3"
+			(uuid "7abf3430-d0bc-4504-8018-e98516c21f27")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED252")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 208.28 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5c50175-545d-460e-86aa-f03a849f436f")
+		(property "Reference" "LED219"
+			(at 199.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 199.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 208.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 208.28 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "860f2368-bd7a-4096-81c7-a8f1e5123660")
+		)
+		(pin "2"
+			(uuid "e830b29e-674d-4757-bb05-bc4c74b6e199")
+		)
+		(pin "4"
+			(uuid "141a34d5-69a5-42c8-88e1-28703479492b")
+		)
+		(pin "3"
+			(uuid "41fa244c-111e-477b-bef8-6585bc5f246d")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 100.33 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcf8674a-c0d6-425c-8610-2427937c1197")
+		(property "Reference" "LED203"
+			(at 91.44 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 100.33 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 100.33 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 100.33 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d1f2a6c-072e-4a95-aead-15c6b0b9a0da")
+		)
+		(pin "2"
+			(uuid "a3643e2b-822f-47e4-a686-c6887a8f7fc8")
+		)
+		(pin "4"
+			(uuid "5d1cca20-1941-462f-93a5-767ec21501cd")
+		)
+		(pin "3"
+			(uuid "0ae27edd-76e7-4686-b8b1-d95c9e36adfd")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 125.73 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf0c2a12-1e4d-40fb-8f89-9dc34e92100f")
+		(property "Reference" "LED234"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 116.84 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 125.73 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 125.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25101f6b-3ea0-4ad1-a233-65b42f1e796e")
+		)
+		(pin "2"
+			(uuid "2afd549e-14fd-452d-a48e-7c10a3b5ef5b")
+		)
+		(pin "4"
+			(uuid "837c7358-caf8-4fe4-bdb2-928e4cdac3ed")
+		)
+		(pin "3"
+			(uuid "48974261-603d-46a7-9264-539a475c0b0e")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 106.68 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c20d4ed1-c811-499a-98d3-f0d002f4548d")
+		(property "Reference" "LED223"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 106.68 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e24c84d5-e5c2-4cdf-9764-8f6b65fdee65")
+		)
+		(pin "2"
+			(uuid "0e17d5bf-f27d-42db-bc36-d02ee92a0fdc")
+		)
+		(pin "4"
+			(uuid "bd052615-275a-4a2e-b9d1-22fd1ec8cdbe")
+		)
+		(pin "3"
+			(uuid "7ff2e279-70f3-4761-b45e-204ebfe69e60")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 205.74 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca432907-1a3b-4784-987d-7900a36aeb1a")
+		(property "Reference" "LED248"
+			(at 196.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 196.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 205.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 205.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37c32817-52b8-45ea-8d86-b8cbbc1c85d4")
+		)
+		(pin "2"
+			(uuid "c738d1bb-ea65-4cbc-8840-18a3a5fcfd0c")
+		)
+		(pin "4"
+			(uuid "cf222567-336c-4711-b767-b65d91b59b0b")
+		)
+		(pin "3"
+			(uuid "921b7bb7-6fb5-4ff3-8ee9-8af47a038948")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED248")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 242.57 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ebf1c5-82a1-4298-b53a-d8e2a69ffce4")
+		(property "Reference" "LED210"
+			(at 233.68 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 233.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 242.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 242.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dd0fef2-50ae-425a-b206-11482e897b7f")
+		)
+		(pin "2"
+			(uuid "147f0fc8-c8bf-4526-9b1b-7fd079804553")
+		)
+		(pin "4"
+			(uuid "51730a4a-0dd1-42a4-8c0f-0891c9c37e85")
+		)
+		(pin "3"
+			(uuid "a3e85fc4-9c84-4553-b423-516d5c7d891e")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 185.42 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d13a1677-2fb6-4f19-a601-99a0fef0630d")
+		(property "Reference" "LED247"
+			(at 176.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 185.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 185.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 185.42 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b9f57c-e7d8-466e-8ba9-b0066f95fab5")
+		)
+		(pin "2"
+			(uuid "b35e58f5-bf0b-4c04-a173-432ace4947e5")
+		)
+		(pin "4"
+			(uuid "1ebded53-5b09-4f8e-9073-fb58696813c2")
+		)
+		(pin "3"
+			(uuid "0b58b557-83f9-4316-98b8-0cc083a1a4c5")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED247")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 124.46 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de112654-0758-46a0-a23d-5e907db6b773")
+		(property "Reference" "LED244"
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 124.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "618cabfa-ba0c-4723-9afe-70d3a876696e")
+		)
+		(pin "2"
+			(uuid "800cb2d3-b818-47a3-92f7-086810d595be")
+		)
+		(pin "4"
+			(uuid "89750121-5f87-4955-bda0-1c0df4889215")
+		)
+		(pin "3"
+			(uuid "089afed4-a585-48dc-be6a-a202aaf0382f")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 43.18 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0fb76fe-0fbf-46de-b01a-a939bc4dbc51")
+		(property "Reference" "LED250"
+			(at 34.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 34.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 43.18 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 43.18 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af5fa530-5b7d-421b-8d47-b2466ff5f7a5")
+		)
+		(pin "2"
+			(uuid "a1ecdb78-973e-4250-815c-d1e495744266")
+		)
+		(pin "4"
+			(uuid "5b86460d-ecee-4687-94e4-34ccbd26012e")
+		)
+		(pin "3"
+			(uuid "2472604b-e2e7-4e68-b65c-a830a4b79576")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED250")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 181.61 29.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1f01e94-0013-4f8c-a378-f1bb6d22167e")
+		(property "Reference" "LED207"
+			(at 172.72 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 172.72 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 181.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 181.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f97c80-a884-4234-93ed-50cf7e091fd3")
+		)
+		(pin "2"
+			(uuid "9a34d702-3a1e-4b48-8223-7796eb306d0c")
+		)
+		(pin "4"
+			(uuid "06061df3-c33f-4bee-b39a-96f2486011f8")
+		)
+		(pin "3"
+			(uuid "ede30525-52a1-4928-ab56-590d72623d9e")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 186.69 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef9d9edb-b339-4dc6-a67b-c37a68588eb2")
+		(property "Reference" "LED237"
+			(at 177.8 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 186.69 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7aff56-9528-4df8-8fe6-4bce3419c8ab")
+		)
+		(pin "2"
+			(uuid "48123238-d310-4288-8c4e-d837827c821d")
+		)
+		(pin "4"
+			(uuid "bd869c7e-2d63-4552-aa46-59d411bc0276")
+		)
+		(pin "3"
+			(uuid "3fe395fd-6bbe-47da-9523-5673d0474508")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED237")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 106.68 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3072683-17a3-4122-866e-517bc573e705")
+		(property "Reference" "LED214"
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ecf9cb7-79bc-4c95-b9fb-6177db69adfe")
+		)
+		(pin "2"
+			(uuid "10f3b9f1-4634-4cb6-b70e-f8d6264ed047")
+		)
+		(pin "4"
+			(uuid "c63e3fa3-1dce-4c06-8dd4-a6971fc3dfe8")
+		)
+		(pin "3"
+			(uuid "59fff862-8bb6-4dd5-aa88-a0cebde2ce24")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 86.36 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f645cb05-4862-4315-8bd1-bf3f81f957ec")
+		(property "Reference" "LED213"
+			(at 77.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 86.36 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 86.36 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2994db0b-da25-4a01-a049-2476520b3bd1")
+		)
+		(pin "2"
+			(uuid "99038f96-1740-4428-9f6a-9095654d0279")
+		)
+		(pin "4"
+			(uuid "4a0941cd-0394-40de-94c4-3a0c4fa639fc")
+		)
+		(pin "3"
+			(uuid "340702db-26cd-4570-8c80-f4e5b4eea995")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 228.6 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcd5f807-2a69-4d65-9e1f-c860834ff1ee")
+		(property "Reference" "LED229"
+			(at 219.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 219.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 228.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 228.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 228.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d32595fa-5922-444f-8a4c-d0e56f0c6c9d")
+		)
+		(pin "2"
+			(uuid "cfe9fa23-4193-4bcf-81a0-af9398043ac0")
+		)
+		(pin "4"
+			(uuid "d6c444fe-a978-4234-a03b-e70e03bc0354")
+		)
+		(pin "3"
+			(uuid "1c713498-1894-4a58-bd1b-ba5858a4f20b")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED229")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 83.82 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff51369d-90a6-40d5-8bb6-c910c7173407")
+		(property "Reference" "LED242"
+			(at 74.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 74.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 83.82 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 83.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da839af9-a326-4da5-8ffb-d4333e07fc1e")
+		)
+		(pin "2"
+			(uuid "99d7e0ee-6e77-4785-ae9c-e86dc5158bbd")
+		)
+		(pin "4"
+			(uuid "bf566c06-589d-4d24-9783-cb99abb20e2b")
+		)
+		(pin "3"
+			(uuid "acc2f23e-a065-4991-9307-d9be1c7e7021")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(reference "LED242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 152.4)
+		(size 24.13 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd8f10f0-b204-478e-8c6b-36e53652898a")
+		(property "Sheetname" "Rail W Southbound"
+			(at 106.68 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rail_w_southbound.kicad_sch"
+			(at 106.68 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/c77204ed-8b40-49cf-be41-b23cecafc970"
+					(page "6")
+				)
+			)
+		)
+	)
+)

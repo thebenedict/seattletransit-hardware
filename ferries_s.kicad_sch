@@ -705,22 +705,10 @@
 		(uuid "0439f414-049e-452f-8b91-ff7e64a08b66")
 	)
 	(junction
-		(at 149.86 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dadef02-a1ff-4a82-b536-56fd77a9042f")
-	)
-	(junction
 		(at 58.42 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31ac143a-8075-444d-8fdd-c86f4df876f0")
-	)
-	(junction
-		(at 110.49 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b3fc007-0118-488d-a42c-ee1b451c41db")
 	)
 	(junction
 		(at 54.61 158.75)
@@ -733,12 +721,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "596e3e58-be17-49e9-8cda-5b68b7663b68")
-	)
-	(junction
-		(at 129.54 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e3fc2f2-913d-4178-9585-18dbc96ea351")
 	)
 	(junction
 		(at 41.91 77.47)
@@ -846,7 +828,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 99.06) (xy 43.18 99.06)
+			(xy 40.64 99.06) (xy 45.72 99.06)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +948,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 91.44) (xy 49.53 91.44)
+			(xy 45.72 91.44) (xy 53.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 99.06) (xy 43.18 91.44)
+			(xy 45.72 99.06) (xy 45.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1653,16 +1635,6 @@
 			(type default)
 		)
 		(uuid "922119d4-dc13-4e9e-b4ec-7fe6159f4753")
-	)
-	(wire
-		(pts
-			(xy 110.49 35.56) (xy 113.03 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92518abe-362d-4239-8d31-b0fbc1aee81d")
 	)
 	(wire
 		(pts
@@ -1956,16 +1928,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 35.56) (xy 130.81 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4bca38c-6c3b-4f11-8c39-66aac03a4837")
-	)
-	(wire
-		(pts
 			(xy 217.17 77.47) (xy 217.17 78.74)
 		)
 		(stroke
@@ -2213,16 +2175,6 @@
 			(type default)
 		)
 		(uuid "edc21620-58fa-4403-b27a-7189a75e64f4")
-	)
-	(wire
-		(pts
-			(xy 149.86 35.56) (xy 151.13 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee55999a-6dfa-4ec8-a203-6f0478c5a838")
 	)
 	(wire
 		(pts
@@ -2849,12 +2801,13 @@
 				)
 			)
 		)
-		(property "Value" "Seattle (Vashon)"
+		(property "Value" "WS2812B-Mini"
 			(at 43.18 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -2891,6 +2844,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Seattle (Vashon)"
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3211,12 +3172,13 @@
 				)
 			)
 		)
-		(property "Value" "Port_Defiance"
+		(property "Value" "WS2812B-Mini"
 			(at 59.69 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -3253,6 +3215,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Port_Defiance"
+			(at 60.96 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4452,7 +4422,7 @@
 	(symbol
 		(lib_name "CL21B106KOQNNNE_4")
 		(lib_id "EasyEDA:CL21B106KOQNNNE")
-		(at 46.99 90.17 90)
+		(at 50.8 90.17 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4460,8 +4430,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38fb45c9-93cd-4984-9531-72ad6c055e3a")
-		(property "Reference" "C501"
-			(at 46.99 97.79 90)
+		(property "Reference" "C502"
+			(at 50.8 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4439,7 @@
 			)
 		)
 		(property "Value" "150u"
-			(at 48.895 93.98 90)
+			(at 52.705 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4448,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:CAP-SMD_L3.5-W2.8"
-			(at 57.15 90.17 0)
+			(at 60.96 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +4457,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C212682.pdf"
-			(at 59.69 90.17 0)
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4496,7 +4466,7 @@
 			)
 		)
 		(property "Description" "150uF ±20% 6.3V Tantalum Capacitors 35mΩ@100kHz CASE-B-3528-21(mm)"
-			(at 46.99 90.17 0)
+			(at 50.8 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4475,7 @@
 			)
 		)
 		(property "LCSC Part" "C212682"
-			(at 62.23 90.17 0)
+			(at 66.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4492,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/82c886e4-22b8-4801-83ce-05f3d739a980"
-					(reference "C501")
+					(reference "C502")
 					(unit 1)
 				)
 			)
@@ -6407,12 +6377,13 @@
 				)
 			)
 		)
-		(property "Value" "Fauntleroy"
+		(property "Value" "WS2812B-Mini"
 			(at 30.48 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -6449,6 +6420,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Fauntleroy"
+			(at 30.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7197,12 +7176,13 @@
 				)
 			)
 		)
-		(property "Value" "Tahlequah"
+		(property "Value" "WS2812B-Mini"
 			(at 180.34 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -7239,6 +7219,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Tahlequah"
+			(at 180.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8576,7 +8564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99b04275-5da5-4cb0-9297-3bc7991a90ac")
-		(property "Reference" "C16"
+		(property "Reference" "C501"
 			(at 21.59 30.48 90)
 			(effects
 				(font
@@ -8638,7 +8626,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/82c886e4-22b8-4801-83ce-05f3d739a980"
-					(reference "C16")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -10271,7 +10259,7 @@
 				)
 			)
 		)
-		(property "Value" "Vashon_Island"
+		(property "Value" "WS2812B-Mini"
 			(at 46.99 53.086 0)
 			(effects
 				(font
@@ -10308,6 +10296,15 @@
 		)
 		(property "LCSC Part" "C527089"
 			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Vashon_Island"
+			(at 57.15 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10679,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 101.6 0)
+		(at 53.34 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10690,7 +10687,7 @@
 		(dnp no)
 		(uuid "e0a9b422-8409-45cf-ae9c-f3fda2595029")
 		(property "Reference" "#PWR0136"
-			(at 49.53 107.95 0)
+			(at 53.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10699,7 +10696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.276 105.918 0)
+			(at 53.086 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10707,7 +10704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 101.6 0)
+			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,7 +10713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 101.6 0)
+			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10725,7 +10722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 101.6 0)
+			(at 53.34 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,12 +11142,13 @@
 				)
 			)
 		)
-		(property "Value" "West Seattle"
+		(property "Value" "WS2812B-Mini"
 			(at 110.49 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -11187,6 +11185,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "West Seattle"
+			(at 110.49 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11962,12 +11968,13 @@
 				)
 			)
 		)
-		(property "Value" "Southworth"
+		(property "Value" "WS2812B-Mini"
 			(at 30.48 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -12004,6 +12011,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Southworth"
+			(at 30.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

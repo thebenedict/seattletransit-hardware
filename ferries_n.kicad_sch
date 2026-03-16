@@ -2798,7 +2798,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0b4de3b8-cd2e-4db7-ba83-87ecab409191")
 		(property "Reference" "LED420"
 			(at 130.81 69.85 0)
@@ -2808,12 +2807,13 @@
 				)
 			)
 		)
-		(property "Value" "Seattle Center"
+		(property "Value" "WS2812B-2020"
 			(at 130.81 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
@@ -2850,6 +2850,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Monorail" "Seattle Center"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4477,7 +4485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f548053-5a3d-4010-b6e7-465f13c56cf1")
-		(property "Reference" "C19"
+		(property "Reference" "C402"
 			(at 19.05 171.45 90)
 			(effects
 				(font
@@ -4539,7 +4547,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/91ae385e-b417-4a19-b535-f6364aa8f223"
-					(reference "C19")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -5924,12 +5932,13 @@
 				)
 			)
 		)
-		(property "Value" "Seattle (Bremerton)"
+		(property "Value" "WS2812B-Mini"
 			(at 30.48 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -5966,6 +5975,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Seattle (Bremerton)"
+			(at 30.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -6851,12 +6868,13 @@
 				)
 			)
 		)
-		(property "Value" "Bremerton"
+		(property "Value" "WS2812B-Mini"
 			(at 49.53 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -6893,6 +6911,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Bremerton"
+			(at 49.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -7209,7 +7235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8457eae7-9bdf-4c14-880d-5612cffafcae")
-		(property "Reference" "C18"
+		(property "Reference" "C401"
 			(at 17.78 29.21 90)
 			(effects
 				(font
@@ -7271,7 +7297,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/91ae385e-b417-4a19-b535-f6364aa8f223"
-					(reference "C18")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -8176,7 +8202,7 @@
 				)
 			)
 		)
-		(property "Value" "Seattle (Bainbridge)"
+		(property "Value" "WS2812B-Mini"
 			(at 29.21 95.25 0)
 			(effects
 				(font
@@ -8213,6 +8239,15 @@
 		)
 		(property "LCSC Part" "C527089"
 			(at 39.37 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Seattle (Bainbridge)"
+			(at 39.37 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,12 +8294,13 @@
 				)
 			)
 		)
-		(property "Value" "Kingston"
+		(property "Value" "WS2812B-Mini"
 			(at 52.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -8303,6 +8339,14 @@
 				(hide yes)
 			)
 		)
+		(property "Ferry Port" "Kingston"
+			(at 52.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e925c039-84fe-4ae2-b8f4-5a32d6b861b7")
 		)
@@ -8333,7 +8377,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d3a7e57-2551-4b01-bfe0-0103e35ab8d1")
 		(property "Reference" "LED416"
 			(at 52.07 69.85 0)
@@ -8343,12 +8386,13 @@
 				)
 			)
 		)
-		(property "Value" "Westlake Center"
+		(property "Value" "WS2812B-2020"
 			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
@@ -8385,6 +8429,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Monorail" "Westlake Center"
+			(at 54.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9400,7 +9452,7 @@
 				)
 			)
 		)
-		(property "Value" "Bainbridge"
+		(property "Value" "WS2812B-Mini"
 			(at 27.94 116.84 0)
 			(effects
 				(font
@@ -9437,6 +9489,15 @@
 		)
 		(property "LCSC Part" "C527089"
 			(at 38.1 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Bainbridge"
+			(at 38.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,12 +9740,13 @@
 				)
 			)
 		)
-		(property "Value" "Edmonds"
+		(property "Value" "WS2812B-Mini"
 			(at 35.56 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
@@ -9721,6 +9783,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ferry Port" "Edmonds"
+			(at 35.56 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"

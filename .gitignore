@@ -3,3 +3,6 @@
 *backups*
 *.lck
 *-bak
+fabrication-toolkit-options.json
+production
+production/*

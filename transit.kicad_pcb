@@ -7593,7 +7593,7 @@
 		(uuid "17655b5b-6fdc-42d7-bafa-61f43f8eaad8")
 		(at 177.426765 171.263281 -90)
 		(property "Reference" "C15"
-			(at 0 -4 270)
+			(at 3.336719 -0.183235 270)
 			(layer "F.SilkS")
 			(uuid "b841172a-b100-4b32-93a1-c3f288c985d3")
 			(effects

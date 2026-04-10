@@ -1,0 +1,2 @@
+feed_id,feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,default_lang,feed_contact_email,feed_contact_url
+40,Sound Transit,https://www.soundtransit.org,en,20260202,20260828,SC-Spring-2026.4,en,open_transit_data@soundtransit.org,https://www.soundtransit.org/help-contacts/business-information/open-transit-data-otd

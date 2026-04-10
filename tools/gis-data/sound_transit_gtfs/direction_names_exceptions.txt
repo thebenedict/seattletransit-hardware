@@ -1,0 +1,11 @@
+route_name,direction_id,direction_name,direction_do
+1 Line,0,to Federal Way,0
+1 Line,1,to Lynnwood,1
+2 Line,0,to Downtown Redmond,0
+2 Line,1,to South Bellevue,1
+N Line,0,to Everett,0
+N Line,1,to Seattle,1
+S Line,0,to Lakewood/Tacoma,0
+S Line,1,to Seattle,1
+T Line,0,to St Joseph,0
+T Line,1,to Tacoma Dome,1

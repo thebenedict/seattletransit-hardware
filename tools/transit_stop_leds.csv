@@ -1,0 +1,309 @@
+Type,Chain,REF,Route,Direction,Order in route,Order in chain,Label,Note,Lat,Lng
+Light rail,Rail W,LED201,1,Northbound,0,0,Federal Way Downtown,,47.3174,-122.3031
+Light rail,Rail W,LED202,1,Northbound,1,1,,,,
+Light rail,Rail W,LED203,1,Northbound,2,2,Star Lake,,47.3293,-122.2963
+Light rail,Rail W,LED204,1,Northbound,3,3,,,,
+Light rail,Rail W,LED205,1,Northbound,4,4,Kent Des Moines,,47.3541,-122.2988
+Light rail,Rail W,LED206,1,Northbound,5,5,,,,
+Light rail,Rail W,LED207,1,Northbound,6,6,Angle Lake,,47.381,-122.2978
+Light rail,Rail W,LED208,1,Northbound,7,7,,,,
+Light rail,Rail W,LED209,1,Northbound,8,8,SeaTac / Airport,,47.4446,-122.2962
+Light rail,Rail W,LED210,1,Northbound,9,9,,,,
+Light rail,Rail W,LED211,1,Northbound,10,10,Tukwila Intl. Blvd.,,47.4618,-122.2884
+Light rail,Rail W,LED212,1,Northbound,11,11,,,,
+Light rail,Rail W,LED213,1,Northbound,12,12,Rainier Beach,,47.5222,-122.2793
+Light rail,Rail W,LED214,1,Northbound,13,13,,,,
+Light rail,Rail W,LED215,1,Northbound,14,14,Othello,,47.5382,-122.2816
+Light rail,Rail W,LED216,1,Northbound,15,15,,,,
+Light rail,Rail W,LED217,1,Northbound,16,16,Columbia City,,47.559,-122.292
+Light rail,Rail W,LED218,1,Northbound,17,17,,,,
+Light rail,Rail W,LED219,1,Northbound,18,18,Mount Baker,,47.5764,-122.2976
+Light rail,Rail W,LED220,1,Northbound,19,19,,,,
+Light rail,Rail W,LED221,1,Northbound,20,20,Beacon Hill,,47.5793,-122.3115
+Light rail,Rail W,LED222,1,Northbound,21,21,,,,
+Light rail,Rail W,LED223,1,Northbound,22,22,Sodo,,47.5809,-122.3275
+Light rail,Rail W,LED224,1,Northbound,23,23,,,,
+Light rail,Rail W,LED225,1,Northbound,24,24,Stadium,,47.5913,-122.3271
+Light rail,Rail W,LED226,1,Northbound,25,25,,,,
+Light rail,Rail W,LED227,1,Northbound,26,26,Intl. District / Chinatown,,47.598,-122.3278
+Light rail,Rail W,LED228,1,Northbound,27,27,,,,
+Light rail,Rail W,LED229,1,Northbound,28,28,Pioneer Square,,47.6024,-122.3313
+Light rail,Rail W,LED230,1,Northbound,29,29,,,,
+Light rail,Rail W,LED231,1,Northbound,30,30,Symphony,,47.6089,-122.3379
+Light rail,Rail W,LED232,1,Northbound,31,31,,,,
+Light rail,Rail W,LED233,1,Northbound,32,32,Westlake,,47.6115,-122.3371
+Light rail,Rail W,LED234,1,Northbound,33,33,,,,
+Light rail,Rail W,LED235,1,Northbound,34,34,Capitol Hill,,47.6194,-122.3209
+Light rail,Rail W,LED236,1,Northbound,35,35,,,,
+Light rail,Rail W,LED237,1,Northbound,36,36,University of Washington,,47.6497,-122.3038
+Light rail,Rail W,LED238,1,Northbound,37,37,,,,
+Light rail,Rail W,LED239,1,Northbound,38,38,U District,,47.6613,-122.3155
+Light rail,Rail W,LED240,1,Northbound,39,39,,,,
+Light rail,Rail W,LED241,1,Northbound,40,40,Roosevelt,,47.6768,-122.3169
+Light rail,Rail W,LED242,1,Northbound,41,41,,,,
+Light rail,Rail W,LED243,1,Northbound,42,42,Northgate,,47.7012,-122.3271
+Light rail,Rail W,LED244,1,Northbound,43,43,,,,
+Light rail,Rail W,LED245,1,Northbound,44,44,Pinehurst/NE 130th St,,47.7155,-122.3196
+Light rail,Rail W,LED246,1,Northbound,45,45,,,,
+Light rail,Rail W,LED247,1,Northbound,46,46,Shoreline South/148th,,47.7335,-122.3177
+Light rail,Rail W,LED248,1,Northbound,47,47,,,,
+Light rail,Rail W,LED249,1,Northbound,48,48,Shoreline North/185th,,47.7554,-122.3162
+Light rail,Rail W,LED250,1,Northbound,49,49,,,,
+Light rail,Rail W,LED251,1,Northbound,50,50,Mountlake Terrace,,47.7877,-122.3095
+Light rail,Rail W,LED252,1,Northbound,51,51,,,,
+Light rail,Rail W,LED253,1,Northbound,52,52,Lynnwood City Center,,47.8147,-122.2953
+Light rail,Rail W,LED601,1,Southbound,0,53,Lynnwood City Center,,47.8147,-122.2953
+Light rail,Rail W,LED602,1,Southbound,1,54,,,,
+Light rail,Rail W,LED603,1,Southbound,2,55,Mountlake Terrace,,47.7877,-122.3095
+Light rail,Rail W,LED604,1,Southbound,3,56,,,,
+Light rail,Rail W,LED605,1,Southbound,4,57,Shoreline North/185th,,47.7554,-122.3162
+Light rail,Rail W,LED606,1,Southbound,5,58,,,,
+Light rail,Rail W,LED607,1,Southbound,6,59,Shoreline South/148th,,47.7335,-122.3177
+Light rail,Rail W,LED608,1,Southbound,7,60,,,,
+Light rail,Rail W,LED609,1,Southbound,8,61,Pinehurst/NE 130th St,,47.7155,-122.3196
+Light rail,Rail W,LED610,1,Southbound,9,62,,,,
+Light rail,Rail W,LED611,1,Southbound,10,63,Northgate,,47.7012,-122.3271
+Light rail,Rail W,LED612,1,Southbound,11,64,,,,
+Light rail,Rail W,LED613,1,Southbound,12,65,Roosevelt,,47.6768,-122.3169
+Light rail,Rail W,LED614,1,Southbound,13,66,,,,
+Light rail,Rail W,LED615,1,Southbound,14,67,U District,,47.6613,-122.3155
+Light rail,Rail W,LED616,1,Southbound,15,68,,,,
+Light rail,Rail W,LED617,1,Southbound,16,69,University of Washington,,47.6497,-122.3038
+Light rail,Rail W,LED618,1,Southbound,17,70,,,,
+Light rail,Rail W,LED619,1,Southbound,18,71,Capitol Hill,,47.6194,-122.3209
+Light rail,Rail W,LED620,1,Southbound,19,72,,,,
+Light rail,Rail W,LED621,1,Southbound,20,73,Westlake,,47.6115,-122.3371
+Light rail,Rail W,LED622,1,Southbound,21,74,,,,
+Light rail,Rail W,LED623,1,Southbound,22,75,Symphony,,47.6089,-122.3379
+Light rail,Rail W,LED624,1,Southbound,23,76,,,,
+Light rail,Rail W,LED625,1,Southbound,24,77,Pioneer Square,,47.6024,-122.3313
+Light rail,Rail W,LED626,1,Southbound,25,78,,,,
+Light rail,Rail W,LED627,1,Southbound,26,79,Intl. District / Chinatown,,47.598,-122.3278
+Light rail,Rail W,LED628,1,Southbound,27,80,,,,
+Light rail,Rail W,LED629,1,Southbound,28,81,Stadium,,47.5913,-122.3271
+Light rail,Rail W,LED630,1,Southbound,29,82,,,,
+Light rail,Rail W,LED631,1,Southbound,30,83,Sodo,,47.5809,-122.3275
+Light rail,Rail W,LED632,1,Southbound,31,84,,,,
+Light rail,Rail W,LED633,1,Southbound,32,85,Beacon Hill,,47.5793,-122.3115
+Light rail,Rail W,LED634,1,Southbound,33,86,,,,
+Light rail,Rail W,LED635,1,Southbound,34,87,Mount Baker,,47.5764,-122.2976
+Light rail,Rail W,LED636,1,Southbound,35,88,,,,
+Light rail,Rail W,LED637,1,Southbound,36,89,Columbia City,,47.559,-122.292
+Light rail,Rail W,LED638,1,Southbound,37,90,,,,
+Light rail,Rail W,LED639,1,Southbound,38,91,Othello,,47.5382,-122.2816
+Light rail,Rail W,LED640,1,Southbound,39,92,,,,
+Light rail,Rail W,LED641,1,Southbound,40,93,Rainier Beach,,47.5222,-122.2793
+Light rail,Rail W,LED642,1,Southbound,41,94,,,,
+Light rail,Rail W,LED643,1,Southbound,42,95,Tukwila Intl. Blvd.,,47.4618,-122.2884
+Light rail,Rail W,LED644,1,Southbound,43,96,,,,
+Light rail,Rail W,LED645,1,Southbound,44,97,SeaTac / Airport,,47.4446,-122.2962
+Light rail,Rail W,LED646,1,Southbound,45,98,,,,
+Light rail,Rail W,LED647,1,Southbound,46,99,Angle Lake,,47.381,-122.2978
+Light rail,Rail W,LED648,1,Southbound,47,100,,,,
+Light rail,Rail W,LED649,1,Southbound,48,101,Kent Des Moines,,47.3541,-122.2988
+Light rail,Rail W,LED650,1,Southbound,49,102,,,,
+Light rail,Rail W,LED651,1,Southbound,50,103,Star Lake,,47.3293,-122.2963
+Light rail,Rail W,LED652,1,Southbound,51,104,,,,
+Light rail,Rail W,LED653,1,Southbound,52,105,Federal Way Downtown,,47.3174,-122.3031
+Light rail,Rail W,LED601,2,Eastbound,0,53,Lynnwood City Center,,47.8147,-122.2953
+Light rail,Rail W,LED602,2,Eastbound,1,54,,,,
+Light rail,Rail W,LED603,2,Eastbound,2,55,Mountlake Terrace,,47.7877,-122.3095
+Light rail,Rail W,LED604,2,Eastbound,3,56,,,,
+Light rail,Rail W,LED605,2,Eastbound,4,57,Shoreline North/185th,,47.7554,-122.3162
+Light rail,Rail W,LED606,2,Eastbound,5,58,,,,
+Light rail,Rail W,LED607,2,Eastbound,6,59,Shoreline South/148th,,47.7335,-122.3177
+Light rail,Rail W,LED608,2,Eastbound,7,60,,,,
+Light rail,Rail W,LED609,2,Eastbound,8,61,Pinehurst/NE 130th St,,47.7155,-122.3196
+Light rail,Rail W,LED610,2,Eastbound,9,62,,,,
+Light rail,Rail W,LED611,2,Eastbound,10,63,Northgate,,47.7012,-122.3271
+Light rail,Rail W,LED612,2,Eastbound,11,64,,,,
+Light rail,Rail W,LED613,2,Eastbound,12,65,Roosevelt,,47.6768,-122.3169
+Light rail,Rail W,LED614,2,Eastbound,13,66,,,,
+Light rail,Rail W,LED615,2,Eastbound,14,67,U District,,47.6613,-122.3155
+Light rail,Rail W,LED616,2,Eastbound,15,68,,,,
+Light rail,Rail W,LED617,2,Eastbound,16,69,University of Washington,,47.6497,-122.3038
+Light rail,Rail W,LED618,2,Eastbound,17,70,,,,
+Light rail,Rail W,LED619,2,Eastbound,18,71,Capitol Hill,,47.6194,-122.3209
+Light rail,Rail W,LED620,2,Eastbound,19,72,,,,
+Light rail,Rail W,LED621,2,Eastbound,20,73,Westlake,,47.6115,-122.3371
+Light rail,Rail W,LED622,2,Eastbound,21,74,,,,
+Light rail,Rail W,LED623,2,Eastbound,22,75,Symphony,,47.6089,-122.3379
+Light rail,Rail W,LED624,2,Eastbound,23,76,,,,
+Light rail,Rail W,LED625,2,Eastbound,24,77,Pioneer Square,,47.6024,-122.3313
+Light rail,Rail W,LED626,2,Eastbound,25,78,,,,
+Light rail,Rail W,LED627,2,Eastbound,26,79,Intl. District / Chinatown,,47.598,-122.3278
+Light rail,Rail E,LED301,2,Eastbound,27,0,,,,
+Light rail,Rail E,LED302,2,Eastbound,28,1,Judkins Park,,47.5954,-122.3043
+Light rail,Rail E,LED303,2,Eastbound,29,2,,,,
+Light rail,Rail E,LED304,2,Eastbound,30,3,Mercer Island,,47.587,-122.2351
+Light rail,Rail E,LED305,2,Eastbound,31,4,,,,
+Light rail,Rail E,LED306,2,Eastbound,32,5,South Bellevue ,,47.5785,-122.1764
+Light rail,Rail E,LED307,2,Eastbound,33,6,,,,
+Light rail,Rail E,LED308,2,Eastbound,34,7,East Main ,,47.61,-122.1996
+Light rail,Rail E,LED309,2,Eastbound,35,8,,,,
+Light rail,Rail E,LED310,2,Eastbound,36,9,Bellevue Downtown ,,47.6153,-122.1965
+Light rail,Rail E,LED311,2,Eastbound,37,10,,,,
+Light rail,Rail E,LED312,2,Eastbound,38,11,Wilburton ,,47.6176,-122.1864
+Light rail,Rail E,LED313,2,Eastbound,39,12,,,,
+Light rail,Rail E,LED314,2,Eastbound,40,13,Spring District,,47.6295,-122.182
+Light rail,Rail E,LED315,2,Eastbound,41,14,,,,
+Light rail,Rail E,LED316,2,Eastbound,42,15,BelRed,,47.6328,-122.171
+Light rail,Rail E,LED317,2,Eastbound,43,16,,,,
+Light rail,Rail E,LED318,2,Eastbound,44,17,Overlake Village,,47.6382,-122.1565
+Light rail,Rail E,LED319,2,Eastbound,45,18,,,,
+Light rail,Rail E,LED320,2,Eastbound,46,19,Redmond Technology,,47.644,-122.137
+Light rail,Rail E,LED321,2,Eastbound,47,20,,,,
+Light rail,Rail E,LED322,2,Eastbound,48,21,Marymoor Village,,47.6594,-122.121
+Light rail,Rail E,LED323,2,Eastbound,49,22,,,,
+Light rail,Rail E,LED324,2,Eastbound,50,23,Downtown Redmond,,47.6737,-122.1186
+Light rail,Rail E,LED325,2,Westbound,0,24,Downtown Redmond,,47.6737,-122.1186
+Light rail,Rail E,LED326,2,Westbound,1,25,,,,
+Light rail,Rail E,LED327,2,Westbound,2,26,Marymoor Village,,47.6594,-122.121
+Light rail,Rail E,LED328,2,Westbound,3,27,,,,
+Light rail,Rail E,LED329,2,Westbound,4,28,Redmond Technology,,47.644,-122.137
+Light rail,Rail E,LED330,2,Westbound,5,29,,,,
+Light rail,Rail E,LED331,2,Westbound,6,30,Overlake Village,,47.6382,-122.1565
+Light rail,Rail E,LED332,2,Westbound,7,31,,,,
+Light rail,Rail E,LED333,2,Westbound,8,32,BelRed,,47.6328,-122.171
+Light rail,Rail E,LED334,2,Westbound,9,33,,,,
+Light rail,Rail E,LED335,2,Westbound,10,34,Spring District,,47.6295,-122.182
+Light rail,Rail E,LED336,2,Westbound,11,35,,,,
+Light rail,Rail E,LED337,2,Westbound,12,36,Wilburton ,,47.6176,-122.1864
+Light rail,Rail E,LED338,2,Westbound,13,37,,,,
+Light rail,Rail E,LED339,2,Westbound,14,38,Bellevue Downtown ,,47.6153,-122.1965
+Light rail,Rail E,LED340,2,Westbound,15,39,,,,
+Light rail,Rail E,LED341,2,Westbound,16,40,East Main ,,47.61,-122.1996
+Light rail,Rail E,LED342,2,Westbound,17,41,,,,
+Light rail,Rail E,LED343,2,Westbound,18,42,South Bellevue ,,47.5785,-122.1764
+Light rail,Rail E,LED344,2,Westbound,19,43,,,,
+Light rail,Rail E,LED345,2,Westbound,20,44,Mercer Island,,47.587,-122.2351
+Light rail,Rail E,LED346,2,Westbound,21,45,,,,
+Light rail,Rail E,LED347,2,Westbound,22,46,Judkins Park,,47.5954,-122.3043
+Light rail,Rail E,LED348,2,Westbound,23,47,,,,
+Light rail,Rail W,LED227,2,Westbound,24,26,Intl. District / Chinatown,,47.598,-122.3278
+Light rail,Rail W,LED228,2,Westbound,25,27,,,,
+Light rail,Rail W,LED229,2,Westbound,26,28,Pioneer Square,,47.6024,-122.3313
+Light rail,Rail W,LED230,2,Westbound,27,29,,,,
+Light rail,Rail W,LED231,2,Westbound,28,30,Symphony,,47.6089,-122.3379
+Light rail,Rail W,LED232,2,Westbound,29,31,,,,
+Light rail,Rail W,LED233,2,Westbound,30,32,Westlake,,47.6115,-122.3371
+Light rail,Rail W,LED234,2,Westbound,31,33,,,,
+Light rail,Rail W,LED235,2,Westbound,32,34,Capitol Hill,,47.6194,-122.3209
+Light rail,Rail W,LED236,2,Westbound,33,35,,,,
+Light rail,Rail W,LED237,2,Westbound,34,36,University of Washington,,47.6497,-122.3038
+Light rail,Rail W,LED238,2,Westbound,35,37,,,,
+Light rail,Rail W,LED239,2,Westbound,36,38,U District,,47.6613,-122.3155
+Light rail,Rail W,LED240,2,Westbound,37,39,,,,
+Light rail,Rail W,LED241,2,Westbound,38,40,Roosevelt,,47.6768,-122.3169
+Light rail,Rail W,LED242,2,Westbound,39,41,,,,
+Light rail,Rail W,LED243,2,Westbound,40,42,Northgate,,47.7012,-122.3271
+Light rail,Rail W,LED244,2,Westbound,41,43,,,,
+Light rail,Rail W,LED245,2,Westbound,42,44,Pinehurst/NE 130th St,,47.7155,-122.3196
+Light rail,Rail W,LED246,2,Westbound,43,45,,,,
+Light rail,Rail W,LED247,2,Westbound,44,46,Shoreline South/148th,,47.7335,-122.3177
+Light rail,Rail W,LED248,2,Westbound,45,47,,,,
+Light rail,Rail W,LED249,2,Westbound,46,48,Shoreline North/185th,,47.7554,-122.3162
+Light rail,Rail W,LED250,2,Westbound,47,49,,,,
+Light rail,Rail W,LED251,2,Westbound,48,50,Mountlake Terrace,,47.7877,-122.3095
+Light rail,Rail W,LED252,2,Westbound,49,51,,,,
+Light rail,Rail W,LED253,2,Westbound,50,52,Lynnwood City Center,,47.8147,-122.2953
+Ferry,Ferries N,LED401,sea-br,,14,0,Bremerton,,47.5618,-122.6249
+Ferry,Ferries N,LED402,sea-br,,13,1,,,,
+Ferry,Ferries N,LED403,sea-br,,12,2,,,,
+Ferry,Ferries N,LED404,sea-br,,11,3,,,,
+Ferry,Ferries N,LED405,sea-br,,10,4,,,,
+Ferry,Ferries N,LED406,sea-br,,9,5,,,,
+Ferry,Ferries N,LED407,sea-br,,8,6,,,,
+Ferry,Ferries N,LED408,sea-br,,7,7,,,,
+Ferry,Ferries N,LED409,sea-br,,6,8,,,,
+Ferry,Ferries N,LED410,sea-br,,5,9,,,,
+Ferry,Ferries N,LED411,sea-br,,4,10,,,,
+Ferry,Ferries N,LED412,sea-br,,3,11,,,,
+Ferry,Ferries N,LED413,sea-br,,2,12,,,,
+Ferry,Ferries N,LED414,sea-br,,1,13,,,,
+Ferry,Ferries N,LED415,sea-br,,0,14,Seattle,,47.6023,-122.3386
+Monorail,Ferries N,LED416,monorail,,0,15,Westlake Center,,47.6115,-122.3371
+Monorail,Ferries N,LED417,monorail,,1,16,,,,
+Monorail,Ferries N,LED418,monorail,,2,17,,,,
+Monorail,Ferries N,LED419,monorail,,3,18,,,,
+Monorail,Ferries N,LED420,monorail,,4,19,Seattle Center,,47.6218,-122.3524
+Ferry,Ferries N,LED421,sea-bi,,0,20,Seattle,,47.6023,-122.3386
+Ferry,Ferries N,LED422,sea-bi,,1,21,,,,
+Ferry,Ferries N,LED423,sea-bi,,2,22,,,,
+Ferry,Ferries N,LED424,sea-bi,,3,23,,,,
+Ferry,Ferries N,LED425,sea-bi,,4,24,,,,
+Ferry,Ferries N,LED426,sea-bi,,5,25,,,,
+Ferry,Ferries N,LED427,sea-bi,,6,26,,,,
+Ferry,Ferries N,LED428,sea-bi,,7,27,,,,
+Ferry,Ferries N,LED429,sea-bi,,8,28,,"No LED430 due to schematic error, designator accidentally skipped",,
+Ferry,Ferries N,LED431,sea-bi,,9,29,,"No LED430 due to schematic error, designator accidentally skipped",,
+Ferry,Ferries N,LED432,sea-bi,,10,30,,,,
+Ferry,Ferries N,LED433,sea-bi,,11,31,Bainbridge Island,,47.623,-122.5103
+Ferry,Ferries N,LED434,ed-king,,13,32,Kingston,,47.7949,-122.4946
+Ferry,Ferries N,LED435,ed-king,,12,33,,,,
+Ferry,Ferries N,LED436,ed-king,,11,34,,,,
+Ferry,Ferries N,LED437,ed-king,,10,35,,,,
+Ferry,Ferries N,LED438,ed-king,,9,36,,,,
+Ferry,Ferries N,LED439,ed-king,,8,37,,,,
+Ferry,Ferries N,LED440,ed-king,,7,38,,,,
+Ferry,Ferries N,LED441,ed-king,,6,39,,,,
+Ferry,Ferries N,LED442,ed-king,,5,40,,,,
+Ferry,Ferries N,LED443,ed-king,,4,41,,,,
+Ferry,Ferries N,LED444,ed-king,,3,42,,,,
+Ferry,Ferries N,LED445,ed-king,,2,43,,,,
+Ferry,Ferries N,LED446,ed-king,,1,44,,,,
+Ferry,Ferries N,LED447,ed-king,,0,45,Edmonds,,47.8134,-122.3855
+Ferry,Ferries S,LED501,pd-tal,,0,0,Point Defiance,,47.3063,-122.5141
+Ferry,Ferries S,LED502,pd-tal,,1,1,,,,
+Ferry,Ferries S,LED503,pd-tal,,2,2,,,,
+Ferry,Ferries S,LED504,pd-tal,,3,3,,,,
+Ferry,Ferries S,LED505,pd-tal,,4,4,,,,
+Ferry,Ferries S,LED506,pd-tal,,5,5,,,,
+Ferry,Ferries S,LED507,pd-tal,,6,6,Tahlequah,,47.332,-122.5078
+Ferry,Ferries S,LED508,s-v,,5,7,Vashon Island,,47.5113,-122.4638
+Ferry,Ferries S,LED509,s-v,,4,8,,,,
+Ferry,Ferries S,LED510,s-v,,3,9,,,,
+Ferry,Ferries S,LED511,s-v,,2,10,,,,
+Ferry,Ferries S,LED512,s-v,,1,11,,,,
+Ferry,Ferries S,LED513,s-v,,0,12,Southworth,,47.513,-122.4958
+Ferry,Ferries S,LED513,f-s,,12,12,Southworth,,47.513,-122.4958
+Ferry,Ferries S,LED514,f-s,,11,13,,,,
+Ferry,Ferries S,LED515,f-s,,10,14,,,,
+Ferry,Ferries S,LED516,f-s,,9,15,,,,
+Ferry,Ferries S,LED517,f-s,,8,16,,,,
+Ferry,Ferries S,LED518,f-s,,7,17,,,,
+Ferry,Ferries S,LED519,f-s,,6,18,,,,
+Ferry,Ferries S,LED520,f-s,,5,19,,,,
+Ferry,Ferries S,LED521,f-s,,4,20,,,,
+Ferry,Ferries S,LED522,f-s,,3,21,,,,
+Ferry,Ferries S,LED523,f-s,,2,22,,,,
+Ferry,Ferries S,LED524,f-s,,1,23,,,,
+Ferry,Ferries S,LED525,f-s,,0,24,Fauntleroy,,47.5232,-122.3966
+Ferry,Ferries S,LED525,f-v-s,,0,24,Fauntleroy,,47.5232,-122.3966
+Ferry,Ferries S,LED526,f-v-s,,1,25,,,,
+Ferry,Ferries S,LED527,f-v-s,,2,26,,,,
+Ferry,Ferries S,LED528,f-v-s,,3,27,,,,
+Ferry,Ferries S,LED529,f-v-s,,4,28,,,,
+Ferry,Ferries S,LED530,f-v-s,,5,29,,,,
+Ferry,Ferries S,LED531,f-v-s,,6,30,,,,
+Ferry,Ferries S,LED508,f-v-s,,7,7,Vashon Island,,47.5113,-122.4638
+Taxi,Ferries S,LED508,taxi-vashon,,14,7,Vashon Island,,47.5113,-122.4638
+Taxi,Ferries S,LED532,taxi-vashon,,13,31,,,,
+Taxi,Ferries S,LED533,taxi-vashon,,12,32,,,,
+Taxi,Ferries S,LED518,taxi-vashon,,11,17,,"Crosses f-s, shared LED",,
+Taxi,Ferries S,LED534,taxi-vashon,,10,33,,,,
+Taxi,Ferries S,LED535,taxi-vashon,,9,34,,,,
+Taxi,Ferries S,LED536,taxi-vashon,,8,35,,,,
+Taxi,Ferries S,LED537,taxi-vashon,,7,36,,,,
+Taxi,Ferries S,LED538,taxi-vashon,,6,37,,,,
+Taxi,Ferries S,LED539,taxi-vashon,,5,38,,,,
+Taxi,Ferries S,LED540,taxi-vashon,,4,39,,,,
+Taxi,Ferries S,LED541,taxi-vashon,,3,40,,,,
+Taxi,Ferries S,LED542,taxi-vashon,,2,41,,,,
+Taxi,Ferries S,LED543,taxi-vashon,,1,42,,,,
+Taxi,Ferries S,LED544,taxi-vashon,,0,43,Seattle,,47.6023,-122.3386
+Taxi,Ferries S,LED544,taxi-west-seattle,,0,43,Seattle,,47.6023,-122.3386
+Taxi,Ferries S,LED543,taxi-west-seattle,,1,42,,Shared with taxi-vashon,,
+Taxi,Ferries S,LED545,taxi-west-seattle,,2,44,,,,
+Taxi,Ferries S,LED546,taxi-west-seattle,,3,45,,,,
+Taxi,Ferries S,LED547,taxi-west-seattle,,4,46,West Seattle,,47.5864,-122.3796

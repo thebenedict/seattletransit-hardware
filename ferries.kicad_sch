@@ -1,0 +1,114 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "124c2b70-7503-4077-8086-0294dec7455c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 55.88)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "82c886e4-22b8-4801-83ce-05f3d739a980")
+		(property "Sheetname" "Ferries S"
+			(at 25.4 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ferries_s.kicad_sch"
+			(at 25.4 61.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project ""
+				(path "/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "#")
+				)
+			)
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "#")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "91ae385e-b417-4a19-b535-f6364aa8f223")
+		(property "Sheetname" "Ferries N"
+			(at 25.4 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ferries_n.kicad_sch"
+			(at 25.4 43.7646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project ""
+				(path "/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "#")
+				)
+			)
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "#")
+				)
+			)
+		)
+	)
+)

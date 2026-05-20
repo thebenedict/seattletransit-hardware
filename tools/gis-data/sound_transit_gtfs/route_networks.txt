@@ -1,6 +1,0 @@
-network_id,route_id
-link_network,100479
-link_network,2LINE
-sounder_network,SNDR_EV
-sounder_network,SNDR_TL
-tline_network,TLINE

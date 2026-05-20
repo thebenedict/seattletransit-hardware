@@ -1,0 +1,150 @@
+(footprint "rail_station"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Silkscreen marking for rail station")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dd60b409-873d-461d-83f8-2f31bf557006")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0.1 3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e209462-1f5b-43e2-a497-30f975cade77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e5eea93-d866-420d-a0be-5f6878fcb8a8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6077f1f6-3105-4841-8f1d-c296d7040095")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
+	(private_layers "User.4")
+	(fp_arc
+		(start -3.02114 -1.26019)
+		(mid -2.000734 -1.622224)
+		(end -0.98 -1.261114)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae01e59d-6b13-431c-bda5-ecbc28a57a7e")
+	)
+	(fp_arc
+		(start -0.97886 1.257966)
+		(mid -1.999266 1.62)
+		(end -3.02 1.25889)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3fad6c57-24d8-4d4c-947a-f916ae600560")
+	)
+	(fp_arc
+		(start 0.97886 -1.26019)
+		(mid 1.999266 -1.622224)
+		(end 3.02 -1.261114)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6569e436-1f6f-4531-a7e5-7e52956763ba")
+	)
+	(fp_arc
+		(start 3.02114 1.257966)
+		(mid 2.000734 1.62)
+		(end 0.98 1.25889)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8881045a-cc2a-47cd-bcce-2fbca5eec975")
+	)
+	(fp_line
+		(start 0 -2.3)
+		(end 0 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "abe35ad0-ff36-481b-bb43-b10588852d74")
+	)
+	(fp_line
+		(start 4.4 0)
+		(end -4.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.4")
+		(uuid "146ad0a5-c19e-41eb-8244-47d979e95566")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.26 3.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b4563f3d-fe4f-4ba0-b6b9-5b70f3ea868b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "3321fa7f-8a4a-43c4-b236-77b8b889f96e")
+		(members "3e5b5618-0719-4be3-b887-f618cf35874e" "c5302f9f-0aff-4da5-83ff-55ea7c2f6f3d")
+	)
+	(group ""
+		(uuid "3e5b5618-0719-4be3-b887-f618cf35874e")
+		(members "3fad6c57-24d8-4d4c-947a-f916ae600560" "ae01e59d-6b13-431c-bda5-ecbc28a57a7e")
+	)
+	(group ""
+		(uuid "c5302f9f-0aff-4da5-83ff-55ea7c2f6f3d")
+		(members "6569e436-1f6f-4531-a7e5-7e52956763ba" "8881045a-cc2a-47cd-bcce-2fbca5eec975")
+	)
+	(embedded_fonts no)
+)

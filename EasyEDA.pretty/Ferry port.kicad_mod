@@ -1,0 +1,95 @@
+(footprint "Ferry port"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Silkscreen decoration for ferry port")
+	(property "Reference" "REF**"
+		(at 2.91 -1.28 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5d0c66dd-105b-46e3-a7ff-6a47187d0324")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1867d866-e922-44bf-a24f-9d33b725667f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8aa90226-3a98-433b-b048-60b008095244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3ddd7c0-8826-4709-a2f4-cd8b1e403abb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom dnp)
+	(fp_arc
+		(start -2.527434 -0.303427)
+		(mid -1.799287 -1.80071)
+		(end -0.301429 -2.527673)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4476a53-6147-4d76-8197-edcdd8d67bbd")
+	)
+	(fp_arc
+		(start 2.527434 0.303427)
+		(mid 1.799287 1.80071)
+		(end 0.301429 2.527673)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48bfe311-a013-4120-8cd9-91f5e987a527")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a8b16927-bf47-41c5-b14e-3f572d19298f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

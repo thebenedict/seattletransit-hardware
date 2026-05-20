@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.kicad_sym")(options "")(descr "Project-local EasyEDA symbols"))
+  (lib (name "PCM_Espressif")(type "KiCad")(uri "${KIPRJMOD}/Espressif.kicad_sym")(options "")(descr "Project-local Espressif symbols"))
+)

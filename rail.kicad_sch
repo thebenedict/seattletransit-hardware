@@ -1,0 +1,167 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9cd07515-94e0-4cad-8623-dcfbb935f2f0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 73.66)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "80c06a5e-cea2-47d9-b67a-41d837fcb0a2")
+		(property "Sheetname" "Rail E"
+			(at 25.4 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rail_e.kicad_sch"
+			(at 25.4 79.3246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project ""
+				(path "/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
+					(page "#")
+				)
+			)
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
+					(page "#")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 55.88)
+		(size 35.56 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd8f10f0-b204-478e-8c6b-36e53652898a")
+		(property "Sheetname" "Rail W Southbound"
+			(at 25.4 55.1684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rail_w_southbound.kicad_sch"
+			(at 25.4 61.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project ""
+				(path "/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
+					(page "#")
+				)
+			)
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
+					(page "#")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 38.1)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c77204ed-8b40-49cf-be41-b23cecafc970")
+		(property "Sheetname" "Rail W"
+			(at 25.4 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rail_w.kicad_sch"
+			(at 25.4 43.7646 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project ""
+				(path "/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
+					(page "#")
+				)
+			)
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
+					(page "#")
+				)
+			)
+		)
+	)
+)

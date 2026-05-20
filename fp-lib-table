@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.pretty")(options "")(descr "Project-local EasyEDA footprints"))
+  (lib (name "PCM_Espressif")(type "KiCad")(uri "${KIPRJMOD}/PCM_Espressif.pretty")(options "")(descr "Project-local Espressif footprints"))
+)

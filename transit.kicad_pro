@@ -79,8 +79,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
-          "width": 0.9
+          "height": 1.8,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -947,7 +947,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "R18,LED3,#PWR262,D3-4",
+    "used_designators": "H4-5,R18,LED3,#PWR262,D3-4",
     "variants": []
   },
   "sheets": [

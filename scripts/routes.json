@@ -1,0 +1,28 @@
+{
+  "defaults": {
+    "construction_layer": "Route construction",
+    "silk_layer": "F.Silkscreen",
+    "led_spacing_along_mm": 5.0,
+    "line_spacing_across_mm": 4.0,
+    "silk_parallel_gap_mm": 4.0,
+    "silk_fillet_radius_mm": 4.0,
+    "silk_width_mm": 0.2,
+    "endpoint_clearance_mm": 2,
+    "endpoint_orientation": "along_route",
+    "endpoint_start_rotation_offset_deg": -90.0,
+    "endpoint_end_rotation_offset_deg": 0.0,
+    "first_direction_side": "left",
+    "mirror_led_rotations_for_power": true,
+    "strict_led_count": true,
+    "generate_silk": true
+  },
+  "routes": {
+    "port_defiance_tahlequah": {
+      "refs": "LED548-LED557",
+      "endpoints": {
+        "start": "LED501",
+        "end": "LED558"
+      }
+    }
+  }
+}

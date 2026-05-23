@@ -98,8 +98,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.8,
-          "width": 2.5
+          "height": 1.0,
+          "width": 1.55
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -966,7 +966,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "C501,LED501-507,LED548-551,#PWR8,#PWR21,#PWR23,#PWR27-29,#PWR35-36,#PWR40,#PWR101-104,#PWR107,#PWR118-119,#PWR133,#PWR165,#PWR168,#PWR213-216",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

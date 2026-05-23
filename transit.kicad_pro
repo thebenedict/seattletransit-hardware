@@ -966,7 +966,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C502-503,LED514-547,LED559-594,#PWR34,#PWR46,#PWR48-59,#PWR61-66,#PWR70-87,#PWR89,#PWR96-100,#PWR108-110,#PWR114,#PWR116-117,#PWR120-132,#PWR134-136,#PWR217-257,#PWR259,#PWR263-290",
     "variants": []
   },
   "sheets": [
@@ -981,6 +981,14 @@
     [
       "3862af87-28e4-47af-b657-20dc315ff550",
       "port_defiance_tahlequah"
+    ],
+    [
+      "05540940-fa5a-4ea4-af45-fef4388174b4",
+      "fauntleroy_vashon_southworth"
+    ],
+    [
+      "f90621d2-7226-466f-89f1-cc8a4ff4cef7",
+      "water_taxi"
     ],
     [
       "153adc6e-a3b0-4527-a19a-87e28aab4b4d",

@@ -43,10 +43,15 @@ DEFAULTS: Dict[str, Any] = {
     "silk_parallel_gap_mm": 4.0,
     "silk_fillet_radius_mm": 4.0,
     "silk_width_mm": 0.2,
-    "endpoint_clearance_mm": 0.0,
+    "coast_clearance_mm": 0.0,
+    "coast_start_trim_mm": 0.0,
+    "coast_end_trim_mm": 0.0,
+    "segment_clearance_mm": 0.0,
+    "merge_collinear_segments": True,
     "endpoint_orientation": "along_route",
     "endpoint_start_rotation_offset_deg": -90.0,
     "endpoint_end_rotation_offset_deg": 0.0,
+    "reverse": True,
     "first_direction_side": "left",
     "mirror_led_rotations_for_power": True,
     "led_rotation_offset_deg": 0.0,
@@ -302,6 +307,7 @@ def find_route_segments(
     construction_layer: str,
     group_name: str,
     tolerance_mm: float,
+    merge_collinear: bool = True,
 ) -> List[Segment]:
     layer_id = get_layer_id(board, construction_layer)
     segments: List[Segment] = []
@@ -333,7 +339,9 @@ def find_route_segments(
         raise ValueError(
             f"no graphic line segments found on layer {construction_layer!r} in group {group_name!r}"
         )
-    return merge_collinear_segments(segments, tolerance_mm)
+    if merge_collinear:
+        return merge_collinear_segments(segments, tolerance_mm)
+    return segments
 
 
 def point_key(point: Point, tolerance_mm: float) -> Tuple[int, int]:
@@ -456,10 +464,26 @@ def get_segment_override(route: Dict[str, Any], index: int) -> Dict[str, Any]:
     return dict(overrides.get(str(index), overrides.get(index, {})))
 
 
-def candidate_led_positions(route: Dict[str, Any], points: Sequence[Point]) -> List[Tuple[int, Point, Vector, float]]:
-    led_spacing = float(route["led_spacing_along_mm"])
-    default_clearance = float(route.get("endpoint_clearance_mm", 0.0))
-    candidates: List[Tuple[int, Point, Vector, float]] = []
+def default_coast_clearance(route: Dict[str, Any]) -> float:
+    if "coast_clearance_mm" in route:
+        return float(route["coast_clearance_mm"])
+    return float(route.get("endpoint_clearance_mm", 0.0))
+
+
+def coast_route_points(route: Dict[str, Any], construction_points: Sequence[Point]) -> List[Point]:
+    start_trim = float(route.get("coast_start_trim_mm", 0.0))
+    end_trim = float(route.get("coast_end_trim_mm", 0.0))
+    return trim_polyline(construction_points, start_trim, end_trim)
+
+
+def led_segment_windows(
+    route: Dict[str, Any],
+    points: Sequence[Point],
+) -> List[Tuple[int, Point, Vector, float, float, float, float, Dict[str, Any]]]:
+    coast_clearance = default_coast_clearance(route)
+    segment_clearance = float(route.get("segment_clearance_mm", 0.0))
+    last_segment_index = len(points) - 2
+    windows: List[Tuple[int, Point, Vector, float, float, float, float, Dict[str, Any]]] = []
 
     for index, (start, end) in enumerate(zip(points, points[1:])):
         seg_vec = sub(end, start)
@@ -471,40 +495,159 @@ def candidate_led_positions(route: Dict[str, Any], points: Sequence[Point]) -> L
         if override.get("no_leds", False):
             continue
 
-        start_clearance = float(override.get("start_clearance_mm", default_clearance))
-        end_clearance = float(override.get("end_clearance_mm", default_clearance))
+        start_default = coast_clearance if index == 0 else segment_clearance
+        end_default = coast_clearance if index == last_segment_index else segment_clearance
+        start_clearance = float(override.get("start_clearance_mm", start_default))
+        end_clearance = float(override.get("end_clearance_mm", end_default))
         usable_len = seg_len - start_clearance - end_clearance
         if usable_len <= 1e-9:
             continue
 
+        windows.append(
+            (
+                index,
+                start,
+                tangent,
+                angle_degrees(tangent),
+                start_clearance,
+                usable_len,
+                seg_len,
+                override,
+            )
+        )
+    return windows
+
+
+def distances_for_led_count(
+    segment_index: int,
+    count: int,
+    start_clearance: float,
+    usable_len: float,
+    led_spacing: float,
+    allow_compressed_spacing: bool,
+) -> List[float]:
+    if count <= 0:
+        return []
+
+    if count == 1:
+        return [start_clearance + usable_len / 2.0]
+
+    requested_span = (count - 1) * led_spacing
+    if requested_span > usable_len + 1e-9:
+        if not allow_compressed_spacing:
+            raise ValueError(
+                f"segment {segment_index} asks for {count} LED position(s), but only {usable_len:.3f} mm is usable"
+            )
+        span = usable_len
+    else:
+        span = requested_span
+
+    margin = (usable_len - span) / 2.0
+    step = span / (count - 1)
+    return [start_clearance + margin + led_index * step for led_index in range(count)]
+
+
+def candidate_led_positions(
+    route: Dict[str, Any],
+    points: Sequence[Point],
+    allow_compressed_spacing: bool = False,
+) -> List[Tuple[int, Point, Vector, float]]:
+    led_spacing = float(route["led_spacing_along_mm"])
+    candidates: List[Tuple[int, Point, Vector, float]] = []
+
+    for index, start, tangent, angle_deg, start_clearance, usable_len, seg_len, override in led_segment_windows(
+        route, points
+    ):
         if "led_count" in override:
             count = int(override["led_count"])
         else:
             count = int(math.floor(usable_len / led_spacing + 1e-9))
 
-        if count <= 0:
-            continue
-
-        if count == 1:
-            distances = [start_clearance + usable_len / 2.0]
-        else:
-            span = (count - 1) * led_spacing
-            if span > usable_len + 1e-9:
-                raise ValueError(
-                    f"segment {index} asks for {count} LED position(s), but only {usable_len:.3f} mm is usable"
-                )
-            margin = (usable_len - span) / 2.0
-            distances = [start_clearance + margin + led_index * led_spacing for led_index in range(count)]
-
+        distances = distances_for_led_count(
+            index,
+            count,
+            start_clearance,
+            usable_len,
+            led_spacing,
+            allow_compressed_spacing,
+        )
         offset = float(override.get("center_offset_along_mm", 0.0))
         for distance_on_segment in distances:
             distance_on_segment += offset
             if distance_on_segment < -1e-9 or distance_on_segment > seg_len + 1e-9:
                 raise ValueError(f"segment {index} center_offset_along_mm places an LED outside the segment")
             center = add(start, mul(tangent, distance_on_segment))
-            candidates.append((index, center, tangent, angle_degrees(tangent)))
+            candidates.append((index, center, tangent, angle_deg))
 
     return candidates
+
+
+def compressed_led_positions(
+    route: Dict[str, Any],
+    points: Sequence[Point],
+    target_count: int,
+) -> List[Tuple[int, Point, Vector, float]]:
+    led_spacing = float(route["led_spacing_along_mm"])
+    windows = led_segment_windows(route, points)
+    if target_count <= 0:
+        return []
+    if not windows:
+        raise ValueError("no usable construction geometry for LED placement")
+
+    counts = [0] * len(windows)
+    flexible_indexes: List[int] = []
+    explicit_total = 0
+
+    for index, window in enumerate(windows):
+        override = window[7]
+        if "led_count" in override:
+            count = max(0, int(override["led_count"]))
+            counts[index] = count
+            explicit_total += count
+        else:
+            flexible_indexes.append(index)
+
+    remaining = target_count - explicit_total
+    if remaining > 0:
+        if not flexible_indexes:
+            flexible_indexes = list(range(len(windows)))
+        total_usable = sum(windows[index][5] for index in flexible_indexes)
+        if total_usable <= 1e-9:
+            raise ValueError("no usable construction geometry for best-effort LED placement")
+
+        allocated = 0
+        remainders: List[Tuple[float, float, int]] = []
+        for index in flexible_indexes:
+            raw = remaining * windows[index][5] / total_usable
+            base = int(math.floor(raw))
+            counts[index] += base
+            allocated += base
+            remainders.append((raw - base, windows[index][5], index))
+
+        for _, _, index in sorted(remainders, reverse=True)[: remaining - allocated]:
+            counts[index] += 1
+
+    candidates: List[Tuple[int, Point, Vector, float]] = []
+    for count, (segment_index, start, tangent, angle_deg, start_clearance, usable_len, seg_len, override) in zip(
+        counts, windows
+    ):
+        distances = distances_for_led_count(
+            segment_index,
+            count,
+            start_clearance,
+            usable_len,
+            led_spacing,
+            True,
+        )
+        offset = float(override.get("center_offset_along_mm", 0.0))
+        for distance_on_segment in distances:
+            distance_on_segment += offset
+            if distance_on_segment < -1e-9 or distance_on_segment > seg_len + 1e-9:
+                raise ValueError(f"segment {segment_index} center_offset_along_mm places an LED outside the segment")
+            center = add(start, mul(tangent, distance_on_segment))
+            candidates.append((segment_index, center, tangent, angle_deg))
+
+    return candidates[:target_count]
 
 
 def apply_led_override(route: Dict[str, Any], ref: str, point: Point, angle_deg: float) -> Tuple[Point, float]:
@@ -542,20 +685,29 @@ def build_led_placements(
     refs_per_direction = len(refs) // 2
     first_direction_refs = refs[:refs_per_direction]
     second_direction_refs = refs[refs_per_direction:]
-    candidates = candidate_led_positions(route, points)
     strict = bool(route.get("strict_led_count", True))
+    candidates = candidate_led_positions(route, points, allow_compressed_spacing=not strict)
 
-    if strict and len(candidates) != refs_per_direction:
-        raise ValueError(
-            f"route {route_name!r} has {refs_per_direction} LED(s) per direction, but construction geometry "
-            f"generated {len(candidates)} position(s)"
-        )
     if len(candidates) < refs_per_direction:
-        raise ValueError(
-            f"route {route_name!r} has {refs_per_direction} LED(s) per direction, but only {len(candidates)} "
-            "position(s) fit on the construction geometry"
-        )
-    if len(candidates) > refs_per_direction:
+        if not strict:
+            print(
+                f"warning: route {route_name!r} has {refs_per_direction} LED(s) per direction, "
+                f"but only {len(candidates)} position(s) fit at the requested spacing; "
+                "compressing spacing because strict_led_count is false",
+                file=sys.stderr,
+            )
+            candidates = compressed_led_positions(route, points, refs_per_direction)
+        else:
+            raise ValueError(
+                f"route {route_name!r} has {refs_per_direction} LED(s) per direction, but only {len(candidates)} "
+                "position(s) fit on the construction geometry"
+            )
+    elif len(candidates) > refs_per_direction:
+        if strict:
+            raise ValueError(
+                f"route {route_name!r} has {refs_per_direction} LED(s) per direction, but construction geometry "
+                f"generated {len(candidates)} position(s)"
+            )
         print(
             f"warning: route {route_name!r} generated {len(candidates)} LED position(s); "
             f"using the first {refs_per_direction} because strict_led_count is false",
@@ -932,7 +1084,13 @@ def route_points_from_config(
     else:
         group_name = str(route.get("construction_group", f"route:{route_name}"))
         tolerance_mm = float(route["connection_tolerance_mm"])
-        segments = find_route_segments(board, str(route["construction_layer"]), group_name, tolerance_mm)
+        segments = find_route_segments(
+            board,
+            str(route["construction_layer"]),
+            group_name,
+            tolerance_mm,
+            bool(route.get("merge_collinear_segments", True)),
+        )
         points = order_segments(segments, tolerance_mm)
 
     if bool(route.get("reverse", False)):
@@ -944,16 +1102,27 @@ def route_points_from_config(
 
 def report_route(
     route_name: str,
-    points: Sequence[Point],
+    construction_points: Sequence[Point],
+    route_points: Sequence[Point],
     led_placements: Sequence[LedPlacement],
     endpoint_placements: Sequence[EndpointPlacement],
     generated_silk_count: Optional[int],
     hidden_reference_count: Optional[Tuple[int, int]] = None,
 ) -> None:
-    total_len = sum(length(sub(end, start)) for start, end in zip(points, points[1:]))
+    construction_len = sum(
+        length(sub(end, start)) for start, end in zip(construction_points, construction_points[1:])
+    )
+    route_len = sum(length(sub(end, start)) for start, end in zip(route_points, route_points[1:]))
     print(f"\nroute {route_name}:")
-    print(f"  points: {len(points)}  segments: {len(points) - 1}  length: {total_len:.3f} mm")
-    for index, (start, end) in enumerate(zip(points, points[1:])):
+    print(
+        f"  construction: {len(construction_points)} points  {len(construction_points) - 1} segments  "
+        f"length: {construction_len:.3f} mm"
+    )
+    print(
+        f"  coast route: {len(route_points)} points  {len(route_points) - 1} segments  "
+        f"length: {route_len:.3f} mm"
+    )
+    for index, (start, end) in enumerate(zip(route_points, route_points[1:])):
         seg = sub(end, start)
         print(
             f"  segment {index}: {length(seg):.3f} mm at {angle_degrees(seg):.1f} deg "
@@ -1036,9 +1205,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
 
     processed = 0
     for route_name, route in selected_routes(config, args.route):
-        points = route_points_from_config(board, route_name, route)
-        led_placements = build_led_placements(route_name, route, points)
-        endpoint_placements = build_endpoint_placements(route_name, route, points)
+        construction_points = route_points_from_config(board, route_name, route)
+        route_points = coast_route_points(route, construction_points)
+        led_placements = build_led_placements(route_name, route, route_points)
+        endpoint_placements = build_endpoint_placements(route_name, route, construction_points)
 
         generated_silk_count: Optional[int] = None
         hidden_reference_count: Optional[Tuple[int, int]] = None
@@ -1052,7 +1222,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 )
             for endpoint in endpoint_placements:
                 set_footprint_pose(board, endpoint.ref, endpoint.pos, endpoint.angle_deg)
-            generated_silk_count = generate_silk(board, route_name, route, points)
+            generated_silk_count = generate_silk(board, route_name, route, route_points)
             hidden_reference_count = hide_route_reference_designators(
                 board,
                 led_placements,
@@ -1060,11 +1230,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             )
         else:
             if bool(route.get("generate_silk", True)):
-                generated_silk_count = len(silk_commands_for_route(route, points))
+                generated_silk_count = len(silk_commands_for_route(route, route_points))
 
         report_route(
             route_name,
-            points,
+            construction_points,
+            route_points,
             led_placements,
             endpoint_placements,
             generated_silk_count,

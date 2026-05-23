@@ -764,12 +764,6 @@
 		(uuid "29f5ec06-594a-40ba-92a8-bf6b3fd1ac46")
 	)
 	(junction
-		(at 185.42 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4176e850-1cc9-49cc-976c-2b4387a50e16")
-	)
-	(junction
 		(at 87.63 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -786,12 +780,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0967adf-fea9-4ff6-b1aa-3481b1ad64e2")
-	)
-	(junction
-		(at 185.42 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f12d729c-1a9a-4378-980d-5b7aeda06b7e")
 	)
 	(wire
 		(pts
@@ -915,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 46.99) (xy 186.69 46.99)
+			(xy 184.15 46.99) (xy 189.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 55.88) (xy 85.09 55.88)
+			(xy 85.09 55.88) (xy 209.55 55.88)
 		)
 		(stroke
 			(width 0)
@@ -995,13 +983,23 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 66.04) (xy 185.42 66.04)
+			(xy 184.15 66.04) (xy 186.69 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "74d38de2-54a1-4d61-a5b3-8f5d9fb46138")
+	)
+	(wire
+		(pts
+			(xy 209.55 46.99) (xy 209.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76466d38-183e-413e-b8c2-6afd64293430")
 	)
 	(wire
 		(pts
@@ -1065,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 63.5) (xy 185.42 63.5)
+			(xy 184.15 63.5) (xy 186.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1092,16 +1090,6 @@
 			(type default)
 		)
 		(uuid "a704af7d-25aa-4110-9809-659bcc4d578c")
-	)
-	(wire
-		(pts
-			(xy 185.42 66.04) (xy 186.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8115c3d-49eb-49be-a431-962ca2cdf77d")
 	)
 	(wire
 		(pts
@@ -1155,26 +1143,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 66.04) (xy 212.09 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d82bc551-f1c9-4a30-a1e5-dffd822568f1")
-	)
-	(wire
-		(pts
-			(xy 185.42 63.5) (xy 186.69 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14f11b4-9412-4a05-9b3f-df5bf8a99762")
-	)
-	(wire
-		(pts
 			(xy 87.63 44.45) (xy 88.9 44.45)
 		)
 		(stroke
@@ -1182,16 +1150,6 @@
 			(type default)
 		)
 		(uuid "e2ab18db-7d03-4a6b-a221-bb536dc2c445")
-	)
-	(wire
-		(pts
-			(xy 189.23 44.45) (xy 189.23 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eebe8ca6-085c-4ffa-a354-f7fb237e149b")
 	)
 	(wire
 		(pts
@@ -1256,6 +1214,17 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "Vashon Island"
+		(shape output)
+		(at 186.69 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b45504e3-20fb-40f1-8371-f2eb63eeaa33")
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
@@ -1777,6 +1746,83 @@
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 209.55 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2cf853b7-079b-439a-a2f3-76cf4b847f19")
+		(property "Reference" "#PWR036"
+			(at 209.55 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VLED"
+			(at 209.55 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 209.55 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b1194ae-0be1-4b58-a7cf-27a5b383148a")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2605,8 +2651,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 205.74 63.5 0)
+		(lib_id "EasyEDA:WS2812B-MINI")
+		(at 209.55 41.91 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2614,9 +2661,19 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "73afbc17-e91a-4a84-817e-e417efc1290f")
-		(property "Reference" "#PWR036"
-			(at 205.74 67.31 0)
+		(uuid "6a142eb2-1c0d-41e7-9383-563ba77647a1")
+		(property "Reference" "LED558"
+			(at 199.39 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-Mini"
+			(at 199.39 40.386 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,18 +2683,8 @@
 				)
 			)
 		)
-		(property "Value" "+VLED"
-			(at 205.74 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 63.5 0)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
+			(at 209.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2647,8 +2694,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 205.74 63.5 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-Mini_C527089.html"
+			(at 209.55 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,9 +2705,30 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 205.74 63.5 0)
+		(property "Description" ""
+			(at 209.55 41.91 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C527089"
+			(at 209.55 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Ferry Port" "Tahlequah"
+			(at 199.39 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2670,12 +2738,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6da4497-5c31-4a21-b918-d40323938f74")
+			(uuid "ee7a2408-f230-4141-ae80-fa67f9224781")
+		)
+		(pin "4"
+			(uuid "1174a386-3eb1-4519-a32d-056ab0ae6415")
+		)
+		(pin "2"
+			(uuid "6928b6a2-3d03-4d33-b87f-29371ce912f1")
+		)
+		(pin "3"
+			(uuid "ccac2aa1-23bf-489e-9382-a9562a4549af")
 		)
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
-					(reference "#PWR036")
+					(reference "LED558")
 					(unit 1)
 				)
 			)
@@ -2830,114 +2907,6 @@
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
 					(reference "#PWR0165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:WS2812B-MINI")
-		(at 205.74 60.96 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8031fa81-af87-424e-9aca-e7a0534b0938")
-		(property "Reference" "LED558"
-			(at 195.58 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-Mini"
-			(at 195.58 59.436 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
-			(at 205.74 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-Mini_C527089.html"
-			(at 205.74 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C527089"
-			(at 205.74 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Ferry Port" "Tahlequah"
-			(at 195.58 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc5465fc-7810-4a9e-b569-b9b18981d9c6")
-		)
-		(pin "4"
-			(uuid "0b541c0c-161a-422a-b48e-da6745f8113c")
-		)
-		(pin "2"
-			(uuid "a48dabac-0180-487d-bed0-a25a0efa6525")
-		)
-		(pin "3"
-			(uuid "a37018b8-bf65-47fe-bd0d-92bdf47839fd")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
-					(reference "LED558")
 					(unit 1)
 				)
 			)

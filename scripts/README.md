@@ -13,12 +13,20 @@ silkscreen from construction lines drawn in KiCad.
    recommended.
 4. Select all construction segments for one route, group them, and set the
    group name to `route:<route_name>`, for example `route:fauntleroy_vashon`.
-5. Add a matching route entry to a JSON config file.
+5. For a single straight route, duplicate the construction line in place, group
+   the two collinear lines, and give that group the route name. The script
+   merges overlapping collinear construction lines back into one segment.
+6. Add a matching route entry to a JSON config file.
 
 The construction centerline is the midpoint between the two generated
 silkscreen lines. With the defaults, the generated silk lines are 4 mm apart,
 the two directional LED lines are 4 mm apart, and sequential LED positions are
 spaced 5 mm along straight route segments.
+
+Construction endpoints are allowed to be ferry port LED anchors. Non-port ferry
+LEDs and generated route silk use the coast-trimmed route path instead. Use
+`coast_start_trim_mm` and `coast_end_trim_mm` when the construction line extends
+past the coastline to reach a port LED.
 
 ## Config Shape
 
@@ -59,15 +67,32 @@ The expanded ref count must be even. By default, the first direction line is on
 the left side of the centerline, looking from the route start toward the route
 end. Set `"first_direction_side": "right"` on a route to swap that.
 
+`endpoints` can contain one endpoint. Use only `start` or only `end` when a
+route reuses a port LED that is owned by another route.
+
 Useful per-route overrides:
 
-- `reverse`: reverse the construction-line direction before placing anything.
+- `reverse`: default `true`; the script reverses the ordered construction
+  polyline before placing anything. Set to `false` for a route whose
+  construction traversal already runs from electrical start to electrical end.
+- `coast_start_trim_mm` / `coast_end_trim_mm`: trim the construction path back
+  to the coastline before placing non-port ferry LEDs or generating silk.
+- `coast_clearance_mm`: default `0.0`; clearance from the coast-trimmed route
+  ends to the first non-port ferry LED positions. Endpoint port LEDs ignore this
+  and stay anchored to construction endpoints.
+- `segment_clearance_mm`: default `0.0`; optional clearance at both ends of
+  every straight construction segment. Use this only when you want extra spacing
+  near bends as well as coasts.
+- `merge_collinear_segments`: default `true`; overlapping or touching collinear
+  construction lines are treated as one logical segment. Set to `false` when a
+  special route needs to address those drawn subsegments by index.
 - `led_spacing_along_mm`: default `5.0`.
 - `line_spacing_across_mm`: default `4.0`.
 - `silk_parallel_gap_mm`: default `4.0`.
 - `silk_fillet_radius_mm`: default `4.0`; generated silkscreen bends are
   rounded to this radius when the adjacent segments are long enough.
-- `silk_start_trim_mm` / `silk_end_trim_mm`: shorten generated silk.
+- `silk_start_trim_mm` / `silk_end_trim_mm`: additionally shorten generated
+  silk after coast trimming.
 - `endpoint_orientation`: default `along_route`; ferry port endpoint LEDs are
   rotated to follow the endpoint route tangent. Use `perpendicular_to_route`
   only for an intentional exception.
@@ -79,7 +104,9 @@ Useful per-route overrides:
   by 180 degrees so the +VLED pads face the center power trunk.
 - `led_rotation_offset_deg`: rotate route LEDs relative to the segment tangent.
 - `strict_led_count`: default `true`; errors if geometry produces a different
-  number of positions than the route has LEDs per direction.
+  number of positions than the route has LEDs per direction. Set to `false` for
+  best-effort placement: extra positions are ignored, and too few positions
+  compress the route spacing so every ref still gets placed.
 
 Per-segment overrides use zero-based segment indexes in the ordered route:
 

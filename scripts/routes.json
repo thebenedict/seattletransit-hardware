@@ -7,21 +7,79 @@
     "silk_parallel_gap_mm": 4.0,
     "silk_fillet_radius_mm": 4.0,
     "silk_width_mm": 0.2,
-    "endpoint_clearance_mm": 2,
+    "coast_clearance_mm": 2,
+    "coast_start_trim_mm": 0.0,
+    "coast_end_trim_mm": 0.0,
+    "segment_clearance_mm": 2,
+    "merge_collinear_segments": true,
     "endpoint_orientation": "along_route",
     "endpoint_start_rotation_offset_deg": -90.0,
     "endpoint_end_rotation_offset_deg": 0.0,
+    "reverse": true,
     "first_direction_side": "left",
     "mirror_led_rotations_for_power": true,
-    "strict_led_count": true,
+    "strict_led_count": false,
     "generate_silk": true
   },
   "routes": {
     "port_defiance_tahlequah": {
+      "reverse": false,
       "refs": "LED548-LED557",
       "endpoints": {
         "start": "LED501",
         "end": "LED558"
+      }
+    },
+    "vashon_southworth": {
+      "refs": ["LED509-LED512", "LED559-LED562"],
+      "endpoints": {
+        "start": "LED508",
+        "end": "LED513"
+      },
+      "silk_fillet_radius_mm": 1.0,
+      "coast_clearance_mm": 3,
+      "segment_clearance_mm": 3
+    },
+    "fauntleroy_southworth": {
+      "refs": ["LED514-LED524", "LED575", "LED563-LED574"],
+      "endpoints": {
+        "end": "LED525"
+      },
+      "coast_clearance_mm": 3,
+      "coast_start_trim_mm": 3.29,
+      "coast_end_trim_mm": 2.49,
+      "segments": {
+        "0": {
+          "led_count": 12
+        }
+      }
+    },
+    "fauntleroy_vashon": {
+      "refs": ["LED526-LED531", "LED576-LED581"],
+      "coast_start_trim_mm": 2.5,
+      "coast_end_trim_mm": 2.5
+    },
+    "seattle_vashon": {
+      "refs": ["LED532-LED543", "LED582-LED593"],
+      "coast_start_trim_mm": 2.5,
+      "coast_end_trim_mm": 2.5,
+      "merge_collinear_segments": false,
+      "segment_clearance_mm": 0,
+      "endpoints": {
+        "start": "LED544"
+      },
+      "segments": {
+        "3": { "no_leds": true }
+      }
+    },
+    "seattle_west_seattle": {
+      "refs": ["LED545-LED546", "LED592", "LED594"],
+      "endpoints": {
+        "end": "LED547"
+      },
+      "silk_fillet_radius_mm": 1.0,
+      "segments": {
+        "0": { "no_leds": true }
       }
     }
   }

@@ -6,6 +6,52 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 64.77 53.34)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "05540940-fa5a-4ea4-af45-fef4388174b4")
+		(property "Sheetname" "fauntleroy_vashon_southworth"
+			(at 64.77 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fauntleroy_vashon_southworth.kicad_sch"
+			(at 64.77 59.0046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 64.77 38.1)
 		(size 20.32 5.08)
 		(exclude_from_sim no)
@@ -153,6 +199,52 @@
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
 					(page "#")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 67.31)
+		(size 19.05 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f90621d2-7226-466f-89f1-cc8a4ff4cef7")
+		(property "Sheetname" "water_taxi"
+			(at 66.04 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "water_taxi.kicad_sch"
+			(at 66.04 72.9746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "5")
 				)
 			)
 		)

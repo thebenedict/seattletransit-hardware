@@ -780,16 +780,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 127 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ba8bf7-c764-40e2-8c66-d3decd874d7e")
-	)
-	(wire
-		(pts
 			(xy 82.55 165.1) (xy 82.55 166.37)
 		)
 		(stroke
@@ -2260,16 +2250,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 163.83) (xy 128.27 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9d5365a-106d-4a5f-9d2e-8de75ed25cba")
-	)
-	(wire
-		(pts
 			(xy 81.28 80.01) (xy 81.28 81.28)
 		)
 		(stroke
@@ -3712,7 +3692,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "198c164c-8c14-4660-9d28-ae99d4156ffd")
-		(property "Reference" "LED1336"
+		(property "Reference" "LED1338"
 			(at 116.84 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,7 +3771,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1336")
+					(reference "LED1338")
 					(unit 1)
 				)
 			)
@@ -4522,7 +4502,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29022cb5-5c7f-4c97-a680-f4bc478db157")
-		(property "Reference" "LED1335"
+		(property "Reference" "LED1348"
 			(at 114.3 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4581,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1335")
+					(reference "LED1348")
 					(unit 1)
 				)
 			)
@@ -4619,7 +4599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a4b9cb8-9040-48b0-93fe-d5bf76d368ca")
-		(property "Reference" "LED1346"
+		(property "Reference" "LED1343"
 			(at 231.14 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,84 +4678,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1346")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 124.46 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2bdc6485-0509-4173-9489-6c1a906e168e")
-		(property "Reference" "#PWR0494"
-			(at 124.46 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VLED"
-			(at 124.46 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 124.46 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "367e0d22-fa04-4363-b0cc-4834e0b9a152")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "#PWR0494")
+					(reference "LED1343")
 					(unit 1)
 				)
 			)
@@ -5124,83 +5027,6 @@
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
 					(reference "LED1301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 125.73 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2fd70bf4-b2b2-4679-8f4b-9a21e26ca46c")
-		(property "Reference" "#PWR0582"
-			(at 125.73 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VLED"
-			(at 125.73 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 125.73 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa22ab8c-dac1-4286-93eb-11040fda6e07")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "#PWR0582")
 					(unit 1)
 				)
 			)
@@ -6142,7 +5968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "430b6410-eb56-4089-8080-d7616d454e13")
-		(property "Reference" "LED1343"
+		(property "Reference" "LED1332"
 			(at 205.74 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,7 +6047,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1343")
+					(reference "LED1332")
 					(unit 1)
 				)
 			)
@@ -6490,7 +6316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "481482e0-2db2-45be-b898-9cebe7313eed")
-		(property "Reference" "LED1332"
+		(property "Reference" "LED1347"
 			(at 91.44 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6569,7 +6395,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1332")
+					(reference "LED1347")
 					(unit 1)
 				)
 			)
@@ -6587,7 +6413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "485a9901-8b43-4986-965b-5438fb081588")
-		(property "Reference" "LED1333"
+		(property "Reference" "LED1337"
 			(at 93.98 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6666,7 +6492,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1333")
+					(reference "LED1337")
 					(unit 1)
 				)
 			)
@@ -7166,7 +6992,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55fa2fc3-3430-424c-8341-5e62b9d9c698")
-		(property "Reference" "LED1328"
+		(property "Reference" "LED1326"
 			(at 68.58 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7071,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1328")
+					(reference "LED1326")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7263,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57636ca7-ce1f-46fe-b541-90399bc3caed")
-		(property "Reference" "LED1344"
+		(property "Reference" "LED1342"
 			(at 208.28 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,7 +7342,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1344")
+					(reference "LED1342")
 					(unit 1)
 				)
 			)
@@ -7534,7 +7360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58fe1c6b-6e10-4f56-9c19-be1fec77b04d")
-		(property "Reference" "LED1330"
+		(property "Reference" "LED1336"
 			(at 71.12 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7613,7 +7439,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1330")
+					(reference "LED1336")
 					(unit 1)
 				)
 			)
@@ -7785,7 +7611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a2317ab-4f18-4cf0-9260-c01a8975c609")
-		(property "Reference" "LED1337"
+		(property "Reference" "LED1329"
 			(at 137.16 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7864,7 +7690,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1337")
+					(reference "LED1329")
 					(unit 1)
 				)
 			)
@@ -8789,7 +8615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "840d021a-0172-42cb-be6d-d027a71f7adb")
-		(property "Reference" "LED1348"
+		(property "Reference" "LED1344"
 			(at 254 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8868,7 +8694,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1348")
+					(reference "LED1344")
 					(unit 1)
 				)
 			)
@@ -10218,7 +10044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4af566e-b3ad-4e7e-b6ac-b2f6b681e704")
-		(property "Reference" "LED1327"
+		(property "Reference" "LED1335"
 			(at 48.26 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10297,7 +10123,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1327")
+					(reference "LED1335")
 					(unit 1)
 				)
 			)
@@ -10315,7 +10141,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5104902-9bfd-433d-916f-4fc74b1ef014")
-		(property "Reference" "LED1347"
+		(property "Reference" "LED1334"
 			(at 251.46 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10394,7 +10220,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1347")
+					(reference "LED1334")
 					(unit 1)
 				)
 			)
@@ -10412,7 +10238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5e01cdf-9e48-424b-8107-de39f1efc2ac")
-		(property "Reference" "LED1345"
+		(property "Reference" "LED1333"
 			(at 228.6 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10491,7 +10317,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1345")
+					(reference "LED1333")
 					(unit 1)
 				)
 			)
@@ -10683,7 +10509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9a825c9-19b3-4d41-bf58-32942b8c0052")
-		(property "Reference" "LED1342"
+		(property "Reference" "LED1341"
 			(at 185.42 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +10588,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1342")
+					(reference "LED1341")
 					(unit 1)
 				)
 			)
@@ -10877,7 +10703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab2e2b5b-c112-43db-b65d-f51ac0971cfe")
-		(property "Reference" "LED1326"
+		(property "Reference" "LED1345"
 			(at 45.72 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10782,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1326")
+					(reference "LED1345")
 					(unit 1)
 				)
 			)
@@ -11399,7 +11225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b72ae802-a159-46b3-8472-8371ecbe8078")
-		(property "Reference" "LED1339"
+		(property "Reference" "LED1330"
 			(at 160.02 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11478,7 +11304,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1339")
+					(reference "LED1330")
 					(unit 1)
 				)
 			)
@@ -12075,7 +11901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd8e05cb-973f-4100-85da-0cf30024bc9d")
-		(property "Reference" "LED1341"
+		(property "Reference" "LED1331"
 			(at 182.88 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12154,7 +11980,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1341")
+					(reference "LED1331")
 					(unit 1)
 				)
 			)
@@ -12423,7 +12249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9debe87-3e37-47b7-af4b-e062182b9a9c")
-		(property "Reference" "LED1331"
+		(property "Reference" "LED1327"
 			(at 91.44 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12502,7 +12328,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1331")
+					(reference "LED1327")
 					(unit 1)
 				)
 			)
@@ -13464,7 +13290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1dccc2a-7859-4a0e-aaa9-11a2e244c07f")
-		(property "Reference" "LED1329"
+		(property "Reference" "LED1346"
 			(at 68.58 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13543,7 +13369,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1329")
+					(reference "LED1346")
 					(unit 1)
 				)
 			)
@@ -13638,7 +13464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e55fe735-bec6-4ba3-b0b6-44e50ece5028")
-		(property "Reference" "LED1338"
+		(property "Reference" "LED1339"
 			(at 139.7 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13717,7 +13543,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1338")
+					(reference "LED1339")
 					(unit 1)
 				)
 			)
@@ -13909,7 +13735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0244017-f096-4788-9bd7-498e1572ce5a")
-		(property "Reference" "LED1334"
+		(property "Reference" "LED1328"
 			(at 114.3 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13988,7 +13814,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f/9f0da038-816a-4254-aad3-193d280a8c34"
-					(reference "LED1334")
+					(reference "LED1328")
 					(unit 1)
 				)
 			)

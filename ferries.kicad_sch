@@ -98,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 55.88)
-		(size 22.86 5.08)
+		(at 64.77 78.74)
+		(size 20.32 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -112,9 +112,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "82c886e4-22b8-4801-83ce-05f3d739a980")
-		(property "Sheetname" "Ferries S"
-			(at 25.4 55.1684 0)
+		(uuid "52f6b4e5-71f2-4ed9-9a18-0787756b3445")
+		(property "Sheetname" "seattle_bremerton"
+			(at 64.77 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -124,28 +124,159 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ferries_s.kicad_sch"
-			(at 25.4 61.5446 0)
-			(hide yes)
+		(property "Sheetfile" "seattle_bremerton.kicad_sch"
+			(at 64.77 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.1588)
 				)
 				(justify left top)
 			)
 		)
 		(instances
-			(project ""
-				(path "/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
-					(page "#")
-				)
-			)
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
-					(page "#")
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 143.51)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7c9fe608-8e01-49b2-89d0-9d6a8f9574e8")
+		(property "Sheetname" "seattle_southworth"
+			(at 64.77 142.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "seattle_southworth.kicad_sch"
+			(at 64.77 149.1746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 90.17)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "86a069a2-ad7e-42b0-b4a6-72695a03f729")
+		(property "Sheetname" "seattle_bainbridge"
+			(at 64.77 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "seattle_bainbridge.kicad_sch"
+			(at 64.77 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 118.11)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8f5c64ad-8b76-4e92-82ed-624af7bc34b2")
+		(property "Sheetname" "edmonds_kingston"
+			(at 64.77 117.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "edmonds_kingston.kicad_sch"
+			(at 64.77 123.7746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "10")
 				)
 			)
 		)
@@ -204,8 +335,99 @@
 		)
 	)
 	(sheet
-		(at 66.04 67.31)
-		(size 19.05 5.08)
+		(at 64.77 130.81)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9f6e9def-e5c6-4229-90c0-771c2dd67706")
+		(property "Sheetname" "mukilteo_clinton"
+			(at 64.77 130.0984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mukilteo_clinton.kicad_sch"
+			(at 64.77 136.4746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 104.14)
+		(size 20.32 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d3b1612b-935b-4481-9997-ae3b3118dbce")
+		(property "Sheetname" "seattle_kingston"
+			(at 64.77 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "seattle_kingston.kicad_sch"
+			(at 64.77 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 67.31)
+		(size 20.32 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -220,7 +442,7 @@
 		)
 		(uuid "f90621d2-7226-466f-89f1-cc8a4ff4cef7")
 		(property "Sheetname" "water_taxi"
-			(at 66.04 66.5984 0)
+			(at 64.77 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -231,7 +453,7 @@
 			)
 		)
 		(property "Sheetfile" "water_taxi.kicad_sch"
-			(at 66.04 72.9746 0)
+			(at 64.77 72.9746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

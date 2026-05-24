@@ -908,9 +908,15 @@
           "label": "Ferry Port",
           "name": "Ferry Port",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Function",
+          "name": "Function",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "LED13",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -966,7 +972,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "C502-503,LED514-547,LED559-594,#PWR34,#PWR46,#PWR48-59,#PWR61-66,#PWR70-87,#PWR89,#PWR96-100,#PWR108-110,#PWR114,#PWR116-117,#PWR120-132,#PWR134-136,#PWR217-257,#PWR259,#PWR263-290",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -995,12 +1001,40 @@
       "Ferries"
     ],
     [
-      "91ae385e-b417-4a19-b535-f6364aa8f223",
-      "Ferries N"
+      "52f6b4e5-71f2-4ed9-9a18-0787756b3445",
+      "seattle_bremerton"
     ],
     [
-      "82c886e4-22b8-4801-83ce-05f3d739a980",
-      "Ferries S"
+      "86a069a2-ad7e-42b0-b4a6-72695a03f729",
+      "seattle_bainbridge"
+    ],
+    [
+      "d3b1612b-935b-4481-9997-ae3b3118dbce",
+      "seattle_kingston"
+    ],
+    [
+      "8f5c64ad-8b76-4e92-82ed-624af7bc34b2",
+      "edmonds_kingston"
+    ],
+    [
+      "9f6e9def-e5c6-4229-90c0-771c2dd67706",
+      "mukilteo_clinton"
+    ],
+    [
+      "7c9fe608-8e01-49b2-89d0-9d6a8f9574e8",
+      "seattle_southworth"
+    ],
+    [
+      "9f0da038-816a-4254-aad3-193d280a8c34",
+      "sounder_s"
+    ],
+    [
+      "996df8f8-04d4-4bb4-8f37-9760745edbe2",
+      "sounder_n"
+    ],
+    [
+      "91ae385e-b417-4a19-b535-f6364aa8f223",
+      "Ferries N"
     ],
     [
       "c77204ed-8b40-49cf-be41-b23cecafc970",

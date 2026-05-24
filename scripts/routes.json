@@ -81,6 +81,65 @@
       "segments": {
         "0": { "no_leds": true }
       }
+    },
+    "seattle_bremerton": {
+      "refs": ["LED402-LED414", "LED459-LED460" ,"LED419", "LED430", "LED448-LED458", "LED461-LED462"],
+      "endpoints": {
+        "start": "LED415",
+        "end": "LED401"
+      },
+      "segments": {
+        "0": { "led_count": 13 },
+        "1": { "led_count": 2 }
+      }
+    },
+    "seattle_bainbridge": {
+      "refs": ["LED424-LED429", "LED431-LED432", "LED458", "LED463-LED469"],
+      "endpoints": {
+        "end": "LED433"
+      },
+      "segments": {
+        "0": { "no_leds": true },
+        "1": { "led_count": 7 },
+        "2": { "led_count": 1 }
+      }
+    },
+    "seattle_kingston": {
+      "refs": ["LED435-LED446", "LED482-LED484", "LED470", "LED472", "LED474", "LED476", "LED477-LED481", "LED471", "LED473", "LED475", "LED485-LED487"],
+      "endpoints": {
+        "end": "LED434"
+      },
+      "segments": {
+        "0": { "no_leds": true },
+        "1": { "no_leds": true },
+        "2": { "led_count": 7 }
+      }
+    },
+    "edmonds_kingston": {
+      "refs": ["LED1001-LED1011", "LED1014-LED1024"],
+      "endpoints": {
+        "start": "LED447"
+      },
+      "segments": {
+        "2": { "no_leds": true }      }
+    },
+    "mukilteo_clinton": {
+      "refs": ["LED1102-LED1111", "LED1113-LED1122"],
+      "endpoints": {
+        "start": "LED1101",
+        "end": "LED1112"
+      },
+      "segments": {
+        "0": { "led_count": 9 },
+        "1": { "led_count": 1 }
+      }
+    },
+    "seattle_southworth": {
+      "refs": ["LED1201-LED1210", "LED1211-LED1220"],
+      "segments": {
+        "0": { "no_leds": true },
+        "1": { "led_count": 9 }
+      }
     }
   }
 }

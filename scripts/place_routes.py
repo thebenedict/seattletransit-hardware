@@ -1193,6 +1193,11 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser.add_argument("--config", required=True, help="route JSON config file")
     parser.add_argument("--route", action="append", default=[], help="only process this route; repeatable")
     parser.add_argument("--apply", action="store_true", help="write footprint and silkscreen changes")
+    parser.add_argument(
+        "--silk-only",
+        action="store_true",
+        help="with --apply, regenerate route silkscreen without moving LEDs or hiding refs",
+    )
     parser.add_argument("--output", help="write to this board path instead of overwriting --board")
     parser.add_argument("--force", action="store_true", help="allow in-place writes while a KiCad lock file exists")
     return parser.parse_args(argv)
@@ -1213,21 +1218,22 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         generated_silk_count: Optional[int] = None
         hidden_reference_count: Optional[Tuple[int, int]] = None
         if args.apply:
-            for placement in led_placements:
-                set_footprint_pose(
+            if not args.silk_only:
+                for placement in led_placements:
+                    set_footprint_pose(
+                        board,
+                        placement.ref,
+                        placement.pos,
+                        placement.angle_deg,
+                    )
+                for endpoint in endpoint_placements:
+                    set_footprint_pose(board, endpoint.ref, endpoint.pos, endpoint.angle_deg)
+                hidden_reference_count = hide_route_reference_designators(
                     board,
-                    placement.ref,
-                    placement.pos,
-                    placement.angle_deg,
+                    led_placements,
+                    endpoint_placements,
                 )
-            for endpoint in endpoint_placements:
-                set_footprint_pose(board, endpoint.ref, endpoint.pos, endpoint.angle_deg)
             generated_silk_count = generate_silk(board, route_name, route, route_points)
-            hidden_reference_count = hide_route_reference_designators(
-                board,
-                led_placements,
-                endpoint_placements,
-            )
         else:
             if bool(route.get("generate_silk", True)):
                 generated_silk_count = len(silk_commands_for_route(route, route_points))
@@ -1247,7 +1253,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         output_path = args.output or args.board
         check_lock_file(args.board, args.output, args.force)
         pcbnew.SaveBoard(output_path, board)
-        print(f"\nwrote {output_path}")
+        mode = "silkscreen only" if args.silk_only else "footprints and silkscreen"
+        print(f"\nwrote {output_path} ({mode})")
     else:
         print("\ndry run only; rerun with --apply to write changes")
 

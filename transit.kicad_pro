@@ -789,7 +789,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "./",
-      "plot": "tools/",
+      "plot": "/Users/michael/Desktop/25052026_wip_plots/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -972,7 +972,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR74,#PWR77-78,#PWR128,#PWR494,#PWR582,#PWR608-622,LED533,LED595-599,LED1221-1223",
     "variants": []
   },
   "sheets": [

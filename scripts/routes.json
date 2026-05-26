@@ -32,13 +32,10 @@
     },
     "vashon_southworth": {
       "refs": ["LED509-LED512", "LED559-LED562"],
-      "endpoints": {
-        "start": "LED508",
-        "end": "LED513"
-      },
-      "silk_fillet_radius_mm": 1.0,
-      "coast_clearance_mm": 3,
-      "segment_clearance_mm": 3
+      "segments": {
+        "0": { "led_count": 2 },
+        "1": { "led_count": 2 }
+      }
     },
     "fauntleroy_southworth": {
       "refs": ["LED514-LED524", "LED575", "LED563-LED574"],
@@ -55,29 +52,24 @@
       }
     },
     "fauntleroy_vashon": {
-      "refs": ["LED526-LED531", "LED576-LED581"],
-      "coast_start_trim_mm": 2.5,
-      "coast_end_trim_mm": 2.5
+      "refs": ["LED526-LED531", "LED533", "LED576-LED581", "LED595"],
+      "segments": {
+        "0": { "led_count": 2 },
+        "1": { "led_count": 5 }
+      }
     },
     "seattle_vashon": {
-      "refs": ["LED532-LED543", "LED582-LED593"],
+      "refs": ["LED596", "LED532-LED543", "LED582-LED593", "LED598"],
       "coast_start_trim_mm": 2.5,
       "coast_end_trim_mm": 2.5,
       "merge_collinear_segments": false,
       "segment_clearance_mm": 0,
-      "endpoints": {
-        "start": "LED544"
-      },
       "segments": {
         "3": { "no_leds": true }
       }
     },
     "seattle_west_seattle": {
       "refs": ["LED545-LED546", "LED592", "LED594"],
-      "endpoints": {
-        "end": "LED547"
-      },
-      "silk_fillet_radius_mm": 1.0,
       "segments": {
         "0": { "no_leds": true }
       }
@@ -135,10 +127,9 @@
       }
     },
     "seattle_southworth": {
-      "refs": ["LED1201-LED1210", "LED1211-LED1220"],
+      "refs": ["LED1201-LED1210", "LED1221", "LED1211-LED1220", "LED1222"],
       "segments": {
-        "0": { "no_leds": true },
-        "1": { "led_count": 9 }
+        "0": { "led_count": 2 }
       }
     }
   }

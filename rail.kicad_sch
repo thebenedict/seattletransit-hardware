@@ -59,6 +59,45 @@
 		)
 	)
 	(sheet
+		(at 27.94 119.38)
+		(size 24.13 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8a112004-64ba-4f82-892a-875572c5c5f1")
+		(property "Sheetname" "tacoma_t"
+			(at 27.94 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tacoma_t.kicad_sch"
+			(at 27.94 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+	)
+	(sheet
 		(at 27.94 104.14)
 		(size 24.13 5.08)
 		(exclude_from_sim no)
@@ -100,52 +139,6 @@
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
 					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 27.94 119.38)
-		(size 24.13 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "8a112004-64ba-4f82-892a-875572c5c5f1")
-		(property "Sheetname" "tacoma_t"
-			(at 27.94 118.6684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "tacoma_t.kicad_sch"
-			(at 27.94 125.0446 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9db4442b4ee5/77ee1b5c-3800-46a1-aec6-a1e3c1d3f80f"
-					(page "15")
 				)
 			)
 		)

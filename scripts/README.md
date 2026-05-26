@@ -154,6 +154,19 @@ To write a copy:
   --output /tmp/transit-route-test.kicad_pcb
 ```
 
+To regenerate only a route's generated silkscreen while leaving all LEDs and
+reference visibility alone:
+
+```sh
+/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3.9 \
+  scripts/place_routes.py \
+  --board transit.kicad_pcb \
+  --config scripts/routes.json \
+  --route mukilteo_clinton \
+  --apply \
+  --silk-only
+```
+
 To update the project board in place, close the PCB in KiCad first, then run:
 
 ```sh

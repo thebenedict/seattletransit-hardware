@@ -74,17 +74,10 @@
         "0": { "no_leds": true }
       }
     },
-    "seattle_bremerton": {
-      "refs": ["LED402-LED414", "LED459-LED460" ,"LED419", "LED430", "LED448-LED458", "LED461-LED462"],
-      "endpoints": {
-        "start": "LED415",
-        "end": "LED401"
-      },
-      "segments": {
-        "0": { "led_count": 13 },
-        "1": { "led_count": 2 }
-      }
+    "seattle_p52_bremerton": {
+      "refs": ["LED402-LED414", "LED459-LED460" ,"LED419", "LED430", "LED448-LED458", "LED461-LED462"]
     },
+    "bremerton_merge": {},
     "seattle_bainbridge": {
       "refs": ["LED424-LED429", "LED431-LED432", "LED458", "LED463-LED469"],
       "endpoints": {

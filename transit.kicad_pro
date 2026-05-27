@@ -972,7 +972,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "#PWR74,#PWR77-78,#PWR128,#PWR494,#PWR582,#PWR608-622,LED533,LED595-599,LED1221-1223",
+    "used_designators": "#PWR74,#PWR77-78,#PWR128,#PWR274,#PWR494,#PWR582,#PWR608-623,LED404,LED533,LED595-599,LED1221-1223",
     "variants": []
   },
   "sheets": [

@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "silk_layer": "F.Silkscreen",
+    "silkscreen_group_prefix": "route:",
+    "led_spacing_along_mm": 5.0,
+    "start_clearance_mm": 0.0,
+    "end_clearance_mm": 0.0,
+    "led_rotation_offset_deg": 0.0,
+    "connection_tolerance_mm": 0.01,
+    "merge_collinear_segments": true,
+    "strict_led_count": false,
+    "hide_refs": true
+  },
+  "routes": {
+    "seattle_bainbridge": {
+      "silkscreen_group": "route:seattle_bainbridge",
+      "schematic": "seattle_bainbridge"
+    }
+  }
+}

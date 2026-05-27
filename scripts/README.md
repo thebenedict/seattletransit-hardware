@@ -1,4 +1,68 @@
-# Route Placement Script
+# Route Placement Scripts
+
+## One-Line Route Placer
+
+`place_route.py` places one line of WS2812B-2020 point LEDs along an existing
+silkscreen route. On apply, it rewrites that silkscreen group with filleted
+bends. It does not move WS2812B-MINI ferryport LEDs.
+
+Draw the route as F.Silkscreen graphic line segments, group the segments for
+one route, and name the group `route:<route_name>`, for example
+`route:mukilteo_clinton`. A single straight route can be one grouped line
+segment. For this first pass, draw source paths with line segments. After the
+script fillets a group, reruns can still read the filleted line/arc pieces for
+placement and will leave the existing filleted silk unchanged by default.
+
+Routes can specify either explicit refs or a schematic sheet name:
+
+```json
+{
+  "routes": {
+    "mukilteo_clinton": {
+      "silkscreen_group": "route:mukilteo_clinton",
+      "schematic": "mukilteo_clinton"
+    },
+    "example_by_refs": {
+      "silkscreen_group": "route:example_by_refs",
+      "refs": "LED509-LED512"
+    }
+  }
+}
+```
+
+When you pass `--route <route_name>` and that route is not present in the
+config, `place_route.py` uses the same simple convention by default:
+`silkscreen_group` becomes `route:<route_name>` and `schematic` becomes
+`<route_name>`. This lets a config file act as defaults plus a few route
+overrides.
+
+When `schematic` is used, the script places all WS2812B-2020 point LED
+footprints whose board sheet file or sheet name matches that value. MINI
+ferryport LEDs in that schematic are skipped.
+
+Run a dry run with KiCad's bundled Python:
+
+```sh
+/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/bin/python3.9 \
+  scripts/place_route.py \
+  --board transit.kicad_pcb \
+  --config scripts/place_route.example.json \
+  --route mukilteo_clinton
+```
+
+Add `--apply` to write the board. `silk_fillet_radius_mm` defaults to `4.0`;
+set it per route or in `defaults`, or set it to `0` for sharp corners.
+`silk_width_mm` defaults to `0.2`. Set `generate_silk: false` if you want a
+route run to leave the grouped silkscreen untouched. If you intentionally want
+to rewrite an already-filleted group, set `refillet_existing_silk: true`, but
+the cleanest source remains straight segments. Use `reverse_path: true` when
+the computed placement order is opposite the route direction you want, and
+`reverse_refs: true` when the footprint order should run the other way along
+the same path. For one-off runs, the same settings can be passed as
+`--reverse-path` / `--no-reverse-path` and `--reverse-refs` /
+`--no-reverse-refs`; CLI values override the config for the selected routes.
+
+## Directional Two-Line Route Placer
 
 `place_routes.py` places directional route LEDs and regenerates parallel route
 silkscreen from construction lines drawn in KiCad.

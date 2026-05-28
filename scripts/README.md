@@ -67,6 +67,20 @@ the same path. For one-off runs, the same settings can be passed as
 `place_routes.py` places directional route LEDs and regenerates parallel route
 silkscreen from construction lines drawn in KiCad.
 
+## Station Decoration Generator
+
+`stationgen` generates decorative station silkscreen from
+`scripts/station_decorations.yaml`. It is intentionally scoped to generated
+graphics: standard plain labels, rounded transfer rectangles, and terminal
+knockout label pills. It does not move or own LED footprints.
+
+Use the `Capture Selected Station to Config` KiCad IPC action to add stations
+from selected LED footprints without typing reference designators. The visible
+KiCad menu entry is a small legacy Action Plugin launcher that delegates to the
+IPC implementation. See
+`docs/stationgen.md` for the KiCad IPC plugin setup, capture workflow, and
+config shape.
+
 ## Drawing Workflow
 
 1. Use the `Route construction` layer.

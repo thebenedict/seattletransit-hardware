@@ -1,0 +1,137 @@
+defaults:
+  layer: F.SilkS
+  snap_mm: 0.25
+  generated_group_prefix: 'stationgen:'
+  lock_generated_items: true
+styles:
+  standard:
+    decoration:
+      kind: none
+    label:
+      style: plain
+      align: auto
+      vertical_align: center
+      side: E
+      offset_mm: 0.8
+      anchor_radius_mm: 1.8
+      size_mm: 1.2
+      stroke_mm: 0.15
+      angle_deg: 0
+  transfer:
+    decoration:
+      kind: rounded_rect
+      padding_mm: 0.7
+      stroke_mm: 0.1
+      radius_mm: 0.4
+    label:
+      style: plain
+      align: auto
+      vertical_align: center
+      side: E
+      offset_mm: 1.0
+      size_mm: 1.2
+      stroke_mm: 0.15
+      angle_deg: 0
+  terminal:
+    decoration:
+      kind: none
+    label:
+      style: knockout
+      align: center
+      vertical_align: center
+      side: S
+      offset_mm: 1.0
+      size_mm: 1.2
+      stroke_mm: 0.15
+      angle_deg: 0
+      pill_padding_x_mm: 0.6
+      pill_padding_y_mm: 0.35
+      pill_radius_mm: 0.4
+      pill_stroke_mm: 0.1
+stations:
+  mukilteo:
+    class: transfer
+    refs: [LED1101, LED1407, LED1417]
+    label:
+      text: Mukilteo
+      side: N
+      align: left
+      align_x: left
+      offset_mm: 0.8
+  edmonds:
+    class: transfer
+    refs: [LED447, LED1404, LED1414]
+    label:
+      text: Edmonds
+      side: N
+      align: left
+      align_x: left
+      offset_mm: 0.8
+  king_street:
+    class: transfer
+    refs: [LED1401, LED1411, LED227, LED627]
+    label:
+      text: King Street
+      side: SW
+      offset_mm: 0.3
+      angle_deg: 45
+  seattle:
+    class: transfer
+    refs: [LED415, LED544]
+    sublabel_defaults:
+      align: center
+      vertical_align: center
+      size_mm: 1.0
+      stroke_mm: 0.15
+    sublabels:
+    - text: Pier 52
+      position_mm: [125.77, 52.8]
+    - text: Pier 50
+      position_mm: [125.77, 60.8]
+    label:
+      text: Seattle
+      side: N
+      offset_mm: 0.8
+      align: left
+      align_x: left
+  tacoma_dome:
+    class: terminal
+    refs: [LED1306, LED1307, LED1308, LED1330, LED1331, LED1332]
+    label:
+      text: Tacoma Dome
+      align: left
+      vertical_align: bottom
+      position_mm: [126.25242, 202.55713]
+      angle_deg: 315
+  intl_district_chinatown:
+    class: standard
+    refs: [LED227, LED627]
+    label:
+      text: |-
+        Intl. District
+        Chinatown
+      side: E
+      align: left
+      offset_mm: 1.4
+  st_joseph:
+    class: terminal
+    refs: [LED1501, LED1513]
+    label:
+      text: St Joseph
+      side: SW
+      align: auto
+  hilltop_district:
+    class: standard
+    refs: [LED1502, LED1514]
+    label:
+      text: Hilltop District
+      side: SE
+      align: center
+      angle_deg: 315.0
+  star_lake:
+    class: standard
+    refs: [LED203, LED651]
+    label:
+      text: Star Lake
+      side: E
+      align: left

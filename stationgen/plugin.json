@@ -1,0 +1,32 @@
+{
+  "$schema": "https://go.kicad.org/api/schemas/v1",
+  "identifier": "com.charlesstreetlabs.stationgen",
+  "name": "StationGen",
+  "description": "Generate consistent transit stop labels and station decorations.",
+  "runtime": {
+    "type": "python",
+    "min_version": "3.9"
+  },
+  "actions": [
+    {
+      "identifier": "regenerate",
+      "name": "Regenerate Station Decorations",
+      "description": "Regenerate StationGen silkscreen decoration groups from the project YAML config.",
+      "show-button": true,
+      "scopes": [
+        "pcb"
+      ],
+      "entrypoint": "plugin_regenerate.py"
+    },
+    {
+      "identifier": "capture-selected-station",
+      "name": "Capture Selected Station to Config",
+      "description": "Create or update one StationGen YAML station entry from selected LED footprints and optional selected label text.",
+      "show-button": true,
+      "scopes": [
+        "pcb"
+      ],
+      "entrypoint": "plugin_capture.py"
+    }
+  ]
+}

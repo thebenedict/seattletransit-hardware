@@ -422,30 +422,29 @@ class StationGenIPC:
         placement_box: Box,
     ) -> int:
         style_name = str(label_spec.get("style", "plain")).lower()
-        if style_name != "knockout":
-            return 0
-
+        is_knockout = style_name == "knockout"
         target_box = Box.from_points(
             translate_points(rotated_box_points(placement_box, angle_deg), position)
         ).inflate(max(3.0, float(label_spec.get("size_mm", 1.2)) * 4.0))
         removed = 0
 
-        for zone in self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_ZONE):
-            if getattr(zone, "name", "") != f"{station_id}:label":
-                continue
-            try:
-                self.board.remove_items_by_id(zone.id)
-                removed += 1
-            except self.k["ApiError"] as exc:
-                if "none of the requested IDs were found or valid" not in str(exc):
-                    raise
+        if is_knockout:
+            for zone in self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_ZONE):
+                if getattr(zone, "name", "") != f"{station_id}:label":
+                    continue
+                try:
+                    self.board.remove_items_by_id(zone.id)
+                    removed += 1
+                except self.k["ApiError"] as exc:
+                    if "none of the requested IDs were found or valid" not in str(exc):
+                        raise
 
         for text in self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_TEXT):
             if normalize_label_text(getattr(text, "value", "")) != text_value:
                 continue
             if getattr(text, "layer", None) != layer:
                 continue
-            if not bool(getattr(text.proto, "knockout", False)):
+            if bool(getattr(text.proto, "knockout", False)) != is_knockout:
                 continue
 
             text_position = self.text_position_mm(text)

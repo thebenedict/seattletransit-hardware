@@ -180,9 +180,11 @@ stations:
     refs: [LED1508, LED1520]
     label:
       text: Theater District
-      side: NE
-      align: auto
+      side: N
+      align: left
+      align_x: left
       angle_deg: 45.0
+      cross_align: top
   led1508:
     class: standard
     refs: [LED1508, LED1520]
@@ -241,7 +243,6 @@ stations:
       text: Sumner
       side: E
       align: left
-      cross_align: bottom
   auburn:
     class: standard
     refs: [LED1313, LED1332]
@@ -256,6 +257,7 @@ stations:
       text: Kent
       side: E
       align: left
+      cross_align: top
   tukwila:
     class: standard
     refs: [LED1317, LED1336]
@@ -388,6 +390,7 @@ stations:
       side: E
       align: auto
       cross_align: bottom
+      offset_mm: 0
   capitol_hill:
     class: standard
     refs: [LED1735, LED1819]
@@ -568,10 +571,10 @@ stations:
       text: |-
         Westlake
         Center
-      side: SW
+      side: W
       align: right
-      angle_deg: 45.0
-      offset_mm: 1.4
+      cross_align: bottom
+      offset_mm: 2
   seattle_center:
     class: standard
     refs: [LED1604]
@@ -579,11 +582,11 @@ stations:
       text: |-
         Seattle
         Center
-      side: N
+      side: NE
       align: left
       align_x: left
       angle_deg: 45.0
-      cross-align: top
+      cross_align: top
   tahlequah:
     class: ferry_port
     refs: [LED307]

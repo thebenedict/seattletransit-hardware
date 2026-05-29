@@ -3101,7 +3101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "663a36b1-a1ca-477e-b1fc-78bc2a3cbc2e")
-		(property "Reference" "LED434"
+		(property "Reference" "LED919"
 			(at 238.76 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3191,7 +3191,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/d3b1612b-935b-4481-9997-ae3b3118dbce"
-					(reference "LED434")
+					(reference "LED919")
 					(unit 1)
 				)
 			)

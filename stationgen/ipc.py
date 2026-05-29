@@ -17,6 +17,7 @@ from stationgen.geometry import (
     Point,
     box_points,
     circle_points,
+    oriented_rounded_box_points,
     place_shape_against_anchor,
     resolve_label_alignment,
     rounded_box_points,
@@ -28,7 +29,7 @@ def _require_kipy():
     try:
         import kipy
         from kipy import KiCad
-        from kipy.board_types import BoardRectangle, BoardText, FootprintInstance, Group, Zone
+        from kipy.board_types import BoardPolygon, BoardRectangle, BoardText, FootprintInstance, Group, Zone
         from kipy.board_types import IslandRemovalMode, ZoneBorderStyle, ZoneFillMode, ZoneType
         from kipy.client import ApiError
         from kipy.common_types import Text
@@ -48,6 +49,7 @@ def _require_kipy():
     return {
         "kipy": kipy,
         "KiCad": KiCad,
+        "BoardPolygon": BoardPolygon,
         "BoardRectangle": BoardRectangle,
         "BoardText": BoardText,
         "FootprintInstance": FootprintInstance,
@@ -252,6 +254,13 @@ class StationGenIPC:
         align_y_ctrl.SetStringSelection(str(defaults.get("align_y") or "(default)"))
         add_row("Edge align Y", align_y_ctrl)
 
+        cross_align_ctrl = wx.Choice(
+            panel,
+            choices=["(default)", "top", "bottom", "left", "right", "min", "center", "max"],
+        )
+        cross_align_ctrl.SetStringSelection(str(defaults.get("cross_align") or "(default)"))
+        add_row("Cross align", cross_align_ctrl)
+
         exact_position_ctrl = wx.CheckBox(panel, label="Use selected text anchor as exact position")
         exact_position_ctrl.SetValue(bool(defaults.get("exact_position", False)))
         exact_position_ctrl.Enable(bool(defaults.get("has_selected_text", False)))
@@ -283,6 +292,7 @@ class StationGenIPC:
             "align": align_ctrl.GetStringSelection(),
             "align_x": _clean_optional(align_x_ctrl.GetStringSelection()),
             "align_y": _clean_optional(align_y_ctrl.GetStringSelection()),
+            "cross_align": _clean_optional(cross_align_ctrl.GetStringSelection()),
             "exact_position": exact_position_ctrl.GetValue(),
             "regenerate": regenerate_ctrl.GetValue(),
         }
@@ -330,6 +340,7 @@ class StationGenIPC:
             "align": args.label_align or default_align or "auto",
             "align_x": args.label_align_x,
             "align_y": args.label_align_y,
+            "cross_align": args.label_cross_align,
             "has_selected_text": selected_text is not None,
             "exact_position": bool(args.exact_label_position and selected_text is not None),
             "regenerate": bool(args.regenerate_after_capture),
@@ -358,6 +369,7 @@ class StationGenIPC:
             vertical_align=default_vertical_align if exact_position else None,
             align_x=_clean_optional(str(options.get("align_x") or "")),
             align_y=_clean_optional(str(options.get("align_y") or "")),
+            cross_align=_clean_optional(str(options.get("cross_align") or "")),
             angle_deg=selected_text.attributes.angle if selected_text is not None else None,
             position_mm=selected_position if exact_position else None,
         )
@@ -366,7 +378,20 @@ class StationGenIPC:
         if bool(options.get("regenerate")):
             config = load_config(config_path)
             self.regenerate(config, [station_id])
-        return f"{action} {station_id} with {len(refs)} LED ref(s) in {config_path}"
+        removed_source_labels = self.delete_source_label_texts([selected_text] if selected_text is not None else [])
+        suffix = f"; removed {removed_source_labels} source label(s)" if removed_source_labels else ""
+        return f"{action} {station_id} with {len(refs)} LED ref(s) in {config_path}{suffix}"
+
+    def delete_source_label_texts(self, texts: Sequence[Any]) -> int:
+        removed = 0
+        for text in texts:
+            try:
+                self.board.remove_items_by_id(text.id)
+                removed += 1
+            except self.k["ApiError"] as exc:
+                if "none of the requested IDs were found or valid" not in str(exc):
+                    raise
+        return removed
 
     def generated_group_name(self, config: Mapping[str, Any], station_id: str) -> str:
         prefix = str(config.get("defaults", {}).get("generated_group_prefix", "stationgen:"))
@@ -476,6 +501,30 @@ class StationGenIPC:
         rect.locked = locked
         return rect
 
+    def make_polygon_outline(
+        self,
+        points: Sequence[Point],
+        layer: Any,
+        stroke_mm: float,
+        *,
+        filled: bool = False,
+        locked: bool = True,
+    ):
+        common_types = self.k["common_types"]
+        polygon = self.k["BoardPolygon"]()
+        polygon.layer = layer
+        polygon.attributes.stroke.width = self.k["from_mm"](stroke_mm)
+        polygon.attributes.stroke.style = common_types.StrokeLineStyle.SLS_SOLID
+        polygon.attributes.fill.filled = filled
+
+        outline = self.k["PolygonWithHoles"]()
+        for point in points:
+            outline.outline.append(self.k["PolyLineNode"].from_point(self.vec(point)))
+        outline.outline.closed = True
+        polygon.polygons.append(outline)
+        polygon.locked = locked
+        return polygon
+
     def make_graphical_zone(
         self,
         points: Sequence[Point],
@@ -574,8 +623,10 @@ class StationGenIPC:
         snap_mm = float(station.get("snap_mm", defaults.get("snap_mm", 0.25)))
 
         footprint_boxes: List[Box] = []
-        core_box = self.explicit_box(station.get("bbox_mm"))
-        if core_box is None:
+        explicit_core_box = self.explicit_box(station.get("bbox_mm"))
+        has_explicit_bbox = explicit_core_box is not None
+        core_box = explicit_core_box
+        if not has_explicit_bbox:
             footprint_boxes = self.station_footprint_boxes(refs, footprints)
             core_box = Box.union(footprint_boxes)
         else:
@@ -583,6 +634,7 @@ class StationGenIPC:
 
         items = []
         content_boxes = [core_box]
+        decoration_content_boxes = list(footprint_boxes)
         sublabel_items = []
         sublabel_defaults = station.get("sublabel_defaults", {}) or {}
         if not isinstance(sublabel_defaults, Mapping):
@@ -606,26 +658,69 @@ class StationGenIPC:
             position = self.explicit_point(sublabel_spec.get("position_mm"))
             if position is None:
                 raise ValueError(f"station {station_id!r} sublabel {text_value!r} needs position_mm")
-            content_boxes.append(self.text_box_at_position(text_value, sublabel_spec, position))
+            sublabel_box = self.text_box_at_position(text_value, sublabel_spec, position)
+            content_boxes.append(sublabel_box)
+            decoration_content_boxes.append(sublabel_box)
             sublabel_items.append(self.make_board_text(text_value, sublabel_spec, position, layer))
 
         decoration = station.get("decoration", {}) or {}
         decoration_kind = str(decoration.get("kind", "none")).lower()
-        decoration_box = Box.union(content_boxes)
+        decoration_box = Box.union(decoration_content_boxes)
+        decoration_anchor_points: List[Point] = []
 
         if decoration_kind == "rounded_rect":
             padding = float(decoration.get("padding_mm", 0.70))
-            decoration_box = decoration_box.inflate(padding).snap_outward(snap_mm)
-            items.append(
-                self.make_rect(
-                    decoration_box,
-                    layer,
-                    float(decoration.get("stroke_mm", 0.10)),
-                    float(decoration.get("radius_mm", 0.40)),
-                    filled=False,
-                    locked=lock_generated,
+            stroke_mm = float(decoration.get("stroke_mm", 0.10))
+            radius_mm = float(decoration.get("radius_mm", 0.40))
+            decoration_angle_deg = float(decoration.get("angle_deg", 0.0))
+
+            if decoration_angle_deg % 360:
+                content_radius_mm = float(decoration.get("content_radius_mm", 1.30))
+                if has_explicit_bbox:
+                    content_points = [point for box in decoration_content_boxes for point in box_points(box)]
+                else:
+                    content_points = [
+                        point
+                        for box in footprint_boxes
+                        for point in circle_points(box.center, content_radius_mm)
+                    ]
+                    content_points.extend(
+                        point
+                        for box in decoration_content_boxes[len(footprint_boxes) :]
+                        for point in box_points(box)
+                    )
+                decoration_anchor_points = list(
+                    oriented_rounded_box_points(
+                        content_points,
+                        decoration_angle_deg,
+                        padding,
+                        radius_mm,
+                        snap_mm,
+                    )
                 )
-            )
+                decoration_box = Box.from_points(decoration_anchor_points)
+                items.append(
+                    self.make_polygon_outline(
+                        decoration_anchor_points,
+                        layer,
+                        stroke_mm,
+                        filled=False,
+                        locked=lock_generated,
+                    )
+                )
+            else:
+                decoration_box = decoration_box.inflate(padding).snap_outward(snap_mm)
+                decoration_anchor_points = list(rounded_box_points(decoration_box, radius_mm))
+                items.append(
+                    self.make_rect(
+                        decoration_box,
+                        layer,
+                        stroke_mm,
+                        radius_mm,
+                        filled=False,
+                        locked=lock_generated,
+                    )
+                )
         elif decoration_kind not in ("none", ""):
             raise ValueError(f"station {station_id!r} has unknown decoration kind {decoration_kind!r}")
 
@@ -654,9 +749,11 @@ class StationGenIPC:
             else:
                 label_anchor_points = [
                     point
-                    for anchor_box in (footprint_boxes if decoration_kind in ("none", "") else [decoration_box])
+                    for anchor_box in (footprint_boxes if decoration_kind in ("none", "") else [])
                     for point in box_points(anchor_box)
                 ]
+                if decoration_kind not in ("none", ""):
+                    label_anchor_points = decoration_anchor_points
             position = place_shape_against_anchor(
                 label_anchor_points,
                 rotated_box_points(placement_box, angle_deg),
@@ -664,6 +761,7 @@ class StationGenIPC:
                 float(label_spec.get("offset_mm", 1.0)),
                 tuple(float(v) for v in label_spec.get("nudge_mm", [0.0, 0.0])),  # type: ignore[arg-type]
                 self.explicit_point(label_spec.get("position_mm")),
+                str(label_spec["cross_align"]) if "cross_align" in label_spec else None,
                 str(label_spec["align_x"]) if "align_x" in label_spec else None,
                 str(label_spec["align_y"]) if "align_y" in label_spec else None,
             )
@@ -737,6 +835,7 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser.add_argument("--label-align", choices=["auto", "left", "center", "right"])
     parser.add_argument("--label-align-x", choices=["left", "center", "right"])
     parser.add_argument("--label-align-y", choices=["top", "center", "bottom"])
+    parser.add_argument("--label-cross-align", choices=["top", "bottom", "left", "right", "min", "center", "max"])
     parser.add_argument(
         "--exact-label-position",
         action="store_true",

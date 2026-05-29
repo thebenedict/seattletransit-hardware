@@ -4,6 +4,7 @@ from stationgen.geometry import (
     Box,
     box_points,
     circle_points,
+    oriented_rounded_box_points,
     place_shape_against_anchor,
     projection_range,
     resolve_label_alignment,
@@ -37,6 +38,46 @@ class RoundedBoxPointTests(unittest.TestCase):
 
         self.assertIn((1.5, 0.0), points)
         self.assertIn((2.0, 0.5), points)
+
+    def test_oriented_rounded_box_follows_requested_angle(self):
+        points = oriented_rounded_box_points([(0.0, 0.0), (10.0, 10.0)], 315.0, 1.0, 0.4, None)
+
+        diagonal_min, diagonal_max = projection_range(points, side_direction("SE"))
+        cross_min, cross_max = projection_range(points, side_direction("NE"))
+
+        self.assertGreater(diagonal_max - diagonal_min, cross_max - cross_min)
+
+    def test_oriented_rounded_box_uses_individual_content_points(self):
+        content_boxes = [Box(0.0, 0.0, 2.0, 2.0), Box(4.0, 4.0, 6.0, 6.0), Box(8.0, 8.0, 10.0, 10.0)]
+        points = oriented_rounded_box_points(
+            [point for box in content_boxes for point in box_points(box)],
+            315.0,
+            0.7,
+            0.4,
+            None,
+        )
+
+        diagonal_min, diagonal_max = projection_range(points, side_direction("SE"))
+        cross_min, cross_max = projection_range(points, side_direction("NE"))
+
+        self.assertGreater(diagonal_max - diagonal_min, 10.0)
+        self.assertLess(cross_max - cross_min, 5.0)
+
+    def test_center_halos_keep_angled_transfer_boxes_visually_narrow(self):
+        centers = [(0.0, 0.0), (3.0, 3.0), (6.0, 6.0)]
+        points = oriented_rounded_box_points(
+            [point for center in centers for point in circle_points(center, 1.3)],
+            315.0,
+            0.7,
+            0.4,
+            None,
+        )
+
+        diagonal_min, diagonal_max = projection_range(points, side_direction("SE"))
+        cross_min, cross_max = projection_range(points, side_direction("NE"))
+
+        self.assertGreater(diagonal_max - diagonal_min, 12.0)
+        self.assertLess(cross_max - cross_min, 4.5)
 
 
 class LabelPlacementTests(unittest.TestCase):
@@ -120,6 +161,24 @@ class LabelPlacementTests(unittest.TestCase):
         label_min, label_max = projection_range(placed_points, tangent)
 
         self.assertAlmostEqual((anchor_min + anchor_max) / 2.0, (label_min + label_max) / 2.0)
+
+    def test_east_label_can_cross_align_to_anchor_top(self):
+        anchor = Box(10, 20, 14, 24)
+        label = Box(-2, -1, 2, 1)
+
+        self.assertEqual(
+            place_shape_against_anchor(box_points(anchor), box_points(label), "E", 1.0, cross_align="top"),
+            (17.0, 20.0),
+        )
+
+    def test_west_label_top_cross_alignment_uses_board_top(self):
+        anchor = Box(10, 20, 14, 24)
+        label = Box(-2, -1, 2, 1)
+
+        self.assertEqual(
+            place_shape_against_anchor(box_points(anchor), box_points(label), "W", 1.0, cross_align="top"),
+            (7.0, 20.0),
+        )
 
 
 class LabelAlignmentTests(unittest.TestCase):

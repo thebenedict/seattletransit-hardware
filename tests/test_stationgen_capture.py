@@ -43,6 +43,7 @@ class CaptureConfigTests(unittest.TestCase):
             side="N",
             align="left",
             align_x="left",
+            cross_align="top",
         )
 
         self.assertEqual(
@@ -55,6 +56,7 @@ class CaptureConfigTests(unittest.TestCase):
                     "side": "N",
                     "align": "left",
                     "align_x": "left",
+                    "cross_align": "top",
                 },
             },
         )
@@ -101,7 +103,7 @@ class CaptureConfigTests(unittest.TestCase):
                 "intl_district_chinatown",
                 {
                     "class": "standard",
-                    "refs": ["LED227", "LED627"],
+                    "refs": ["LED1727", "LED1827"],
                     "label": {"text": "Intl. District\nChinatown"},
                 },
             )

@@ -51,6 +51,7 @@ def build_station_entry(
     vertical_align: str | None = None,
     align_x: str | None = None,
     align_y: str | None = None,
+    cross_align: str | None = None,
     angle_deg: float | None = None,
     position_mm: Sequence[float] | None = None,
 ) -> Dict[str, Any]:
@@ -72,6 +73,8 @@ def build_station_entry(
             label["align_x"] = align_x
         if align_y:
             label["align_y"] = align_y
+        if cross_align:
+            label["cross_align"] = cross_align
         if position_mm is not None:
             label["position_mm"] = [compact_float(position_mm[0]), compact_float(position_mm[1])]
         if angle_deg is not None and abs(float(angle_deg)) > 0.0001:

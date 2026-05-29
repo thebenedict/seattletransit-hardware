@@ -33,8 +33,10 @@ DEFAULTS: Dict[str, Any] = {
             "decoration": {
                 "kind": "rounded_rect",
                 "padding_mm": 0.70,
+                "content_radius_mm": 1.30,
                 "stroke_mm": 0.10,
                 "radius_mm": 0.40,
+                "angle_deg": 0.0,
             },
             "label": {
                 "style": "plain",

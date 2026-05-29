@@ -7,7 +7,8 @@ only owns generated graphics in groups named `stationgen:<station_id>`.
 ## Current Scope
 
 - Transfer stations: rounded rectangle generated from the union of LED footprint
-  bounding boxes, expanded by a style padding token.
+  bounding boxes, expanded by a style padding token. Rectangles may also use
+  `decoration.angle_deg` for angled transfer groups.
 - Standard stations: plain generated label text, with no station decoration.
 - Terminal stations: filled graphical-zone label pill plus knockout text. The
   zone fill is what lets KiCad's knockout text cut through the silkscreen fill.
@@ -26,7 +27,7 @@ Styles define shared tokens; stations define intent:
 stations:
   intl_district_chinatown:
     class: standard
-    refs: [LED227, LED627]
+    refs: [LED1727, LED1827]
     label:
       text: |-
         Intl. District
@@ -36,12 +37,18 @@ stations:
 
   mukilteo:
     class: transfer
-    refs: [LED1101, LED1407, LED1417]
+    refs: [LED1101, LED1409, LED1421]
     label:
       text: Mukilteo
       align: auto
       side: NW
       offset_mm: 0.80
+
+  westlake:
+    class: transfer
+    refs: [LED1601, LED1733, LED1821]
+    decoration:
+      angle_deg: 315.0
 ```
 
 Label positions use compass sides: `N`, `NE`, `E`, `SE`, `S`, `SW`, `W`,
@@ -64,6 +71,18 @@ Use `align_x: left|center|right` or `align_y: top|center|bottom` when a label
 should keep a side placement but align one measured label edge with the station
 decoration edge. For example, `side: N` plus `align_x: left` puts the label above
 the station while aligning its left edge to the rectangle's left edge.
+Use `cross_align: top|bottom|left|right|min|center|max` when the label should
+stay on the requested side, but its centerline should align with a different
+part of the station anchor along the cross axis. For example, `side: E` plus
+`cross_align: top` keeps the label east of a diagonal LED pair while lining it
+up with the upper LED instead of centering it between both LEDs.
+For angled transfer boxes, set `decoration.angle_deg`; StationGen measures the
+station content in that rotated coordinate system, applies the normal
+`padding_mm`, and then generates a polygonal rounded rectangle on silkscreen.
+Angled boxes use `decoration.content_radius_mm` as the visual radius around each
+selected LED center before padding, which keeps diagonal groups from inheriting
+oversized screen-aligned footprint bounding boxes. Labels for transfer stations
+anchor against the generated rotated outline.
 
 Stations can define internal `sublabels` for special cases like Seattle's
 `Pier 50` and `Pier 52` labels. Sublabel text boxes are included in the
@@ -74,7 +93,7 @@ applied, and the sublabel text is generated inside the station group:
 stations:
   seattle:
     class: transfer
-    refs: [LED415, LED544]
+    refs: [LED701, LED514]
     sublabel_defaults:
       align: center
       vertical_align: center
@@ -148,8 +167,9 @@ and side hint. Plain selected text defaults to the `standard` class; knockout
 selected text defaults to `terminal`; selecting only footprints defaults to
 `transfer`. Then run `Capture Selected Station to Config`. The dialog lets you
 choose the station id, `standard`, `transfer`, or `terminal`, side placement,
-text alignment, optional edge alignment, and whether to regenerate that station
-immediately.
+text alignment, optional edge/cross alignment, and whether to regenerate that
+station immediately. After a successful capture, StationGen removes the selected
+source text label from the board so the generated label is the only copy.
 
 The same capture workflow can run from the terminal while the board is open:
 
@@ -174,6 +194,7 @@ For a non-dialog capture, pass the needed options explicitly:
   --label-text Northgate \
   --label-side E \
   --label-align auto \
+  --label-cross-align top \
   --regenerate-after-capture
 ```
 

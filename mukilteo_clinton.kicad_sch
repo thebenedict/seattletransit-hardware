@@ -2162,7 +2162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34b5f6c-72e3-4187-a319-3970fe210d4b")
-		(property "Reference" "LED1112"
+		(property "Reference" "LED1110"
 			(at 109.22 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2252,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/9f6e9def-e5c6-4229-90c0-771c2dd67706"
-					(reference "LED1112")
+					(reference "LED1110")
 					(unit 1)
 				)
 			)

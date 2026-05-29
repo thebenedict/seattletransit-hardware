@@ -206,6 +206,28 @@ def rotate_points(points: Sequence[Point], angle_deg: float) -> Tuple[Point, ...
     return tuple((x * c + y * s, -x * s + y * c) for x, y in points)
 
 
+def rotate_points_around(points: Sequence[Point], angle_deg: float, origin: Point) -> Tuple[Point, ...]:
+    translated = tuple((x - origin[0], y - origin[1]) for x, y in points)
+    return tuple((x + origin[0], y + origin[1]) for x, y in rotate_points(translated, angle_deg))
+
+
+def oriented_rounded_box_points(
+    content_points: Sequence[Point],
+    angle_deg: float,
+    padding_mm: float,
+    radius_mm: float,
+    snap_mm: Optional[float],
+) -> Tuple[Point, ...]:
+    if not content_points:
+        raise ValueError("content_points must not be empty")
+
+    origin = Box.from_points(content_points).center
+    local_points = rotate_points_around(content_points, -angle_deg, origin)
+    local_box = Box.from_points(local_points).inflate(padding_mm).snap_outward(snap_mm)
+    local_rounded_points = rounded_box_points(local_box, radius_mm)
+    return rotate_points_around(local_rounded_points, angle_deg, origin)
+
+
 def rotated_box_points(box: Box, angle_deg: float) -> Tuple[Point, ...]:
     return rotate_points(box_points(box), angle_deg)
 
@@ -248,6 +270,7 @@ def place_shape_against_anchor(
     offset_mm: float,
     nudge_mm: Point = (0.0, 0.0),
     explicit_position_mm: Optional[Point] = None,
+    cross_align: Optional[str] = None,
     align_x: Optional[str] = None,
     align_y: Optional[str] = None,
 ) -> Point:
@@ -281,10 +304,10 @@ def place_shape_against_anchor(
         normal_delta = normal_max + offset_mm - relative_normal_min
 
         tangent = (-direction[1], direction[0])
-        anchor_tangent_min, anchor_tangent_max = projection_range(anchor_points, tangent)
         relative_tangent_min, relative_tangent_max = projection_range(relative_points, tangent)
+        anchor_tangent_target = cross_alignment_target(anchor_points, tangent, cross_align)
         tangent_delta = (
-            ((anchor_tangent_min + anchor_tangent_max) / 2.0)
+            anchor_tangent_target
             - ((relative_tangent_min + relative_tangent_max) / 2.0)
         )
 
@@ -308,6 +331,53 @@ def place_shape_against_anchor(
         y = anchor_box.center[1] - relative_box.center[1]
 
     return (x + nudge_mm[0], y + nudge_mm[1])
+
+
+def cross_alignment_target(points: Sequence[Point], tangent: Point, value: Optional[str]) -> float:
+    tangent_min, tangent_max = projection_range(points, tangent)
+    normalized = normalize_cross_alignment(value)
+
+    if normalized is None or normalized == "center":
+        return (tangent_min + tangent_max) / 2.0
+    if normalized == "min":
+        return tangent_min
+    if normalized == "max":
+        return tangent_max
+
+    if normalized in {"top", "bottom"}:
+        y_target = min(point[1] for point in points) if normalized == "top" else max(point[1] for point in points)
+        candidates = [point for point in points if abs(point[1] - y_target) < 1e-9]
+    else:
+        x_target = min(point[0] for point in points) if normalized == "left" else max(point[0] for point in points)
+        candidates = [point for point in points if abs(point[0] - x_target) < 1e-9]
+
+    candidate_min, candidate_max = projection_range(candidates, tangent)
+    return (candidate_min + candidate_max) / 2.0
+
+
+def normalize_cross_alignment(value: Optional[str]) -> Optional[str]:
+    if value is None:
+        return None
+
+    normalized = value.strip().lower().replace("-", "_")
+    aliases = {
+        "centre": "center",
+        "middle": "center",
+        "center": "center",
+        "min": "min",
+        "start": "min",
+        "max": "max",
+        "end": "max",
+        "top": "top",
+        "upper": "top",
+        "bottom": "bottom",
+        "lower": "bottom",
+        "left": "left",
+        "right": "right",
+    }
+    if normalized not in aliases:
+        raise ValueError(f"unknown cross alignment {value!r}")
+    return aliases[normalized]
 
 
 def normalize_edge_alignment(value: Optional[str]) -> Optional[str]:

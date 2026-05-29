@@ -10,6 +10,8 @@ only owns generated graphics in groups named `stationgen:<station_id>`.
   bounding boxes, expanded by a style padding token. Rectangles may also use
   `decoration.angle_deg` for angled transfer groups.
 - Standard stations: plain generated label text, with no station decoration.
+- Ferry ports: plain generated label text, with no station decoration, using a
+  larger label anchor radius for the WS2812B Mini footprint.
 - Terminal stations: filled graphical-zone label pill plus knockout text. The
   zone fill is what lets KiCad's knockout text cut through the silkscreen fill.
 - Labels: side-based placement around the station decoration/core with explicit
@@ -43,6 +45,16 @@ stations:
       align: auto
       side: NW
       offset_mm: 0.80
+
+  vashon_island:
+    class: ferry_port
+    refs: [LED401]
+    label:
+      text: Vashon Island
+      side: SW
+      align: right
+      align_x: right
+      angle_deg: 45.0
 
   westlake:
     class: transfer
@@ -166,10 +178,11 @@ text label too; StationGen will use it as the default label text, label angle,
 and side hint. Plain selected text defaults to the `standard` class; knockout
 selected text defaults to `terminal`; selecting only footprints defaults to
 `transfer`. Then run `Capture Selected Station to Config`. The dialog lets you
-choose the station id, `standard`, `transfer`, or `terminal`, side placement,
-text alignment, optional edge/cross alignment, and whether to regenerate that
-station immediately. After a successful capture, StationGen removes the selected
-source text label from the board so the generated label is the only copy.
+choose the station id, `standard`, `ferry_port`, `transfer`, or `terminal`, side
+placement, text alignment, optional edge/cross alignment, and whether to
+regenerate that station immediately. After a successful capture, StationGen
+removes the selected source text label from the board so the generated label is
+the only copy.
 
 The same capture workflow can run from the terminal while the board is open:
 

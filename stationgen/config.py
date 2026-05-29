@@ -29,6 +29,22 @@ DEFAULTS: Dict[str, Any] = {
                 "angle_deg": 0.0,
             },
         },
+        "ferry_port": {
+            "decoration": {
+                "kind": "none",
+            },
+            "label": {
+                "style": "plain",
+                "align": "auto",
+                "vertical_align": "center",
+                "side": "E",
+                "offset_mm": 0.80,
+                "anchor_radius_mm": 3.40,
+                "size_mm": 1.20,
+                "stroke_mm": 0.15,
+                "angle_deg": 0.0,
+            },
+        },
         "transfer": {
             "decoration": {
                 "kind": "rounded_rect",

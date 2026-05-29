@@ -22,6 +22,7 @@ from stationgen.geometry import (
     resolve_label_alignment,
     rounded_box_points,
     rotated_box_points,
+    translate_points,
 )
 
 
@@ -234,7 +235,7 @@ class StationGenIPC:
             ),
         )
 
-        class_ctrl = wx.Choice(panel, choices=["standard", "transfer", "terminal"])
+        class_ctrl = wx.Choice(panel, choices=["standard", "ferry_port", "transfer", "terminal"])
         class_ctrl.SetStringSelection(str(defaults.get("station_class", "standard")))
         add_row("Class", class_ctrl)
 
@@ -409,6 +410,59 @@ class StationGenIPC:
                     if "none of the requested IDs were found or valid" not in str(exc):
                         raise
             self.board.remove_items_by_id(group.id)
+
+    def delete_generated_label_orphans(
+        self,
+        station_id: str,
+        text_value: str,
+        label_spec: Mapping[str, Any],
+        layer: Any,
+        position: Point,
+        angle_deg: float,
+        placement_box: Box,
+    ) -> int:
+        style_name = str(label_spec.get("style", "plain")).lower()
+        if style_name != "knockout":
+            return 0
+
+        target_box = Box.from_points(
+            translate_points(rotated_box_points(placement_box, angle_deg), position)
+        ).inflate(max(3.0, float(label_spec.get("size_mm", 1.2)) * 4.0))
+        removed = 0
+
+        for zone in self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_ZONE):
+            if getattr(zone, "name", "") != f"{station_id}:label":
+                continue
+            try:
+                self.board.remove_items_by_id(zone.id)
+                removed += 1
+            except self.k["ApiError"] as exc:
+                if "none of the requested IDs were found or valid" not in str(exc):
+                    raise
+
+        for text in self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_TEXT):
+            if normalize_label_text(getattr(text, "value", "")) != text_value:
+                continue
+            if getattr(text, "layer", None) != layer:
+                continue
+            if not bool(getattr(text.proto, "knockout", False)):
+                continue
+
+            text_position = self.text_position_mm(text)
+            if not (
+                target_box.min_x <= text_position[0] <= target_box.max_x
+                and target_box.min_y <= text_position[1] <= target_box.max_y
+            ):
+                continue
+
+            try:
+                self.board.remove_items_by_id(text.id)
+                removed += 1
+            except self.k["ApiError"] as exc:
+                if "none of the requested IDs were found or valid" not in str(exc):
+                    raise
+
+        return removed
 
     def make_text_attrs(self, spec: Mapping[str, Any]):
         common_types = self.k["common_types"]
@@ -727,6 +781,7 @@ class StationGenIPC:
         items.extend(sublabel_items)
 
         label_spec = station.get("label")
+        label_cleanup = None
         if isinstance(label_spec, Mapping) and label_spec.get("text"):
             text_value = normalize_label_text(str(label_spec["text"]))
             angle_deg = float(label_spec.get("angle_deg", 0.0))
@@ -782,12 +837,24 @@ class StationGenIPC:
             text_item = self.make_board_text(text_value, label_spec, position, layer)
             text_item.locked = lock_generated
             items.append(text_item)
+            label_cleanup = (text_value, label_spec, position, angle_deg, placement_box)
 
         if not items:
             return 0
 
         group_name = self.generated_group_name(config, station_id)
         self.delete_generated_group(group_name)
+        if label_cleanup is not None:
+            cleanup_text, cleanup_spec, cleanup_position, cleanup_angle, cleanup_box = label_cleanup
+            self.delete_generated_label_orphans(
+                station_id,
+                cleanup_text,
+                cleanup_spec,
+                layer,
+                cleanup_position,
+                cleanup_angle,
+                cleanup_box,
+            )
         created = self.board.create_items(items)
         group = self.k["Group"]()
         group.proto.name = group_name
@@ -827,7 +894,7 @@ def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser.add_argument("--station-id", help="station id to create or update when capturing")
     parser.add_argument(
         "--station-class",
-        choices=["standard", "transfer", "terminal"],
+        choices=["standard", "ferry_port", "transfer", "terminal"],
         help="station class to capture",
     )
     parser.add_argument("--label-text", help="label text to capture")

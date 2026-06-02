@@ -2692,6 +2692,104 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:WS2812B-2020")
+		(at 87.63 85.09 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "220a74c2-a094-45b1-9d96-e8a874f084eb")
+		(property "Reference" "LED422"
+			(at 78.74 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 78.74 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 87.63 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 87.63 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 87.63 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "274afb86-adf9-432e-86ff-42d0e089b4a4")
+		)
+		(pin "2"
+			(uuid "8e926e7f-eade-457b-a982-a3c1fe084877")
+		)
+		(pin "1"
+			(uuid "da1b0b1a-1f04-4aac-9e27-aa540c1d7d0a")
+		)
+		(pin "4"
+			(uuid "3d5f6eb8-4241-4aa3-b407-6a08e36a6c21")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
+					(reference "LED422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 95.25 27.94 0)
 		(unit 1)
@@ -2763,6 +2861,83 @@
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b48fe39-e0f3-4fcf-bfe3-e93dc95cf5b5")
+		(property "Reference" "#PWR0252"
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 164.846 94.488 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b31dc4a7-b56c-41a3-b040-10d776dacdf7")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -2924,7 +3099,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 87.63 85.09 0)
+		(at 106.68 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2934,8 +3109,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3acf6bb5-0da5-40c0-8810-a5d9888821cc")
-		(property "Reference" "LED422"
-			(at 78.74 84.074 0)
+		(property "Reference" "LED423"
+			(at 97.79 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2945,7 +3120,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 78.74 83.82 0)
+			(at 97.79 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +3131,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 87.63 97.79 0)
+			(at 106.68 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2967,7 +3142,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 87.63 100.33 0)
+			(at 106.68 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2978,7 +3153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 85.09 0)
+			(at 106.68 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,7 +3164,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 87.63 102.87 0)
+			(at 106.68 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,7 +3189,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
-					(reference "LED422")
+					(reference "LED423")
 					(unit 1)
 				)
 			)
@@ -6020,6 +6195,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 147.32 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0c1c144-1701-4264-b9a2-02dad403ac20")
+		(property "Reference" "#PWR0251"
+			(at 147.32 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VLED"
+			(at 147.32 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 147.32 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "781dafa8-95cf-43a2-93fe-a74f2a153f51")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
+					(reference "#PWR0251")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 30.48 0)
 		(unit 1)
@@ -6637,7 +6889,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 106.68 85.09 0)
+		(at 125.73 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6647,8 +6899,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdc4c479-7593-4e02-9f3b-708ce2974520")
-		(property "Reference" "LED423"
-			(at 97.79 84.074 0)
+		(property "Reference" "LED424"
+			(at 116.84 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6658,7 +6910,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 97.79 83.82 0)
+			(at 116.84 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6669,7 +6921,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 106.68 97.79 0)
+			(at 125.73 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6680,7 +6932,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 106.68 100.33 0)
+			(at 125.73 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 85.09 0)
+			(at 125.73 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +6954,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 106.68 102.87 0)
+			(at 125.73 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6727,7 +6979,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
-					(reference "LED423")
+					(reference "LED424")
 					(unit 1)
 				)
 			)
@@ -7501,7 +7753,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 125.73 85.09 0)
+		(at 144.78 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7511,8 +7763,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6a15ce3-2c57-4e05-becc-88316e2f3e80")
-		(property "Reference" "LED424"
-			(at 116.84 84.074 0)
+		(property "Reference" "LED425"
+			(at 135.89 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7522,7 +7774,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 116.84 83.82 0)
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +7785,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 125.73 97.79 0)
+			(at 144.78 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7544,7 +7796,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 125.73 100.33 0)
+			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7555,7 +7807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 85.09 0)
+			(at 144.78 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7566,7 +7818,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 125.73 102.87 0)
+			(at 144.78 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7591,7 +7843,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
-					(reference "LED424")
+					(reference "LED425")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7928,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 144.78 85.09 0)
+		(at 165.1 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7686,8 +7938,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f838f1f4-7f1a-43a3-a462-168e5bb7f6a8")
-		(property "Reference" "LED425"
-			(at 135.89 84.074 0)
+		(property "Reference" "LED426"
+			(at 156.21 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7697,7 +7949,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 135.89 83.82 0)
+			(at 156.21 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7708,7 +7960,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 144.78 97.79 0)
+			(at 165.1 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +7971,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 144.78 100.33 0)
+			(at 165.1 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7730,7 +7982,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 85.09 0)
+			(at 165.1 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,7 +7993,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 144.78 102.87 0)
+			(at 165.1 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7766,7 +8018,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/05540940-fa5a-4ea4-af45-fef4388174b4"
-					(reference "LED425")
+					(reference "LED426")
 					(unit 1)
 				)
 			)

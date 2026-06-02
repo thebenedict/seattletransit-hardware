@@ -89,7 +89,7 @@ stations:
       side: W
   seattle:
     class: standard
-    refs: [LED514, LED701]
+    refs: [LED515, LED701]
     label:
       text: Seattle
       side: N
@@ -601,6 +601,8 @@ stations:
       text: Vashon Island
       side: SW
       align: right
+      cross_align: right
+      offset_mm: 0
       angle_deg: 45.0
   southworth:
     class: ferry_port
@@ -651,7 +653,7 @@ stations:
       align_y: bottom
   west_seattle:
     class: ferry_port
-    refs: [LED518]
+    refs: [LED519]
     label:
       text: West Seattle
       side: SE

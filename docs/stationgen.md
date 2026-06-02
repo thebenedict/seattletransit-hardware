@@ -105,7 +105,7 @@ applied, and the sublabel text is generated inside the station group:
 stations:
   seattle:
     class: transfer
-    refs: [LED701, LED514]
+    refs: [LED701, LED515]
     sublabel_defaults:
       align: center
       vertical_align: center

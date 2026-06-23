@@ -1,0 +1,9 @@
+fare_media_id,fare_media_name,fare_media_type
+orca_rrfp,ORCA with Regional Reduced Fare Permit,2
+orca_youth,ORCA Youth,2
+youth_attestation,Youth Attestation,0
+transit_go_ticket,Transit GO Ticket,4
+orca_lift,ORCA Lift,2
+ticket,Ticket,1
+tap,Tap to Pay,3
+orca,ORCA,2

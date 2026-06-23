@@ -1,0 +1,8 @@
+agency_id,route_id,route_short_name,route_long_name,route_type,route_desc,route_url,route_color,route_text_color
+40,1-SHUTTLE,Shuttle,Link Replacement Shuttle Bus,3,,,FFB819,000000
+40,100479,1 Line,Lynnwood - Federal Way,0,1 Line runs between Lynnwood City Center Station and Federal Way Downtown Station seven days a week,https://www.soundtransit.org/1,28813F,FFFFFF
+40,2LINE,2 Line,Lynnwood - Downtown Redmond,0,2 Line runs between Lynnwood City Center Station and Downtown Redmond Station seven days a week,https://www.soundtransit.org/2,007CAD,FFFFFF
+40,SNDR_EV,N Line,Everett - Seattle,2,N Line runs between Everett Station and King Street Station weekdays,https://www.soundtransit.org/N,9AB6D3,000000
+40,SNDR_TL,S Line,Seattle - Tacoma/Lakewood,2,S Line runs between King Street Station and Tacoma Dome or Lakewood Stations weekdays,https://www.soundtransit.org/S,9AB6D3,000000
+40,TLINE,T Line,Tacoma Dome - St Joseph,0,T Line runs between Tacoma Dome Station and St Joseph Station seven days a week,https://www.soundtransit.org/T,F38B00,000000
+40,TLINE_S,Shuttle,T Line Replacement Bus Shuttle,3,,,DA7C00,FFFFFF

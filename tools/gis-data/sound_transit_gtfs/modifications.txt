@@ -1,0 +1,20 @@
+Below is a list of the changes included in the SC-Spring-2026.4 release of Sound Transit GTFS data.
+
+Schedule Changes
+* 1 & 2 Lines:
+  * March 18-20 Cross Lake Simulated Service pause
+  * March 21-22 DSTT closure
+  * March 28 CLC opening day schedule
+* Sounder
+  * Corrections to N Line Spring 2026 service
+  * Amtrak RailPlus service for 2026
+
+Route Changes
+* none
+
+Stop Changes
+* Station entrances for Downtown Redmond, Marymoor Village, Westlake, Kent Des Moines, Star Lake, Federal Way Downtown, Mercer Island, and Judkins Park
+
+Other Changes
+* Fares v2 data for all routes
+* Test set of translations.txt

@@ -1,0 +1,79 @@
+route_id,direction_id,stop_id,alternate_stop_name
+100479,0,S07-T1,Federal Way Downtown Station Bay 11
+100479,1,S07-T1,Federal Way Downtown Station Bay 11
+100479,0,S07-T2,Federal Way Downtown Station Bay 11
+100479,1,S07-T2,Federal Way Downtown Station Bay 11
+100479,0,S05-T2,Star Lake Station Bay 4
+100479,1,S05-T1,Star Lake Station Bay 3
+100479,0,S03-T2,S 236th St & 30th Av S
+100479,1,S03-T1,S 236th St & 30th Av S
+100479,0,99914,S 200th St & 28th Ave S
+100479,1,99913,S 200th St & 28th Ave S
+100479,1,99240,Beacon Ave S & S Lander St
+100479,0,99121,Beacon Ave S & S Lander St
+100479,1,99603,E John St & Broadway Ave E
+100479,0,99610,E John & 10th Ave E
+100479,1,55778,Martin Luther King Jr Way S & S Edmunds St
+100479,0,56039,Martin Luther King Jr Way S & S Alaska St
+100479,1,621,4th Ave S & S Jackson St
+100479,0,623,5th Ave S & S Weller St
+100479,1,55860,Rainier Ave S & S Forest St
+100479,0,55949,Rainier Ave S & S Forest St
+100479,0,990005,Northgate Station - Bay 1
+100479,1,990006,Northgate Station - Bay 4
+100479,1,55656,Martin Luther King Jr Way S & S Myrtle St
+100479,0,56159,Martin Luther King Jr Way S & S Myrtle St
+100479,1,532,3rd Ave & James St
+100479,0,501,3rd Ave & James St
+100479,1,55578,Martin Luther King Jr Way S & S Henderson St
+100479,0,56173,Martin Luther King Jr Way S & S Henderson St
+100479,0,990003,12th Ave NE & NE 67th St
+100479,1,990004,12th Ave NE & NE 65th St
+100479,1,99903,International Blvd S & S 176th St
+100479,0,99904,International Blvd S & S 176th St
+100479,1,99256,SODO Busway & S Lander St
+100479,0,99111,SODO Busway & S Lander St
+100479,1,99260,SODO Busway & S Royal Brougham Way
+100479,0,99101,SODO Busway & S Royal Brougham Way
+100479,1,99905,Tukwila International Blvd Station - Bay 2
+100479,0,99900,Tukwila International Blvd Station - Bay 2
+100479,0,990001,NE 43rd St & Brooklyn Ave NE
+100479,1,990002,University Way NE & NE 45th St
+100479,1,99605,Montlake Blvd NE & NE Pacific St - Bay 2
+100479,0,99604,Montlake Blvd NE & NE Pacific Pl - Bay 3
+100479,1,565,3rd Ave & Union St
+100479,0,455,3rd Ave & Union St
+100479,1,1121,3rd Ave & Pine St
+100479,0,1108,Pine St & 5th Ave
+100479,1,N15-T1,Shoreline South Station - Bay 3
+100479,0,N15-T2,Shoreline South Station - Bay 2
+100479,1,N17-T1,Shoreline North Station - Bay 1
+100479,0,N17-T2,Shoreline North Station - Bay 3
+100479,1,N19-T1,Mountlake Terrace Freeway Station - Bay 7
+100479,0,N19-T2,Mountlake Terrace Freeway Station - Bay 6
+100479,1,N23-T1,Lynnwood City Center Station - Bay D3
+100479,0,N23-T2,Lynnwood City Center Station - Bay D3
+100479,0,N23-T1,Lynnwood City Center Station - Bay D3
+100479,1,N23-T2,Lynnwood City Center Station - Bay D3
+2LINE,0,E01-T2,Rainier Av S at Judkins Park Station
+2LINE,1,E01-T1,Rainier Av S at Judkins Park Station
+2LINE,0,E07-T2,N Mercer Way & 80th Ave SE - Bay 2
+2LINE,1,E07-T1,N Mercer Way & 80th Ave SE - Bay 1
+2LINE,1,E09-T1,South Bellevue Station Bus Plaza - Bay 2
+2LINE,0,E09-T2,South Bellevue Station Bus Plaza - Bay 2
+2LINE,1,E11-T1,112th Ave SE & SE 4th St
+2LINE,0,E11-T2,112th Ave SE & SE 4th St
+2LINE,1,E15-T1,110th Ave NE & NE 6th St
+2LINE,0,E15-T2,110th Ave NE & NE 6th St
+2LINE,1,E19-T1,NE 8th St & 116th Ave NE
+2LINE,0,E19-T2,NE 8th St & 116th Ave NE
+2LINE,1,E21-T1,120th Ave NE & NE Spring Blvd
+2LINE,0,E21-T2,120th Ave NE & NE Spring Blvd
+2LINE,1,E23-T1,132nd Ave NE & NE Spring Blvd
+2LINE,0,E23-T2,132nd Ave NE & NE Spring Blvd
+2LINE,1,E25-T1,152nd Ave NE & NE Shen St
+2LINE,0,E25-T2,152nd Ave NE & NE Shen St
+2LINE,0,E27-T1,Redmond Technology Station - Bay 1
+2LINE,1,E27-T1,Redmond Technology Station - Bay 1
+2LINE,0,E27-T2,Redmond Technology Station - Bay 1
+2LINE,1,E27-T2,Redmond Technology Station - Bay 1

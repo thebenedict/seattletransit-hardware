@@ -1,0 +1,3 @@
+stop_id,stop_name,stop_lat,stop_lon
+SC,Seattle Center,47.621263,-122.349955
+WL,Westlake Center,47.612046,-122.336960

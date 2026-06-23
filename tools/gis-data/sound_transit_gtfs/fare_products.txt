@@ -1,0 +1,57 @@
+fare_product_id,fare_product_name,amount,currency,fare_media_id
+link_adult,Link Light Rail Adult,3.00,USD,ticket
+sounder_adult_10,Sounder Adult 10,5.50,USD,ticket
+sounder_adult_6,Sounder Adult 6,4.50,USD,ticket
+sounder_adult_9,Sounder Adult 9,5.25,USD,transit_go_ticket
+sounder_adult_1,Sounder Adult 1,3.25,USD,tap
+sounder_adult_4,Sounder Adult 4,4.00,USD,orca
+sounder_adult_11,Sounder Adult 11,5.75,USD,tap
+sounder_adult_3,Sounder Adult 3,3.75,USD,transit_go_ticket
+sounder_adult_1,Sounder Adult 1,3.25,USD,transit_go_ticket
+tline_adult,T Line Adult,2.00,USD,tap
+tline_adult,T Line Adult,2.00,USD,transit_go_ticket
+sounder_adult_3,Sounder Adult 3,3.75,USD,ticket
+sounder_adult_3,Sounder Adult 3,3.75,USD,orca
+sounder_adult_3,Sounder Adult 3,3.75,USD,tap
+sounder_adult_5,Sounder Adult 5,4.25,USD,transit_go_ticket
+youth,Youth 18 and Under,0.00,USD,orca_youth
+sounder_adult_7,Sounder Adult 7,4.75,USD,transit_go_ticket
+link_adult,Link Light Rail Adult,3.00,USD,orca
+sounder_adult_2,Sounder Adult 2,3.50,USD,orca
+sounder_adult_5,Sounder Adult 5,4.25,USD,tap
+sounder_adult_7,Sounder Adult 7,4.75,USD,tap
+sounder_adult_8,Sounder Adult 8,5.00,USD,ticket
+sounder_adult_6,Sounder Adult 6,4.50,USD,tap
+sounder_adult_9,Sounder Adult 9,5.25,USD,orca
+link_adult,Link Light Rail Adult,3.00,USD,tap
+sounder_adult_8,Sounder Adult 8,5.00,USD,tap
+sounder_adult_11,Sounder Adult 11,5.75,USD,orca
+sounder_adult_5,Sounder Adult 5,4.25,USD,ticket
+sounder_adult_9,Sounder Adult 9,5.25,USD,tap
+tline_adult,T Line Adult,2.00,USD,ticket
+sounder_adult_1,Sounder Adult 1,3.25,USD,orca
+sounder_adult_8,Sounder Adult 8,5.00,USD,orca
+sounder_adult_10,Sounder Adult 10,5.50,USD,orca
+sounder_adult_10,Sounder Adult 10,5.50,USD,tap
+sounder_adult_2,Sounder Adult 2,3.50,USD,ticket
+sounder_adult_4,Sounder Adult 4,4.00,USD,transit_go_ticket
+link_adult,Link Light Rail Adult,3.00,USD,transit_go_ticket
+sounder_adult_7,Sounder Adult 7,4.75,USD,orca
+sounder_adult_2,Sounder Adult 2,3.50,USD,tap
+sounder_adult_2,Sounder Adult 2,3.50,USD,transit_go_ticket
+sounder_adult_10,Sounder Adult 10,5.50,USD,transit_go_ticket
+sounder_adult_11,Sounder Adult 11,5.75,USD,ticket
+sounder_adult_4,Sounder Adult 4,4.00,USD,tap
+sounder_adult_6,Sounder Adult 6,4.50,USD,transit_go_ticket
+sounder_adult_7,Sounder Adult 7,4.75,USD,ticket
+sounder_adult_8,Sounder Adult 8,5.00,USD,transit_go_ticket
+tline_adult,T Line Adult,2.00,USD,orca
+sounder_adult_4,Sounder Adult 4,4.00,USD,ticket
+sounder_adult_6,Sounder Adult 6,4.50,USD,orca
+sounder_adult_11,Sounder Adult 11,5.75,USD,transit_go_ticket
+youth,Youth 18 and Under,0.00,USD,youth_attestation
+sounder_adult_5,Sounder Adult 5,4.25,USD,orca
+sounder_adult_1,Sounder Adult 1,3.25,USD,ticket
+orca_reduced,ORCA Lift,1.00,USD,orca_lift
+sounder_adult_9,Sounder Adult 9,5.25,USD,ticket
+orca_reduced,Regional Reduced Fare Permit (Senior/Disabled),1.00,USD,orca_rrfp

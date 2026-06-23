@@ -1,0 +1,6 @@
+fare_id,price,currency_type,payment_method,transfers,agency_id,youth_price,senior_price
+Military,2.0,USD,1,0,96,0.0,0.0
+Disabled,2.0,USD,1,0,96,0.0,0.0
+Adult,4.0,USD,1,0,96,0.0,0.0
+Youth,2.0,USD,1,0,96,0.0,0.0
+Senior,2.0,USD,1,0,96,0.0,0.0

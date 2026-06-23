@@ -1,0 +1,939 @@
+route_id,trip_id,service_id,trip_headsign,direction_id,shape_id,wheelchair_accessible,drt_advance_book_min,bikes_allowed,peak_offpeak,boarding_type
+SCM,NB_event_s2100e0000_0005,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2105,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2115,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2125,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2135,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2145,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2155,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2205,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2215,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2225,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2235,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2245,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2255,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2305,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2315,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2325,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2335,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2345,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e0000_2355,event_s2100e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2130_2105,event_s2100e2130,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2130_2115,event_s2100e2130,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2130_2125,event_s2100e2130,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2130_2135,event_s2100e2130,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2105,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2115,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2125,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2135,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2145,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2155,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2205,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2215,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2225,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2235,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2100e2245_2245,event_s2100e2245,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2300e0000_0005,event_s2300e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2300e0000_2305,event_s2300e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2300e0000_2315,event_s2300e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2300e0000_2325,event_s2300e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2300e0000_2335,event_s2300e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2300e0000_2345,event_s2300e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_event_s2300e0000_2355,event_s2300e0000,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0835,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0845,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0855,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0905,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0915,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0925,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0935,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0945,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_0955,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1005,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1015,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1025,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1035,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1045,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1055,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1105,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1115,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1125,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1135,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1145,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1155,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1205,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1215,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1225,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1235,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1245,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1255,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1305,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1315,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1325,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1335,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1345,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1355,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1405,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1415,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1425,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1435,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1445,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1455,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1505,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1515,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1525,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1535,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1545,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1555,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1605,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1615,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1625,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1635,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1645,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1655,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1705,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1715,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1725,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1735,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1745,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1755,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1805,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1815,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1825,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1835,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1845,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1855,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1905,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1915,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1925,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1935,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1945,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_1955,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2005,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2015,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2025,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2035,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2045,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2055,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2105,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2115,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2125,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2135,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2145,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2155,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2205,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2215,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2225,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2235,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2245,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2255,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_memorial_day_2026_2305,memorial_day_2026,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0735,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0745,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0755,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0805,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0815,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0825,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0835,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0845,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0855,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0905,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0915,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0925,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0935,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0945,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_0955,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1005,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1015,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1025,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1035,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1045,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1055,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1105,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1115,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1125,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1135,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1145,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1155,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1205,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1215,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1225,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1235,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1245,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1255,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1305,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1315,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1325,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1335,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1345,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1355,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1405,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1415,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1425,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1435,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1445,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1455,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1505,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1515,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1525,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1535,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1545,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1555,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1605,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1615,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1625,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1635,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1645,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1655,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1705,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1715,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1725,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1735,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1745,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1755,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1805,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1815,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1825,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1835,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1845,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1855,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1905,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1915,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1925,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1935,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1945,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_1955,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2005,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2015,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2025,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2035,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2045,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2055,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2105,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2115,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2125,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2135,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2145,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2155,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2205,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2215,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2225,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2235,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2245,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2255,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Fri_2305,winter2025_Fri,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0735,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0745,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0755,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0805,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0815,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0825,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0835,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0845,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0855,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0905,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0915,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0925,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0935,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0945,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_0955,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1005,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1015,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1025,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1035,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1045,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1055,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1105,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1115,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1125,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1135,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1145,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1155,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1205,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1215,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1225,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1235,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1245,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1255,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1305,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1315,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1325,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1335,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1345,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1355,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1405,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1415,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1425,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1435,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1445,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1455,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1505,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1515,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1525,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1535,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1545,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1555,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1605,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1615,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1625,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1635,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1645,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1655,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1705,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1715,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1725,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1735,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1745,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1755,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1805,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1815,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1825,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1835,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1845,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1855,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1905,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1915,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1925,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1935,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1945,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_1955,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_2005,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_2015,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_2025,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_2035,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_2045,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_2055,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_MonThu_2105,winter2025_MonThu,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0835,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0845,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0855,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0905,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0915,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0925,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0935,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0945,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_0955,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1005,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1015,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1025,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1035,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1045,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1055,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1105,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1115,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1125,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1135,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1145,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1155,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1205,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1215,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1225,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1235,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1245,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1255,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1305,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1315,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1325,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1335,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1345,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1355,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1405,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1415,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1425,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1435,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1445,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1455,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1505,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1515,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1525,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1535,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1545,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1555,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1605,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1615,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1625,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1635,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1645,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1655,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1705,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1715,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1725,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1735,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1745,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1755,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1805,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1815,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1825,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1835,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1845,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1855,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1905,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1915,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1925,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1935,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1945,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_1955,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2005,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2015,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2025,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2035,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2045,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2055,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2105,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2115,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2125,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2135,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2145,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2155,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2205,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2215,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2225,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2235,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2245,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2255,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sat_2305,winter2025_Sat,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0835,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0845,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0855,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0905,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0915,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0925,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0935,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0945,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_0955,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1005,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1015,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1025,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1035,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1045,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1055,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1105,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1115,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1125,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1135,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1145,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1155,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1205,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1215,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1225,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1235,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1245,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1255,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1305,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1315,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1325,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1335,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1345,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1355,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1405,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1415,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1425,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1435,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1445,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1455,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1505,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1515,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1525,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1535,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1545,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1555,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1605,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1615,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1625,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1635,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1645,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1655,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1705,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1715,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1725,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1735,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1745,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1755,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1805,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1815,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1825,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1835,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1845,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1855,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1905,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1915,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1925,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1935,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1945,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_1955,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_2005,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_2015,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_2025,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_2035,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_2045,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_2055,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,NB_winter2025_Sun_2105,winter2025_Sun,Seattle Center,1,FifthAveNB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_0000,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2100,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2110,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2120,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2130,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2140,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2150,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2200,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2210,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2220,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2230,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2240,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2250,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2300,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2310,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2320,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2330,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2340,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e0000_2350,event_s2100e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2130_2100,event_s2100e2130,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2130_2110,event_s2100e2130,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2130_2120,event_s2100e2130,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2130_2130,event_s2100e2130,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2100,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2110,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2120,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2130,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2140,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2150,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2200,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2210,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2220,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2230,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2100e2245_2240,event_s2100e2245,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2300e0000_0000,event_s2300e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2300e0000_2300,event_s2300e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2300e0000_2310,event_s2300e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2300e0000_2320,event_s2300e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2300e0000_2330,event_s2300e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2300e0000_2340,event_s2300e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_event_s2300e0000_2350,event_s2300e0000,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0830,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0840,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0850,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0900,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0910,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0920,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0930,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0940,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_0950,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1000,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1010,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1020,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1030,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1040,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1050,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1100,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1110,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1120,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1130,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1140,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1150,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1200,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1210,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1220,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1230,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1240,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1250,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1300,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1310,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1320,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1330,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1340,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1350,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1400,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1410,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1420,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1430,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1440,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1450,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1500,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1510,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1520,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1530,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1540,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1550,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1600,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1610,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1620,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1630,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1640,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1650,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1700,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1710,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1720,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1730,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1740,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1750,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1800,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1810,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1820,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1830,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1840,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1850,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1900,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1910,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1920,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1930,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1940,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_1950,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2000,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2010,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2020,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2030,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2040,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2050,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2100,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2110,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2120,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2130,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2140,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2150,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2200,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2210,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2220,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2230,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2240,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2250,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_memorial_day_2026_2300,memorial_day_2026,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0730,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0740,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0750,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0800,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0810,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0820,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0830,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0840,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0850,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0900,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0910,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0920,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0930,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0940,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_0950,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1000,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1010,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1020,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1030,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1040,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1050,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1100,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1110,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1120,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1130,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1140,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1150,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1200,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1210,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1220,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1230,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1240,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1250,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1300,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1310,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1320,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1330,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1340,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1350,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1400,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1410,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1420,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1430,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1440,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1450,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1500,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1510,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1520,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1530,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1540,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1550,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1600,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1610,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1620,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1630,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1640,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1650,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1700,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1710,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1720,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1730,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1740,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1750,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1800,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1810,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1820,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1830,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1840,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1850,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1900,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1910,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1920,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1930,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1940,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_1950,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2000,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2010,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2020,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2030,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2040,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2050,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2100,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2110,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2120,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2130,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2140,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2150,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2200,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2210,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2220,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2230,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2240,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2250,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Fri_2300,winter2025_Fri,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0730,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0740,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0750,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0800,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0810,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0820,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0830,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0840,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0850,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0900,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0910,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0920,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0930,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0940,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_0950,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1000,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1010,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1020,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1030,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1040,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1050,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1100,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1110,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1120,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1130,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1140,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1150,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1200,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1210,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1220,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1230,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1240,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1250,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1300,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1310,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1320,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1330,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1340,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1350,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1400,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1410,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1420,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1430,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1440,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1450,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1500,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1510,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1520,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1530,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1540,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1550,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1600,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1610,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1620,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1630,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1640,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1650,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1700,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1710,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1720,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1730,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1740,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1750,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1800,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1810,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1820,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1830,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1840,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1850,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1900,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1910,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1920,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1930,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1940,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_1950,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_2000,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_2010,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_2020,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_2030,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_2040,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_2050,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_MonThu_2100,winter2025_MonThu,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0830,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0840,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0850,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0900,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0910,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0920,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0930,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0940,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_0950,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1000,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1010,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1020,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1030,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1040,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1050,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1100,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1110,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1120,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1130,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1140,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1150,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1200,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1210,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1220,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1230,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1240,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1250,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1300,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1310,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1320,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1330,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1340,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1350,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1400,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1410,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1420,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1430,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1440,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1450,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1500,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1510,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1520,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1530,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1540,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1550,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1600,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1610,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1620,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1630,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1640,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1650,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1700,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1710,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1720,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1730,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1740,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1750,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1800,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1810,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1820,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1830,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1840,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1850,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1900,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1910,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1920,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1930,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1940,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_1950,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2000,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2010,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2020,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2030,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2040,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2050,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2100,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2110,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2120,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2130,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2140,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2150,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2200,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2210,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2220,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2230,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2240,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2250,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sat_2300,winter2025_Sat,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0830,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0840,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0850,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0900,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0910,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0920,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0930,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0940,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_0950,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1000,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1010,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1020,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1030,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1040,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1050,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1100,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1110,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1120,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1130,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1140,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1150,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1200,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1210,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1220,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1230,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1240,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1250,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1300,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1310,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1320,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1330,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1340,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1350,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1400,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1410,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1420,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1430,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1440,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1450,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1500,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1510,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1520,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1530,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1540,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1550,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1600,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1610,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1620,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1630,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1640,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1650,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1700,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1710,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1720,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1730,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1740,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1750,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1800,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1810,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1820,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1830,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1840,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1850,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1900,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1910,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1920,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1930,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1940,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_1950,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_2000,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_2010,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_2020,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_2030,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_2040,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_2050,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0
+SCM,SB_winter2025_Sun_2100,winter2025_Sun,Westlake,0,FifthAveSB_shape,1,0.0,1,0,0

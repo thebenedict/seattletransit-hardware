@@ -1,0 +1,5 @@
+rider_category_id,rider_category_name,eligibility_url,is_default_fare_category
+youth,Youth (18 and under),https://info.myorca.com/using-orca/ways-to-save/youth/,0
+adult,Adult,https://info.myorca.com/using-orca/ways-to-save/adult/,1
+lift,ORCA LIFT,https://info.myorca.com/using-orca/ways-to-save/low-income-households/,0
+rrfp,Regional Reduced Fare Permit,https://info.myorca.com/using-orca/ways-to-save/seniors/,0

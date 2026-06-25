@@ -2388,6 +2388,30 @@
 		)
 		(uuid "fc9cd3eb-d5fc-4bd0-9854-bba2b38cdea2")
 	)
+	(global_label "T_SOUNDER"
+		(shape input)
+		(at 76.2 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7de28dda-4a41-46b1-b181-9d92c3c03fd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.3896 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:VBUS")
 		(at 215.9 29.21 0)

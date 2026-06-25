@@ -988,7 +988,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1547",
     "variants": []
   },
   "sheets": [
@@ -1049,14 +1049,6 @@
       "sounder_n"
     ],
     [
-      "8a112004-64ba-4f82-892a-875572c5c5f1",
-      "tacoma_t"
-    ],
-    [
-      "91ae385e-b417-4a19-b535-f6364aa8f223",
-      "Ferries N"
-    ],
-    [
       "c77204ed-8b40-49cf-be41-b23cecafc970",
       "Rail W"
     ],
@@ -1067,6 +1059,14 @@
     [
       "80c06a5e-cea2-47d9-b67a-41d837fcb0a2",
       "Rail E"
+    ],
+    [
+      "8a112004-64ba-4f82-892a-875572c5c5f1",
+      "tacoma_t"
+    ],
+    [
+      "91ae385e-b417-4a19-b535-f6364aa8f223",
+      "monorail"
     ]
   ],
   "text_variables": {},

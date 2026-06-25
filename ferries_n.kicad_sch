@@ -567,7 +567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07dfc683-35f9-4057-b797-40d6ca44ae5d")
-		(property "Reference" "LED1602"
+		(property "Reference" "LED2002"
 			(at 72.39 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -646,7 +646,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/91ae385e-b417-4a19-b535-f6364aa8f223"
-					(reference "LED1602")
+					(reference "LED2002")
 					(unit 1)
 				)
 			)
@@ -664,7 +664,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b4de3b8-cd2e-4db7-ba83-87ecab409191")
-		(property "Reference" "LED1604"
+		(property "Reference" "LED2004"
 			(at 110.49 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -754,7 +754,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/91ae385e-b417-4a19-b535-f6364aa8f223"
-					(reference "LED1604")
+					(reference "LED2004")
 					(unit 1)
 				)
 			)
@@ -1084,7 +1084,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d3a7e57-2551-4b01-bfe0-0103e35ab8d1")
-		(property "Reference" "LED1601"
+		(property "Reference" "LED2001"
 			(at 52.07 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1174,7 +1174,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/91ae385e-b417-4a19-b535-f6364aa8f223"
-					(reference "LED1601")
+					(reference "LED2001")
 					(unit 1)
 				)
 			)
@@ -1427,7 +1427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca2dcb9e-5648-40ca-a7b8-f01ea9704bfc")
-		(property "Reference" "LED1603"
+		(property "Reference" "LED2003"
 			(at 91.44 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1506,7 +1506,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/91ae385e-b417-4a19-b535-f6364aa8f223"
-					(reference "LED1603")
+					(reference "LED2003")
 					(unit 1)
 				)
 			)

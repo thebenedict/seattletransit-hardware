@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.pretty")(options "")(descr "Project-local EasyEDA footprints"))
   (lib (name "PCM_Espressif")(type "KiCad")(uri "${KIPRJMOD}/PCM_Espressif.pretty")(options "")(descr "Project-local Espressif footprints"))
+  (lib (name "Transit")(type "KiCad")(uri "${KIPRJMOD}/Transit.pretty")(options "")(descr "Project-local transit footprints"))
 )

@@ -65,7 +65,7 @@ styles:
 stations:
   mukilteo:
     class: transfer
-    refs: [LED1101, LED1409, LED1421]
+    refs: [LED1101, LED1409, LED1416]
     label:
       text: Mukilteo
       side: N
@@ -74,7 +74,7 @@ stations:
       offset_mm: 0.8
   edmonds:
     class: transfer
-    refs: [LED1001, LED1406, LED1418]
+    refs: [LED1001, LED1406, LED1419]
     label:
       text: Edmonds
       side: N
@@ -83,20 +83,25 @@ stations:
       offset_mm: 0.8
   king_street:
     class: transfer
-    refs: [LED1401, LED1413, LED1727, LED1827]
+    refs: [LED1401, LED1424, LED1527, LED1627]
     label:
       text: King Street
       side: W
   seattle:
-    class: standard
+    class: transfer
     refs: [LED515, LED701]
     label:
       text: Seattle
       side: N
       align: right
+    sublabels:
+      - text: Pier 52
+        position_mm: [124.52, 52.69]
+      - text: Pier 50
+        position_mm: [124.52, 60.79]
   tacoma_dome:
     class: terminal
-    refs: [LED1304, LED1305, LED1306, LED1323, LED1324, LED1325]
+    refs: [LED1304, LED1305, LED1306, LED1333, LED1334, LED1335]
     label:
       text: Tacoma Dome
       align: left
@@ -105,7 +110,7 @@ stations:
       angle_deg: 315
   intl_district_chinatown:
     class: standard
-    refs: [LED1727, LED1827]
+    refs: [LED1527, LED1627]
     label:
       text: |-
         Intl. District
@@ -115,14 +120,14 @@ stations:
       offset_mm: 1.4
   st_joseph:
     class: terminal
-    refs: [LED1501, LED1513]
+    refs: [LED1801, LED1824]
     label:
       text: St Joseph
       side: SW
       align: auto
   hilltop_district:
     class: standard
-    refs: [LED1502, LED1514]
+    refs: [LED1802, LED1823]
     label:
       text: Hilltop District
       side: SE
@@ -130,14 +135,14 @@ stations:
       angle_deg: 315.0
   star_lake:
     class: standard
-    refs: [LED1703, LED1851]
+    refs: [LED1503, LED1651]
     label:
       text: Star Lake
       side: E
       align: left
   6th_ave:
     class: standard
-    refs: [LED1503, LED1515]
+    refs: [LED1803, LED1822]
     label:
       text: 6th Ave
       side: SE
@@ -145,7 +150,7 @@ stations:
       angle_deg: 315.0
   tacoma_general:
     class: standard
-    refs: [LED1504, LED1516]
+    refs: [LED1804, LED1821]
     label:
       text: Tacoma General
       side: SE
@@ -153,7 +158,7 @@ stations:
       angle_deg: 315.0
   stadium_district:
     class: standard
-    refs: [LED1505, LED1517]
+    refs: [LED1805, LED1820]
     label:
       text: Stadium District
       side: SE
@@ -161,7 +166,7 @@ stations:
       angle_deg: 315.0
   s_4th_st:
     class: standard
-    refs: [LED1506, LED1518]
+    refs: [LED1806, LED1819]
     label:
       text: S 4th St
       side: SE
@@ -169,7 +174,7 @@ stations:
       angle_deg: 315.0
   old_city_hall:
     class: standard
-    refs: [LED1507, LED1519]
+    refs: [LED1807, LED1818]
     label:
       text: Old City Hall
       side: SE
@@ -177,7 +182,7 @@ stations:
       angle_deg: 315.0
   theater_district:
     class: standard
-    refs: [LED1508, LED1520]
+    refs: [LED1808, LED1817]
     label:
       text: Theater District
       side: N
@@ -187,10 +192,10 @@ stations:
       cross_align: top
   led1508:
     class: standard
-    refs: [LED1508, LED1520]
+    refs: [LED1808, LED1817]
   convention_center:
     class: standard
-    refs: [LED1509, LED1521]
+    refs: [LED1809, LED1816]
     label:
       text: Convention Center
       side: NE
@@ -198,7 +203,7 @@ stations:
       angle_deg: 45.0
   union_station:
     class: standard
-    refs: [LED1510, LED1522]
+    refs: [LED1810, LED1815]
     label:
       text: Union Station
       side: NE
@@ -206,7 +211,7 @@ stations:
       angle_deg: 45.0
   s_25th_st:
     class: standard
-    refs: [LED1511, LED1523]
+    refs: [LED1811, LED1814]
     label:
       text: S 25th St
       side: NE
@@ -214,14 +219,14 @@ stations:
       angle_deg: 45.0
   lakewood:
     class: terminal
-    refs: [LED1301, LED1320]
+    refs: [LED1301, LED1338]
     label:
       text: Lakewood
       side: W
       align: auto
   south_tacoma:
     class: standard
-    refs: [LED1303, LED1322]
+    refs: [LED1303, LED1336]
     label:
       text: South Tacoma
       side: SE
@@ -229,7 +234,7 @@ stations:
       angle_deg: 315.0
   puyallup:
     class: standard
-    refs: [LED1308, LED1327]
+    refs: [LED1308, LED1331]
     label:
       text: Puyallup
       side: S
@@ -245,14 +250,14 @@ stations:
       align: left
   auburn:
     class: standard
-    refs: [LED1313, LED1332]
+    refs: [LED1313, LED1326]
     label:
       text: Auburn
       side: E
       align: left
   kent:
     class: standard
-    refs: [LED1315, LED1334]
+    refs: [LED1315, LED1324]
     label:
       text: Kent
       side: E
@@ -260,7 +265,7 @@ stations:
       cross_align: top
   tukwila:
     class: standard
-    refs: [LED1317, LED1336]
+    refs: [LED1317, LED1322]
     label:
       text: Tukwila
       side: E
@@ -268,14 +273,14 @@ stations:
       cross_align: top
   everett:
     class: terminal
-    refs: [LED1412, LED1424]
+    refs: [LED1412, LED1413]
     label:
       text: Everett
       side: E
       align: left
   federal_way_downtown:
     class: terminal
-    refs: [LED1701, LED1853]
+    refs: [LED1501, LED1653]
     label:
       text: |-
         Federal Way
@@ -284,21 +289,21 @@ stations:
       align: left
   kent_des_moines:
     class: standard
-    refs: [LED1705, LED1849]
+    refs: [LED1505, LED1649]
     label:
       text: Kent Des Moines
       side: E
       align: left
   angle_lake:
     class: standard
-    refs: [LED1707, LED1847]
+    refs: [LED1507, LED1647]
     label:
       text: Angle Lake
       side: E
       align: left
   seatac_airport:
     class: standard
-    refs: [LED1709, LED1845]
+    refs: [LED1509, LED1645]
     label:
       text: SeaTac/Airport
       side: W
@@ -306,7 +311,7 @@ stations:
       cross_align: top
   tukwila_intl_blvd:
     class: standard
-    refs: [LED1711, LED1843]
+    refs: [LED1511, LED1643]
     label:
       text: Tukwila Intl. Blvd.
       side: W
@@ -314,28 +319,28 @@ stations:
       cross_align: top
   rainier_beach:
     class: standard
-    refs: [LED1713, LED1841]
+    refs: [LED1513, LED1641]
     label:
       text: Rainier Beach
       side: E
       align: left
   othello:
     class: standard
-    refs: [LED1715, LED1839]
+    refs: [LED1515, LED1639]
     label:
       text: Othello
       side: E
       align: left
   columbia_city:
     class: standard
-    refs: [LED1717, LED1837]
+    refs: [LED1517, LED1637]
     label:
       text: Columbia City
       side: E
       align: left
   mount_baker:
     class: standard
-    refs: [LED1719, LED1835]
+    refs: [LED1519, LED1635]
     label:
       text: Mount Baker
       side: E
@@ -343,7 +348,7 @@ stations:
       cross_align: top
   beacon_hill:
     class: standard
-    refs: [LED1721, LED1833]
+    refs: [LED1521, LED1633]
     label:
       text: Beacon Hill
       side: E
@@ -351,21 +356,21 @@ stations:
       cross_align: top
   sodo:
     class: standard
-    refs: [LED1723, LED1831]
+    refs: [LED1523, LED1631]
     label:
       text: SODO
       side: E
       align: left
   stadium:
     class: standard
-    refs: [LED1725, LED1829]
+    refs: [LED1525, LED1629]
     label:
       text: Stadium
       side: E
       align: left
   pioneer_square:
     class: standard
-    refs: [LED1729, LED1825]
+    refs: [LED1529, LED1625]
     label:
       text: |-
         Pioneer
@@ -374,7 +379,7 @@ stations:
       align: left
   symphony:
     class: standard
-    refs: [LED1731, LED1823]
+    refs: [LED1531, LED1623]
     label:
       text: Symphony
       side: E
@@ -382,7 +387,7 @@ stations:
       cross_align: bottom
   westlake:
     class: transfer
-    refs: [LED1601, LED1733, LED1821]
+    refs: [LED2001, LED1533, LED1621]
     decoration:
       angle_deg: 315.0
     label:
@@ -393,14 +398,14 @@ stations:
       offset_mm: 0
   capitol_hill:
     class: standard
-    refs: [LED1735, LED1819]
+    refs: [LED1535, LED1619]
     label:
       text: Capitol Hill
       side: E
       align: left
   university_of_washington:
     class: standard
-    refs: [LED1737, LED1817]
+    refs: [LED1537, LED1617]
     label:
       text: |-
         University of
@@ -409,28 +414,28 @@ stations:
       align: left
   u_district:
     class: standard
-    refs: [LED1739, LED1815]
+    refs: [LED1539, LED1615]
     label:
       text: U District
       side: E
       align: left
   roosevelt:
     class: standard
-    refs: [LED1741, LED1813]
+    refs: [LED1541, LED1613]
     label:
       text: Roosevelt
       side: E
       align: left
   northgate:
     class: standard
-    refs: [LED1743, LED1811]
+    refs: [LED1543, LED1611]
     label:
       text: Northgate
       side: E
       align: right
   pinehurst:
     class: standard
-    refs: [LED1746, LED1808]
+    refs: [LED1546, LED1608]
     label:
       text: Pinehurst
       side: E
@@ -438,7 +443,7 @@ stations:
       cross_align: bottom
   shoreline_south_148th:
     class: standard
-    refs: [LED1747, LED1807]
+    refs: [LED1547, LED1607]
     label:
       text: Shoreline South/148th
       side: E
@@ -446,7 +451,7 @@ stations:
       cross_align: bottom
   shoreline_north_185th:
     class: standard
-    refs: [LED1749, LED1805]
+    refs: [LED1549, LED1605]
     label:
       text: Shoreline North/185th
       side: E
@@ -454,7 +459,7 @@ stations:
       cross_align: bottom
   mountlake_terrace:
     class: standard
-    refs: [LED1751, LED1803]
+    refs: [LED1551, LED1603]
     label:
       text: Mountlake Terrace
       side: E
@@ -462,7 +467,7 @@ stations:
       cross_align: bottom
   lynnwood_city_center:
     class: terminal
-    refs: [LED1753, LED1801]
+    refs: [LED1553, LED1601]
     label:
       text: |-
         Lynnwood
@@ -471,7 +476,7 @@ stations:
       align: left
   judkins_park:
     class: standard
-    refs: [LED1902, LED1947]
+    refs: [LED1702, LED1747]
     label:
       text: Judkins Park
       side: N
@@ -481,7 +486,7 @@ stations:
       cross_align: top
   mercer_island:
     class: standard
-    refs: [LED1904, LED1945]
+    refs: [LED1704, LED1745]
     label:
       text: Mercer Island
       side: N
@@ -491,7 +496,7 @@ stations:
       cross_align: top
   south_bellevue:
     class: standard
-    refs: [LED1906, LED1943]
+    refs: [LED1706, LED1743]
     label:
       text: |-
         South
@@ -501,63 +506,63 @@ stations:
       cross_align: bottom
   east_main:
     class: standard
-    refs: [LED1908, LED1941]
+    refs: [LED1708, LED1741]
     label:
       text: East Main
       side: W
       align: right
   bellevue_downtown:
     class: standard
-    refs: [LED1910, LED1939]
+    refs: [LED1710, LED1739]
     label:
       text: Bellevue Downtown
       side: W
       align: right
   wilburton:
     class: standard
-    refs: [LED1912, LED1937]
+    refs: [LED1712, LED1737]
     label:
       text: Wilburton
       side: W
       align: right
   spring_district:
     class: standard
-    refs: [LED1914, LED1935]
+    refs: [LED1714, LED1735]
     label:
       text: Spring District
       side: W
       align: right
   belred:
     class: standard
-    refs: [LED1916, LED1933]
+    refs: [LED1716, LED1733]
     label:
       text: BelRed
       side: W
       align: right
   overlake_village:
     class: standard
-    refs: [LED1918, LED1931]
+    refs: [LED1718, LED1731]
     label:
       text: Overlake Village
       side: W
       align: right
   redmond_technology:
     class: standard
-    refs: [LED1920, LED1929]
+    refs: [LED1720, LED1729]
     label:
       text: Redmond Technology
       side: W
       align: right
   marymoor_village:
     class: standard
-    refs: [LED1922, LED1927]
+    refs: [LED1722, LED1727]
     label:
       text: Marymoor Village
       side: W
       align: right
   downtown_redmond:
     class: terminal
-    refs: [LED1924, LED1925]
+    refs: [LED1724, LED1725]
     label:
       text: |-
         Downtown
@@ -566,7 +571,7 @@ stations:
       align: right
   westlake_center:
     class: standard
-    refs: [LED1601]
+    refs: [LED2001]
     label:
       text: |-
         Westlake
@@ -577,7 +582,7 @@ stations:
       offset_mm: 2
   seattle_center:
     class: standard
-    refs: [LED1604]
+    refs: [LED2004]
     label:
       text: |-
         Seattle

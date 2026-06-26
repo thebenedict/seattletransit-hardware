@@ -428,12 +428,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 43.18 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e19d968b-6f09-4d2a-ae6d-744fd65241d1")
-	)
 	(wire
 		(pts
 			(xy 62.23 80.01) (xy 63.5 80.01)
@@ -516,17 +510,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 77.47) (xy 43.18 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7db23b77-6d98-4577-a107-8c181ddb42e0")
-	)
-	(wire
-		(pts
-			(xy 119.38 77.47) (xy 123.19 77.47)
+			(xy 119.38 77.47) (xy 120.65 77.47)
 		)
 		(stroke
 			(width 0)
@@ -553,6 +537,54 @@
 			(type default)
 		)
 		(uuid "92e79cad-70e1-48e0-a3f1-a71c7d5a5892")
+	)
+	(global_label "MONORAIL_SOUNDER_N"
+		(shape input)
+		(at 40.64 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3eda81e6-1beb-4e78-8327-08e4d428fd3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.0647 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SOUNDER_N_MONORAIL"
+		(shape input)
+		(at 120.65 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f06402d-cd6c-4e64-bca7-7bee2234770e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.2253 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")

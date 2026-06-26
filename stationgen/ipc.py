@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+import time
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence
 
@@ -112,9 +113,45 @@ class StationGenIPC:
     def __init__(self) -> None:
         self.k = _require_kipy()
         self.kicad = self.k["KiCad"](client_name="stationgen")
-        self.board = self.kicad.get_board()
+        self.board = self._retry_kicad_busy("opening the current board", self.kicad.get_board)
         self.needs_zone_refill = False
         self._wx_app = None
+
+    def _is_kicad_busy_error(self, exc: Exception) -> bool:
+        return "KiCad is busy and cannot respond to API requests right now" in str(exc)
+
+    def _retry_kicad_busy(
+        self,
+        action: str,
+        callback: Any,
+        *,
+        timeout_seconds: float = 60.0,
+        poll_interval_seconds: float = 1.0,
+    ):
+        deadline = time.monotonic() + timeout_seconds
+        warned = False
+        while True:
+            try:
+                return callback()
+            except self.k["ApiError"] as exc:
+                if not self._is_kicad_busy_error(exc):
+                    raise
+                now = time.monotonic()
+                if now >= deadline:
+                    raise RuntimeError(
+                        f"KiCad stayed busy while {action}. Wait for PCB Editor to finish, then retry."
+                    ) from exc
+                if not warned:
+                    print(
+                        f"StationGen: KiCad is busy while {action}; waiting up to "
+                        f"{timeout_seconds:.0f} seconds...",
+                        file=sys.stderr,
+                    )
+                    warned = True
+                time.sleep(min(poll_interval_seconds, max(0.0, deadline - now)))
+
+    def _remove_items_by_id(self, item_id: Any, action: str) -> None:
+        self._retry_kicad_busy(action, lambda: self.board.remove_items_by_id(item_id))
 
     def box_from_kipy(self, box: Any) -> Box:
         to_mm = self.k["to_mm"]
@@ -138,13 +175,13 @@ class StationGenIPC:
 
     def footprints_by_ref(self) -> Dict[str, Any]:
         by_ref: Dict[str, Any] = {}
-        for footprint in self.board.get_footprints():
+        for footprint in self._retry_kicad_busy("reading board footprints", self.board.get_footprints):
             ref = footprint.reference_field.text.value
             by_ref[ref] = footprint
         return by_ref
 
     def selected_station_parts(self):
-        selection = self.board.get_selection()
+        selection = self._retry_kicad_busy("reading the current selection", self.board.get_selection)
         footprints = [
             item for item in selection if isinstance(item, self.k["FootprintInstance"])
         ]
@@ -387,7 +424,7 @@ class StationGenIPC:
         removed = 0
         for text in texts:
             try:
-                self.board.remove_items_by_id(text.id)
+                self._remove_items_by_id(text.id, "removing selected source label text")
                 removed += 1
             except self.k["ApiError"] as exc:
                 if "none of the requested IDs were found or valid" not in str(exc):
@@ -399,17 +436,20 @@ class StationGenIPC:
         return f"{prefix}{station_id}"
 
     def delete_generated_group(self, group_name: str) -> None:
-        groups = self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_GROUP)
+        groups = self._retry_kicad_busy(
+            "reading generated StationGen groups",
+            lambda: self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_GROUP),
+        )
         for group in groups:
             if group.name != group_name:
                 continue
             for item_id in list(getattr(group, "_item_ids", [])):
                 try:
-                    self.board.remove_items_by_id(item_id)
+                    self._remove_items_by_id(item_id, f"removing generated item from {group_name}")
                 except self.k["ApiError"] as exc:
                     if "none of the requested IDs were found or valid" not in str(exc):
                         raise
-            self.board.remove_items_by_id(group.id)
+            self._remove_items_by_id(group.id, f"removing generated group {group_name}")
 
     def delete_generated_label_orphans(
         self,
@@ -429,17 +469,25 @@ class StationGenIPC:
         removed = 0
 
         if is_knockout:
-            for zone in self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_ZONE):
+            zones = self._retry_kicad_busy(
+                "reading graphical label zones",
+                lambda: self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_ZONE),
+            )
+            for zone in zones:
                 if getattr(zone, "name", "") != f"{station_id}:label":
                     continue
                 try:
-                    self.board.remove_items_by_id(zone.id)
+                    self._remove_items_by_id(zone.id, f"removing orphaned label zone for {station_id}")
                     removed += 1
                 except self.k["ApiError"] as exc:
                     if "none of the requested IDs were found or valid" not in str(exc):
                         raise
 
-        for text in self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_TEXT):
+        texts = self._retry_kicad_busy(
+            "reading board text labels",
+            lambda: self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_TEXT),
+        )
+        for text in texts:
             if normalize_label_text(getattr(text, "value", "")) != text_value:
                 continue
             if getattr(text, "layer", None) != layer:
@@ -455,7 +503,7 @@ class StationGenIPC:
                 continue
 
             try:
-                self.board.remove_items_by_id(text.id)
+                self._remove_items_by_id(text.id, f"removing orphaned label text for {station_id}")
                 removed += 1
             except self.k["ApiError"] as exc:
                 if "none of the requested IDs were found or valid" not in str(exc):
@@ -519,7 +567,9 @@ class StationGenIPC:
             attr_spec["angle_deg"] = angle_override
         attrs = self.make_text_attrs(attr_spec)
         text.attributes = attrs
-        return self.box_from_kipy(self.kicad.get_text_extents(text))
+        return self.box_from_kipy(
+            self._retry_kicad_busy("measuring label text", lambda: self.kicad.get_text_extents(text))
+        )
 
     def make_board_text(self, text_value: str, label_spec: Mapping[str, Any], position: Point, layer: Any):
         text_value = normalize_label_text(text_value)
@@ -633,7 +683,10 @@ class StationGenIPC:
         if missing:
             raise ValueError(f"footprint ref(s) not found: {', '.join(missing)}")
 
-        boxes = self.board.get_item_bounding_box([footprints[ref] for ref in refs], include_text=False)
+        boxes = self._retry_kicad_busy(
+            "measuring station footprint bounding boxes",
+            lambda: self.board.get_item_bounding_box([footprints[ref] for ref in refs], include_text=False),
+        )
         converted = [self.box_from_kipy(box) for box in boxes if box is not None]
         if len(converted) != len(refs):
             raise ValueError("KiCad did not return a bounding box for every station footprint")
@@ -854,11 +907,11 @@ class StationGenIPC:
                 cleanup_angle,
                 cleanup_box,
             )
-        created = self.board.create_items(items)
+        created = self._retry_kicad_busy("creating StationGen board items", lambda: self.board.create_items(items))
         group = self.k["Group"]()
         group.proto.name = group_name
         group.items = created
-        self.board.create_items(group)
+        self._retry_kicad_busy("creating the StationGen group", lambda: self.board.create_items(group))
         return len(created)
 
     def regenerate(self, config: Mapping[str, Any], station_ids: Optional[Iterable[str]] = None) -> int:
@@ -928,7 +981,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     if args.config:
         config_path = Path(args.config)
     else:
-        project_path = Path(generator.board.get_project().path)
+        project = generator._retry_kicad_busy("reading the current project", generator.board.get_project)
+        project_path = Path(project.path)
         config_path = find_default_config(project_path)
 
     if args.capture_selected:

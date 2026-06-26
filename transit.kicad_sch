@@ -9985,7 +9985,7 @@
 		)
 		(uuid "ff938bb1-f958-4d6b-a904-59933ed354c8")
 	)
-	(global_label "Ferries S"
+	(global_label "FERRY"
 		(shape input)
 		(at 73.66 146.05 0)
 		(fields_autoplaced yes)
@@ -9997,7 +9997,7 @@
 		)
 		(uuid "76994519-e810-4f1e-b07e-2a2292146aaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.2934 146.05 0)
+			(at 82.5114 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

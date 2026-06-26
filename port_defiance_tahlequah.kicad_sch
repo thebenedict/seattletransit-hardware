@@ -5,167 +5,6 @@
 	(uuid "64e5deb6-57c7-4835-ab2b-da182bff099b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "CL21B106KOQNNNE_4"
-			(pin_numbers
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL21B106KOQNNNE"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:C0805"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C95841"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CL21B106KOQNNNE_4_0_1"
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -3.81) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -2.54) (xy 6.35 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 1.27 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EasyEDA:WS2812B-2020"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -761,13 +600,7 @@
 		(at 87.63 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29f5ec06-594a-40ba-92a8-bf6b3fd1ac46")
-	)
-	(junction
-		(at 87.63 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "517625f7-7d58-4a51-96c4-99c24f21373b")
+		(uuid "dd3b2b94-e862-4733-8e5d-ac399cac66a6")
 	)
 	(junction
 		(at 184.15 46.99)
@@ -867,16 +700,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 33.02) (xy 87.63 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "610fbefe-6c26-4757-a9a2-0c46740b5a8b")
-	)
-	(wire
-		(pts
 			(xy 165.1 45.72) (xy 166.37 45.72)
 		)
 		(stroke
@@ -897,16 +720,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 33.02) (xy 87.63 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea8ca77-73e9-4438-93fe-91cab5de91a3")
-	)
-	(wire
-		(pts
 			(xy 125.73 44.45) (xy 125.73 45.72)
 		)
 		(stroke
@@ -917,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 30.48) (xy 87.63 33.02)
+			(xy 87.63 43.815) (xy 87.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +808,7 @@
 		)
 		(uuid "f4523645-0156-49c2-a96b-b9ace5cdd98a")
 	)
-	(global_label "Ferries S"
+	(global_label "FERRY"
 		(shape input)
 		(at 58.42 44.45 180)
 		(fields_autoplaced yes)
@@ -1005,9 +818,9 @@
 			)
 			(justify right)
 		)
-		(uuid "18cac48f-736a-4fe2-b7e6-d0aa22c4e59a")
+		(uuid "220bc80f-72cd-4223-9edc-b31ec9011fbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7866 44.45 0)
+			(at 49.5686 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1699,83 +1512,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 40.64 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5543817c-5e97-4c94-9d00-0246092e1d9d")
-		(property "Reference" "#PWR0133"
-			(at 40.64 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.386 47.498 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dfc4962c-e25c-4019-b0d3-5d39aac70077")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
 		(at 106.68 41.91 0)
 		(mirror y)
@@ -1983,7 +1719,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 87.63 30.48 0)
+		(at 87.63 43.815 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1993,7 +1729,7 @@
 		(dnp no)
 		(uuid "773daf28-9c7b-42d5-a419-8412d5118716")
 		(property "Reference" "#PWR0104"
-			(at 87.63 34.29 0)
+			(at 87.63 47.625 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2004,7 +1740,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 87.63 26.67 0)
+			(at 87.63 40.005 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2014,7 +1750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 30.48 0)
+			(at 87.63 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +1761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 30.48 0)
+			(at 87.63 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,7 +1772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 87.63 30.48 0)
+			(at 87.63 43.815 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,99 +2216,6 @@
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
 					(reference "LED304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "CL21B106KOQNNNE_4")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
-		(at 38.1 31.75 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb8d12b2-24b0-4b9c-b2e3-c0fd17128d93")
-		(property "Reference" "C501"
-			(at 38.1 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150u"
-			(at 40.005 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:CAP-SMD_L3.5-W2.8"
-			(at 48.26 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C212682.pdf"
-			(at 50.8 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "150uF ±20% 6.3V Tantalum Capacitors 35mΩ@100kHz CASE-B-3528-21(mm)"
-			(at 38.1 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C212682"
-			(at 53.34 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "86d15a4b-b184-4255-b614-6a9b5d00dd3b")
-		)
-		(pin "1"
-			(uuid "67cbabd8-fbdf-4bff-ba6f-5263c1e249d2")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/3862af87-28e4-47af-b657-20dc315ff550"
-					(reference "C501")
 					(unit 1)
 				)
 			)

@@ -2460,6 +2460,30 @@
 			)
 		)
 	)
+	(global_label "LINK_1_N"
+		(shape input)
+		(at 128.27 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae75927d-088e-491d-8be3-f1746bdf4870")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.9638 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:VBUS")
 		(at 215.9 29.21 0)

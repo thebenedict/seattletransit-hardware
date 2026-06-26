@@ -1165,10 +1165,6 @@
 		(color 0 0 0 0)
 		(uuid "fd1df9ef-8719-4af4-b920-f4cf142e96b8")
 	)
-	(no_connect
-		(at 189.23 133.35)
-		(uuid "21b9ffc4-7ce9-4f97-9a4e-9158e17220c3")
-	)
 	(wire
 		(pts
 			(xy 227.33 36.83) (xy 228.6 36.83)
@@ -5139,7 +5135,7 @@
 		)
 		(uuid "ff6b9b89-d991-468e-a8ec-8ceebd341fbc")
 	)
-	(global_label "Rail E"
+	(global_label "LINK_1_2"
 		(shape input)
 		(at 44.45 38.1 180)
 		(fields_autoplaced yes)
@@ -5151,7 +5147,7 @@
 		)
 		(uuid "4333bbce-cd47-4b41-b26c-16dba4191785")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.6592 38.1 0)
+			(at 32.8772 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5160,6 +5156,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "LINK_2_1"
+		(shape input)
+		(at 189.23 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b308f32c-c87f-4874-956e-3a99b7a0f3b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.8028 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6223,7 +6243,6 @@
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
 		(at 67.31 130.81 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6233,7 +6252,7 @@
 		(dnp no)
 		(uuid "3871a43e-1b9d-4e7e-b9b3-07ea61255bab")
 		(property "Reference" "LED1742"
-			(at 58.42 125.73 0)
+			(at 76.2 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6243,7 +6262,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 58.42 128.27 0)
+			(at 76.2 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

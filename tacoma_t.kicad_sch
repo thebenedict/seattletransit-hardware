@@ -1452,7 +1452,7 @@
 			)
 		)
 	)
-	(global_label "Rail W"
+	(global_label "RAIL"
 		(shape input)
 		(at 33.655 31.75 180)
 		(fields_autoplaced yes)
@@ -1464,7 +1464,7 @@
 		)
 		(uuid "5e475009-3bcb-4dbd-88fc-3eb65e8781e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.5618 31.75 0)
+			(at 26.6783 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

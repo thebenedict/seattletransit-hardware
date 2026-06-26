@@ -5645,7 +5645,7 @@
 		)
 		(uuid "feede061-093e-40c4-8cf6-ca0e5cf3af2a")
 	)
-	(global_label "Rail W"
+	(global_label "LINK_1_N"
 		(shape input)
 		(at 36.83 31.75 180)
 		(fields_autoplaced yes)
@@ -5657,7 +5657,7 @@
 		)
 		(uuid "037b1018-513f-4b2e-96c0-af9030fe371c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.7368 31.75 0)
+			(at 25.1362 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5669,7 +5669,7 @@
 			)
 		)
 	)
-	(global_label "Rail W Southbound"
+	(global_label "LINK_1_S"
 		(shape input)
 		(at 107.95 154.94 0)
 		(fields_autoplaced yes)
@@ -5681,7 +5681,7 @@
 		)
 		(uuid "e666b298-2abd-4107-9390-f189287a31f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.138 154.94 0)
+			(at 119.5228 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

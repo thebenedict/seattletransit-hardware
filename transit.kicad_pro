@@ -1007,7 +1007,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "LED1742",
+    "used_designators": "LED703,LED802-809,LED812,LED901,#PWR138,#PWR158,#PWR169-172,#PWR174-178,#PWR182-183,#PWR185,#PWR203,#PWR216-217,#PWR409,#PWR415,#PWR420,#PWR438",
     "variants": []
   },
   "sheets": [

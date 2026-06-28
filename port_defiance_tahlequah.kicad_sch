@@ -808,6 +808,30 @@
 		)
 		(uuid "f4523645-0156-49c2-a96b-b9ace5cdd98a")
 	)
+	(global_label "TAHLEQUAH_VASHON"
+		(shape input)
+		(at 209.55 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b684f31-af7c-466a-8a42-a34c433e70f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.5249 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "FERRY"
 		(shape input)
 		(at 58.42 44.45 180)
@@ -831,17 +855,6 @@
 				(justify right)
 			)
 		)
-	)
-	(hierarchical_label "Vashon Island"
-		(shape output)
-		(at 209.55 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a80e32ce-9607-4011-af2d-4312b1955440")
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")

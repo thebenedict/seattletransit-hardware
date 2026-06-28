@@ -74,7 +74,7 @@ stations:
       offset_mm: 0.8
   edmonds:
     class: transfer
-    refs: [LED1001, LED1406, LED1419]
+    refs: [LED1015, LED1406, LED1419]
     label:
       text: Edmonds
       side: N
@@ -89,7 +89,7 @@ stations:
       side: W
   seattle:
     class: transfer
-    refs: [LED515, LED701]
+    refs: [LED514, LED701]
     label:
       text: Seattle
       side: N
@@ -626,7 +626,7 @@ stations:
       angle_deg: 45.0
   bainbridge_island:
     class: ferry_port
-    refs: [LED812]
+    refs: [LED801]
     label:
       text: |-
         Bainbridge
@@ -658,7 +658,7 @@ stations:
       align_y: bottom
   west_seattle:
     class: ferry_port
-    refs: [LED519]
+    refs: [LED518]
     label:
       text: West Seattle
       side: SE

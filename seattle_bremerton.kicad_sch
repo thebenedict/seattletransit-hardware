@@ -596,6 +596,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LED 703 is shared by KT Bremerton/Kingston, \nsits between Pier 50 and Pier 52 route lines"
+		(exclude_from_sim no)
+		(at 38.1 77.47 0)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+		)
+		(uuid "e357fb48-76ff-498e-a2a3-cc94af01388e")
+	)
 	(junction
 		(at 81.915 69.215)
 		(diameter 0)
@@ -603,25 +613,25 @@
 		(uuid "1893f878-4c67-4d49-a892-4017446c8341")
 	)
 	(junction
-		(at 128.27 134.62)
+		(at 135.255 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b3b995-f4fa-42fb-8b0a-7dc398bbbca4")
 	)
 	(junction
-		(at 87.63 132.08)
+		(at 94.615 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c887f0d-455e-4e5d-84e6-95a9fb05f13e")
 	)
 	(junction
-		(at 168.91 134.62)
+		(at 175.895 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7af35e2c-3dd4-4fee-a4da-603215968bc1")
 	)
 	(junction
-		(at 128.27 132.08)
+		(at 135.255 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d036e132-a802-461d-ba8a-cacca028bc59")
@@ -637,7 +647,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 133.35) (xy 69.85 133.35)
+			(xy 75.565 102.87) (xy 76.835 102.87)
 		)
 		(stroke
 			(width 0)
@@ -657,7 +667,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 132.08) (xy 109.22 133.35)
+			(xy 116.205 101.6) (xy 116.205 102.87)
 		)
 		(stroke
 			(width 0)
@@ -667,7 +677,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 132.08) (xy 130.81 133.35)
+			(xy 137.795 101.6) (xy 137.795 102.87)
 		)
 		(stroke
 			(width 0)
@@ -677,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 134.62) (xy 30.48 134.62)
+			(xy 23.495 104.14) (xy 37.465 104.14)
 		)
 		(stroke
 			(width 0)
@@ -717,7 +727,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 133.35) (xy 151.13 134.62)
+			(xy 158.115 102.87) (xy 158.115 104.14)
 		)
 		(stroke
 			(width 0)
@@ -737,7 +747,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 133.35) (xy 151.13 133.35)
+			(xy 156.845 102.87) (xy 158.115 102.87)
 		)
 		(stroke
 			(width 0)
@@ -747,7 +757,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 134.62) (xy 172.72 134.62)
+			(xy 175.895 104.14) (xy 179.705 104.14)
 		)
 		(stroke
 			(width 0)
@@ -777,7 +787,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 134.62) (xy 50.8 134.62)
+			(xy 56.515 104.14) (xy 57.785 104.14)
 		)
 		(stroke
 			(width 0)
@@ -787,7 +797,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 132.08) (xy 90.17 132.08)
+			(xy 94.615 101.6) (xy 97.155 101.6)
 		)
 		(stroke
 			(width 0)
@@ -807,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 132.08) (xy 193.04 132.08)
+			(xy 201.295 101.6) (xy 200.025 101.6)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +907,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 132.08) (xy 49.53 132.08)
+			(xy 55.245 101.6) (xy 56.515 101.6)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 133.35) (xy 110.49 133.35)
+			(xy 116.205 102.87) (xy 117.475 102.87)
 		)
 		(stroke
 			(width 0)
@@ -977,7 +987,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 132.08) (xy 49.53 134.62)
+			(xy 56.515 101.6) (xy 56.515 104.14)
 		)
 		(stroke
 			(width 0)
@@ -997,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 133.35) (xy 132.08 134.62)
+			(xy 139.065 102.87) (xy 139.065 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1017,7 +1027,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 132.08) (xy 87.63 132.08)
+			(xy 92.075 101.6) (xy 94.615 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 99.695) (xy 27.94 134.62)
+			(xy 23.495 83.185) (xy 23.495 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1037,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 133.35) (xy 69.85 134.62)
+			(xy 76.835 102.87) (xy 76.835 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1067,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 172.72 132.08)
+			(xy 175.895 101.6) (xy 179.705 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1087,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 272.415 69.215) (xy 272.415 99.695)
+			(xy 273.05 69.215) (xy 273.05 83.185)
 		)
 		(stroke
 			(width 0)
@@ -1097,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 132.08) (xy 68.58 133.35)
+			(xy 75.565 101.6) (xy 75.565 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1107,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 69.215) (xy 272.415 69.215)
+			(xy 273.05 69.215) (xy 267.335 69.215)
 		)
 		(stroke
 			(width 0)
@@ -1117,7 +1127,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 132.08) (xy 194.31 130.81)
+			(xy 201.295 101.6) (xy 201.295 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1127,7 +1137,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 132.08) (xy 90.17 134.62)
+			(xy 97.155 101.6) (xy 97.155 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1157,7 +1167,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 134.62) (xy 130.81 134.62)
+			(xy 135.255 104.14) (xy 137.795 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1167,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 99.695) (xy 272.415 99.695)
+			(xy 23.495 83.185) (xy 273.05 83.185)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1187,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 132.08) (xy 130.81 132.08)
+			(xy 135.255 101.6) (xy 137.795 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1197,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 132.08 133.35)
+			(xy 137.795 102.87) (xy 139.065 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1197,7 +1207,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 132.08) (xy 128.27 132.08)
+			(xy 132.715 101.6) (xy 135.255 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1217,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 134.62) (xy 91.44 134.62)
+			(xy 97.155 104.14) (xy 98.425 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1227,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 133.35) (xy 110.49 134.62)
+			(xy 117.475 102.87) (xy 117.475 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1237,7 +1247,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 132.08) (xy 149.86 133.35)
+			(xy 156.845 101.6) (xy 156.845 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1247,7 +1257,7 @@
 	)
 	(global_label "BREMERTON_BAINBRIDGE"
 		(shape input)
-		(at 193.04 134.62 0)
+		(at 200.025 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1257,7 +1267,7 @@
 		)
 		(uuid "a77b33e3-64e1-495c-8c21-64091003d7dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3085 134.62 0)
+			(at 226.2935 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1373,7 +1383,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 149.86 129.54 0)
+		(at 156.845 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1384,7 +1394,7 @@
 		(dnp no)
 		(uuid "055b2317-97ac-4d16-9d88-67be5251883f")
 		(property "Reference" "LED717"
-			(at 140.97 124.46 0)
+			(at 147.955 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1394,7 +1404,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 140.97 127 0)
+			(at 147.955 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1404,7 +1414,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 149.86 142.24 0)
+			(at 156.845 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1415,7 +1425,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 149.86 144.78 0)
+			(at 156.845 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1426,7 +1436,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 129.54 0)
+			(at 156.845 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1437,7 +1447,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 149.86 147.32 0)
+			(at 156.845 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1470,7 +1480,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 168.91 129.54 0)
+		(at 175.895 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1481,7 +1491,7 @@
 		(dnp no)
 		(uuid "1047bf48-d833-4b96-852a-94edfb8f7923")
 		(property "Reference" "LED718"
-			(at 160.02 124.46 0)
+			(at 167.005 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1491,7 +1501,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 160.02 127 0)
+			(at 167.005 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1501,7 +1511,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 168.91 142.24 0)
+			(at 175.895 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1512,7 +1522,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 168.91 144.78 0)
+			(at 175.895 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 129.54 0)
+			(at 175.895 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1534,7 +1544,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 168.91 147.32 0)
+			(at 175.895 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1665,7 +1675,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 132.08 132.08 0)
+		(at 139.065 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1675,7 +1685,7 @@
 		(dnp no)
 		(uuid "239c8925-5366-438e-b4bc-a43869b38981")
 		(property "Reference" "#PWR0433"
-			(at 132.08 135.89 0)
+			(at 139.065 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1696,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 132.08 128.27 0)
+			(at 139.065 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1696,7 +1706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 132.08 0)
+			(at 139.065 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1707,7 +1717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 132.08 0)
+			(at 139.065 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,7 +1728,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 132.08 132.08 0)
+			(at 139.065 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1752,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 91.44 132.08 0)
+		(at 98.425 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1752,7 +1762,7 @@
 		(dnp no)
 		(uuid "2a3150ce-f949-485c-bd6c-f0ab9f085c60")
 		(property "Reference" "#PWR0430"
-			(at 91.44 135.89 0)
+			(at 98.425 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +1773,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 91.44 128.27 0)
+			(at 98.425 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,7 +1783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 132.08 0)
+			(at 98.425 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +1794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 132.08 0)
+			(at 98.425 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,7 +1805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 91.44 132.08 0)
+			(at 98.425 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1917,7 +1927,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 68.58 129.54 0)
+		(at 75.565 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1928,7 +1938,7 @@
 		(dnp no)
 		(uuid "2e2dc0f0-0314-4691-950d-6eb32c59d409")
 		(property "Reference" "LED713"
-			(at 59.69 124.46 0)
+			(at 66.675 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1938,7 +1948,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 59.69 127 0)
+			(at 66.675 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1948,7 +1958,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 68.58 142.24 0)
+			(at 75.565 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1959,7 +1969,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 68.58 144.78 0)
+			(at 75.565 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,7 +1980,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 129.54 0)
+			(at 75.565 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +1991,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 68.58 147.32 0)
+			(at 75.565 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2092,7 +2102,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 87.63 129.54 0)
+		(at 94.615 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2103,7 +2113,7 @@
 		(dnp no)
 		(uuid "56372ac2-4cd8-4dea-87f6-8bcf907a6b1d")
 		(property "Reference" "LED714"
-			(at 78.74 124.46 0)
+			(at 85.725 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2113,7 +2123,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 78.74 127 0)
+			(at 85.725 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2123,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 87.63 142.24 0)
+			(at 94.615 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +2144,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 87.63 144.78 0)
+			(at 94.615 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +2155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 129.54 0)
+			(at 94.615 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2166,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 87.63 147.32 0)
+			(at 94.615 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2189,7 +2199,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 69.85 132.08 0)
+		(at 76.835 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2199,7 +2209,7 @@
 		(dnp no)
 		(uuid "572dce2c-28f1-45bc-b649-c44c2b46c86d")
 		(property "Reference" "#PWR0406"
-			(at 69.85 135.89 0)
+			(at 76.835 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2210,7 +2220,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 69.85 128.27 0)
+			(at 76.835 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2220,7 +2230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 132.08 0)
+			(at 76.835 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,7 +2241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 132.08 0)
+			(at 76.835 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2242,7 +2252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 69.85 132.08 0)
+			(at 76.835 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2685,7 +2695,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 134.62 0)
+		(at 116.205 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2695,7 +2705,7 @@
 		(dnp no)
 		(uuid "6b1156c6-f79b-4005-ba02-917cd63ad9a2")
 		(property "Reference" "#PWR0309"
-			(at 109.22 140.97 0)
+			(at 116.205 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2706,7 +2716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 108.966 138.938 0)
+			(at 115.951 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2716,7 +2726,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 134.62 0)
+			(at 116.205 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +2737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 134.62 0)
+			(at 116.205 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +2748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 134.62 0)
+			(at 116.205 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2917,7 +2927,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 134.62 0)
+		(at 156.845 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2927,7 +2937,7 @@
 		(dnp no)
 		(uuid "71eb36b4-d25d-4f1f-8fec-88a4503110a7")
 		(property "Reference" "#PWR0310"
-			(at 149.86 140.97 0)
+			(at 156.845 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,7 +2948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.606 138.938 0)
+			(at 156.591 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2948,7 +2958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 134.62 0)
+			(at 156.845 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2959,7 +2969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 134.62 0)
+			(at 156.845 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2970,7 +2980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 134.62 0)
+			(at 156.845 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3326,7 +3336,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 151.13 132.08 0)
+		(at 158.115 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3336,7 +3346,7 @@
 		(dnp no)
 		(uuid "85621786-cb26-4dd6-990a-bc17f6e8d34b")
 		(property "Reference" "#PWR0434"
-			(at 151.13 135.89 0)
+			(at 158.115 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +3357,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 151.13 128.27 0)
+			(at 158.115 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3357,7 +3367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 132.08 0)
+			(at 158.115 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 132.08 0)
+			(at 158.115 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 151.13 132.08 0)
+			(at 158.115 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3403,7 +3413,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 30.48 132.08 0)
+		(at 37.465 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3413,7 +3423,7 @@
 		(dnp no)
 		(uuid "860f843b-0f80-438c-9696-d3c6daebd268")
 		(property "Reference" "#PWR0404"
-			(at 30.48 135.89 0)
+			(at 37.465 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +3434,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 30.48 128.27 0)
+			(at 37.465 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3434,7 +3444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 132.08 0)
+			(at 37.465 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3445,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 132.08 0)
+			(at 37.465 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3456,7 +3466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 30.48 132.08 0)
+			(at 37.465 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +3490,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 128.27 129.54 0)
+		(at 135.255 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3491,7 +3501,7 @@
 		(dnp no)
 		(uuid "8c00f2ad-ce2c-4676-ab5a-6fad1adc2406")
 		(property "Reference" "LED716"
-			(at 119.38 124.46 0)
+			(at 126.365 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3501,7 +3511,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 119.38 127 0)
+			(at 126.365 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3511,7 +3521,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 128.27 142.24 0)
+			(at 135.255 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3522,7 +3532,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 128.27 144.78 0)
+			(at 135.255 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3533,7 +3543,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 129.54 0)
+			(at 135.255 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,7 +3554,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 128.27 147.32 0)
+			(at 135.255 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +3918,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 134.62 0)
+		(at 135.255 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3918,7 +3928,7 @@
 		(dnp no)
 		(uuid "a22314c6-4996-4727-ab88-e720bbc9b750")
 		(property "Reference" "#PWR0432"
-			(at 128.27 140.97 0)
+			(at 135.255 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3929,7 +3939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.016 138.938 0)
+			(at 135.001 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3939,7 +3949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 134.62 0)
+			(at 135.255 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +3960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 134.62 0)
+			(at 135.255 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +3971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 134.62 0)
+			(at 135.255 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3985,7 +3995,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 134.62 0)
+		(at 55.245 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3995,7 +4005,7 @@
 		(dnp no)
 		(uuid "a6022c9e-44b9-4d2d-8680-cea800ad1375")
 		(property "Reference" "#PWR0147"
-			(at 48.26 140.97 0)
+			(at 55.245 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4006,7 +4016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.006 138.938 0)
+			(at 54.991 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4016,7 +4026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 134.62 0)
+			(at 55.245 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4027,7 +4037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 134.62 0)
+			(at 55.245 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,7 +4048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 134.62 0)
+			(at 55.245 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +4150,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 48.26 129.54 0)
+		(at 55.245 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4151,7 +4161,7 @@
 		(dnp no)
 		(uuid "b186e920-8a52-41c9-adee-9a1120bf3c3a")
 		(property "Reference" "LED712"
-			(at 39.37 124.46 0)
+			(at 46.355 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4161,7 +4171,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 39.37 127 0)
+			(at 46.355 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4171,7 +4181,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 48.26 142.24 0)
+			(at 55.245 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4182,7 +4192,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 48.26 144.78 0)
+			(at 55.245 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,7 +4203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 129.54 0)
+			(at 55.245 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +4214,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 48.26 147.32 0)
+			(at 55.245 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4315,7 +4325,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 194.31 130.81 0)
+		(at 201.295 100.33 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4326,7 +4336,7 @@
 		(dnp no)
 		(uuid "b7854cc9-9d62-451b-b97b-3c9ab3f1fb56")
 		(property "Reference" "#PWR0184"
-			(at 194.31 134.62 0)
+			(at 201.295 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4337,7 +4347,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 194.31 127 0)
+			(at 201.295 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4347,7 +4357,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 130.81 0)
+			(at 201.295 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,7 +4368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 130.81 0)
+			(at 201.295 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4369,7 +4379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 194.31 130.81 0)
+			(at 201.295 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4471,7 +4481,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 50.8 132.08 0)
+		(at 57.785 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4481,7 +4491,7 @@
 		(dnp no)
 		(uuid "be047ce9-bc59-432c-901a-a5977218e7f2")
 		(property "Reference" "#PWR0405"
-			(at 50.8 135.89 0)
+			(at 57.785 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4492,7 +4502,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 50.8 128.27 0)
+			(at 57.785 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4502,7 +4512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 132.08 0)
+			(at 57.785 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4523,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 132.08 0)
+			(at 57.785 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 50.8 132.08 0)
+			(at 57.785 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +4655,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 134.62 0)
+		(at 94.615 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4655,7 +4665,7 @@
 		(dnp no)
 		(uuid "bf9c1851-8444-4060-b8a9-bbef3a924f38")
 		(property "Reference" "#PWR0407"
-			(at 87.63 140.97 0)
+			(at 94.615 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4666,7 +4676,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.376 138.938 0)
+			(at 94.361 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4676,7 +4686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 134.62 0)
+			(at 94.615 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 134.62 0)
+			(at 94.615 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4708,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 134.62 0)
+			(at 94.615 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4732,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
-		(at 109.22 129.54 0)
+		(at 116.205 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4733,7 +4743,7 @@
 		(dnp no)
 		(uuid "cf4b0990-8399-4840-845f-9a2dbee596c3")
 		(property "Reference" "LED715"
-			(at 100.33 124.46 0)
+			(at 107.315 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4743,7 +4753,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 100.33 127 0)
+			(at 107.315 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4753,7 +4763,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 109.22 142.24 0)
+			(at 116.205 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4774,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 109.22 144.78 0)
+			(at 116.205 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 129.54 0)
+			(at 116.205 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4796,7 @@
 			)
 		)
 		(property "LCSC Part" "C965555"
-			(at 109.22 147.32 0)
+			(at 116.205 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4917,7 +4927,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 134.62 0)
+		(at 175.895 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4927,7 +4937,7 @@
 		(dnp no)
 		(uuid "d4ed52c4-7a04-48ca-8800-210e88d9c6d7")
 		(property "Reference" "#PWR0435"
-			(at 168.91 140.97 0)
+			(at 175.895 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4938,7 +4948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.656 138.938 0)
+			(at 175.641 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4948,7 +4958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 134.62 0)
+			(at 175.895 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,7 +4969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 134.62 0)
+			(at 175.895 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4970,7 +4980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 134.62 0)
+			(at 175.895 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5170,7 +5180,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 110.49 132.08 0)
+		(at 117.475 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5180,7 +5190,7 @@
 		(dnp no)
 		(uuid "e67b4dec-e52b-4ee5-9a59-487a309b09eb")
 		(property "Reference" "#PWR0431"
-			(at 110.49 135.89 0)
+			(at 117.475 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5191,7 +5201,7 @@
 			)
 		)
 		(property "Value" "+VLED"
-			(at 110.49 128.27 0)
+			(at 117.475 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5201,7 +5211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 132.08 0)
+			(at 117.475 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5212,7 +5222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 132.08 0)
+			(at 117.475 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5223,7 +5233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 110.49 132.08 0)
+			(at 117.475 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5423,7 +5433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 134.62 0)
+		(at 75.565 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5433,7 +5443,7 @@
 		(dnp no)
 		(uuid "f1016d32-ae8a-4327-adf8-a7f1a516639a")
 		(property "Reference" "#PWR0146"
-			(at 68.58 140.97 0)
+			(at 75.565 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5444,7 +5454,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.326 138.938 0)
+			(at 75.311 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5454,7 +5464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 134.62 0)
+			(at 75.565 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5465,7 +5475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 134.62 0)
+			(at 75.565 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5476,7 +5486,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 134.62 0)
+			(at 75.565 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,7 +5686,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:WS2812B-MINI")
-		(at 193.04 129.54 0)
+		(at 200.025 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5687,7 +5697,7 @@
 		(dnp no)
 		(uuid "f547d79e-f8fa-45e5-83c5-2291d5d87c5e")
 		(property "Reference" "LED719"
-			(at 182.88 124.46 0)
+			(at 189.865 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5697,7 +5707,7 @@
 			)
 		)
 		(property "Value" "WS2812B-Mini"
-			(at 182.88 127 0)
+			(at 189.865 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5718,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
-			(at 193.04 142.24 0)
+			(at 200.025 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,7 +5729,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-Mini_C527089.html"
-			(at 193.04 144.78 0)
+			(at 200.025 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +5740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 129.54 0)
+			(at 200.025 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5741,7 +5751,7 @@
 			)
 		)
 		(property "LCSC Part" "C527089"
-			(at 193.04 147.32 0)
+			(at 200.025 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5762,7 @@
 			)
 		)
 		(property "Ferry Port" "Bremerton"
-			(at 182.88 127 0)
+			(at 189.865 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

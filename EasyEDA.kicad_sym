@@ -1431,24 +1431,6 @@
 				)
 			)
 			(pin unspecified line
-				(at 12.7 0 270)
-				(length 2.54)
-				(name "EP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
 				(at 25.4 -5.08 180)
 				(length 2.54)
 				(name "GC2"
@@ -5612,7 +5594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -5630,7 +5612,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 0 -17.78 0)
 			(effects
 				(font

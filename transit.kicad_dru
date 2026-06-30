@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "U6 VSSOP pad-to-pad clearance"
+  (condition "A.memberOfFootprint('U6') && B.memberOfFootprint('U6') && A.Type == 'Pad' && B.Type == 'Pad'")
+  (constraint clearance (min 0.15mm)))

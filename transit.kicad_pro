@@ -59,6 +59,25 @@
         "zz": 1.0
       },
       {
+        "name": "USB",
+        "ww": 1.0,
+        "wx": -8.913509368896484,
+        "wy": 8.943233489990234,
+        "wz": -2.3782973289489746,
+        "xw": 0.0,
+        "xx": 1.0,
+        "xy": 0.0,
+        "xz": 0.0,
+        "yw": 0.0,
+        "yx": 0.0,
+        "yy": 1.0,
+        "yz": 0.0,
+        "zw": 0.0,
+        "zx": 0.0,
+        "zy": 0.0,
+        "zz": 1.0
+      },
+      {
         "name": "esp32",
         "ww": 1.0,
         "wx": -8.955971717834473,
@@ -117,8 +136,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.7,
-          "width": 0.9
+          "height": 1.15,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -137,13 +156,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
-          "thermal_relief_gap": 0.3,
-          "thermal_relief_spoke_width": 0.3
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -158,28 +177,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|219926765|163563281|b19be529-bec1-4720-83aa-d27a794ee480|0ebc66ee-39ce-4131-8313-b7d2b4457459",
-          ""
-        ],
-        [
-          "silk_edge_clearance|219926765|163563281|b19be529-bec1-4720-83aa-d27a794ee480|aa6d896d-275b-425d-8901-54fb8b1cf8aa",
-          "ESP32 Module antenna keepout"
-        ],
-        [
-          "silk_edge_clearance|219926765|176763281|b19be529-bec1-4720-83aa-d27a794ee480|78168ea0-34e4-4593-a189-7efea7bd646a",
-          ""
-        ],
-        [
-          "silk_edge_clearance|219926765|176963281|b19be529-bec1-4720-83aa-d27a794ee480|ac1d3f88-f615-4619-a958-d328cb8568f5",
-          ""
-        ],
-        [
-          "starved_thermal|213876765|176113281|33d65c62-3b6c-47b3-ad52-323a78344702|65bc3484-ed95-4070-8e12-5463fc365bf7|F.Cu",
-          "Corner pad of MCU near antenna exclusion, no room for second thermal relief connection"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -959,7 +957,7 @@
       "sort_field": "Value"
     },
     "bus_aliases": {},
-    "connection_grid_size": 50.0,
+    "connection_grid_size": 25.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -1007,7 +1005,7 @@
         "uuid": "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP12",
     "variants": []
   },
   "sheets": [

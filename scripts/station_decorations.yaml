@@ -96,9 +96,9 @@ stations:
       align: right
     sublabels:
       - text: Pier 52
-        position_mm: [124.52, 52.69]
+        position_mm: [125.357, 52.69]
       - text: Pier 50
-        position_mm: [124.52, 60.79]
+        position_mm: [125.357, 60.79]
   tacoma_dome:
     class: terminal
     refs: [LED1304, LED1305, LED1306, LED1333, LED1334, LED1335]
@@ -387,7 +387,7 @@ stations:
       cross_align: bottom
   westlake:
     class: transfer
-    refs: [LED2001, LED1533, LED1621]
+    refs: [LED2004, LED1533, LED1621]
     decoration:
       angle_deg: 315.0
     label:
@@ -571,7 +571,7 @@ stations:
       align: right
   westlake_center:
     class: standard
-    refs: [LED2001]
+    refs: [LED2004]
     label:
       text: |-
         Westlake
@@ -582,7 +582,7 @@ stations:
       offset_mm: 2
   seattle_center:
     class: standard
-    refs: [LED2004]
+    refs: [LED2001]
     label:
       text: |-
         Seattle

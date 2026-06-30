@@ -42,7 +42,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C965555"
+			(property "LCSC Part" "C52917434"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -613,37 +613,10 @@
 		(uuid "1893f878-4c67-4d49-a892-4017446c8341")
 	)
 	(junction
-		(at 135.255 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21b3b995-f4fa-42fb-8b0a-7dc398bbbca4")
-	)
-	(junction
-		(at 94.615 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c887f0d-455e-4e5d-84e6-95a9fb05f13e")
-	)
-	(junction
 		(at 175.895 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7af35e2c-3dd4-4fee-a4da-603215968bc1")
-	)
-	(junction
-		(at 135.255 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d036e132-a802-461d-ba8a-cacca028bc59")
-	)
-	(bus_entry
-		(at -1216.66 -127)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d6239cb-9440-438f-85e8-33efeef4c437")
 	)
 	(wire
 		(pts
@@ -1027,16 +1000,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 101.6) (xy 94.615 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e993e9c-ae88-49d4-9df9-9a58fd9129dd")
-	)
-	(wire
-		(pts
 			(xy 23.495 83.185) (xy 23.495 104.14)
 		)
 		(stroke
@@ -1167,16 +1130,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.255 104.14) (xy 137.795 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e93cb684-b744-47d5-8cd3-5bc70f5c57dc")
-	)
-	(wire
-		(pts
 			(xy 23.495 83.185) (xy 273.05 83.185)
 		)
 		(stroke
@@ -1204,16 +1157,6 @@
 			(type default)
 		)
 		(uuid "f1ba65f7-347b-4001-bd05-eacf2ea419ac")
-	)
-	(wire
-		(pts
-			(xy 132.715 101.6) (xy 135.255 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f461b9ad-ac88-4d08-ad20-fd81c9ecd424")
 	)
 	(wire
 		(pts
@@ -1424,7 +1367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 156.845 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1446,7 +1389,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 156.845 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1521,7 +1464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 175.895 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1543,7 +1486,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 175.895 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1619,7 +1562,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 186.055 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -1641,7 +1584,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 186.055 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -1871,7 +1814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 146.685 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -1893,7 +1836,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 146.685 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -1968,7 +1911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 75.565 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -1990,7 +1933,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 75.565 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -2143,7 +2086,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 94.615 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2165,7 +2108,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 94.615 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3202,7 +3145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 226.695 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -3224,7 +3167,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 226.695 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -3531,7 +3474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 135.255 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3553,7 +3496,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 135.255 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -3628,7 +3571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 100.965 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -3650,7 +3593,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 100.965 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -4191,7 +4134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 55.245 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4213,7 +4156,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 55.245 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4599,7 +4542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 267.335 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -4621,7 +4564,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 267.335 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -4773,7 +4716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 116.205 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4795,7 +4738,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 116.205 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4871,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 167.005 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -4893,7 +4836,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 167.005 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -5003,6 +4946,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 186.055 71.755 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbb08cfd-d4ba-46cd-867c-3ff69525c656")
+		(property "Reference" "#PWR0143"
+			(at 186.055 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.309 76.073 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.055 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.055 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 186.055 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d9db153-4aaf-4546-beec-26d7fa2d8a57")
+		)
+		(instances
+			(project "transit"
+				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5/153adc6e-a3b0-4527-a19a-87e28aab4b4d/52f6b4e5-71f2-4ed9-9a18-0787756b3445"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:WS2812B-2020")
 		(at 247.015 66.675 0)
 		(mirror y)
@@ -5046,7 +5067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 247.015 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -5068,7 +5089,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 247.015 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -5377,7 +5398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 207.645 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -5399,7 +5420,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 207.645 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -5552,7 +5573,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 125.095 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -5574,7 +5595,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 125.095 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -5836,7 +5857,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C52917434.html"
 			(at 54.61 81.915 0)
 			(hide yes)
 			(show_name no)
@@ -5858,7 +5879,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C965555"
+		(property "LCSC Part" "C52917434"
 			(at 54.61 84.455 0)
 			(hide yes)
 			(show_name no)

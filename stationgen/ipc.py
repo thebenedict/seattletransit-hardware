@@ -26,6 +26,8 @@ from stationgen.geometry import (
     translate_points,
 )
 
+LABEL_BACKGROUND_ZONE_PREFIX = "label-bg:"
+
 
 def _require_kipy():
     try:
@@ -473,8 +475,12 @@ class StationGenIPC:
                 "reading graphical label zones",
                 lambda: self.board.get_items(types=self.k["KiCadObjectType"].KOT_PCB_ZONE),
             )
+            label_zone_names = {
+                f"{station_id}:label",
+                f"{LABEL_BACKGROUND_ZONE_PREFIX}{station_id}:label",
+            }
             for zone in zones:
-                if getattr(zone, "name", "") != f"{station_id}:label":
+                if getattr(zone, "name", "") not in label_zone_names:
                     continue
                 try:
                     self._remove_items_by_id(zone.id, f"removing orphaned label zone for {station_id}")
@@ -881,7 +887,7 @@ class StationGenIPC:
                         angle_deg,
                         layer,
                         float(label_spec.get("pill_radius_mm", 0.40)),
-                        name=f"{station_id}:label",
+                        name=f"{LABEL_BACKGROUND_ZONE_PREFIX}{station_id}:label",
                         locked=lock_generated,
                     )
                 )

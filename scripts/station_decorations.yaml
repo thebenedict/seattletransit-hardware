@@ -435,7 +435,7 @@ stations:
       align: right
   pinehurst:
     class: standard
-    refs: [LED1546, LED1608]
+    refs: [LED1545, LED1609]
     label:
       text: Pinehurst
       side: E

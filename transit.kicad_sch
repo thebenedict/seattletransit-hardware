@@ -12099,7 +12099,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2K2"
+		(property "Value" "47K"
 			(at 273.558 28.956 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12121,7 +12121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C4190.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0603WAF4702T5E_C25819.html"
 			(at 271.78 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12132,7 +12132,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2kΩ ±1% 100mW 0603 Thick Film Resistor"
+		(property "Description" "47kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 271.78 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12143,7 +12143,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC Part" "C25819"
 			(at 271.78 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -12440,7 +12440,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2K2"
+		(property "Value" "10K"
 			(at 264.668 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12462,7 +12462,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C4190.pdf"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
 			(at 262.89 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12473,7 +12473,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2kΩ ±1% 100mW 0603 Thick Film Resistor"
+		(property "Description" "10kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 262.89 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12484,7 +12484,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC Part" "C25804"
 			(at 262.89 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -19914,7 +19914,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2K2"
+		(property "Value" "10K"
 			(at 264.668 125.476 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19936,7 +19936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C4190.pdf"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
 			(at 262.89 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -19947,7 +19947,7 @@
 				)
 			)
 		)
-		(property "Description" "2.2kΩ ±1% 100mW 0603 Thick Film Resistor"
+		(property "Description" "10kΩ ±1% 100mW 0603 Thick Film Resistor"
 			(at 262.89 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -19958,7 +19958,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC Part" "C25804"
 			(at 262.89 123.19 90)
 			(hide yes)
 			(show_name no)

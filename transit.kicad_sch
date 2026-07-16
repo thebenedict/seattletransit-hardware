@@ -7600,7 +7600,7 @@
 	)
 	(text "WiFi LED"
 		(exclude_from_sim no)
-		(at 247.65 114.3 0)
+		(at 247.65 138.43 0)
 		(effects
 			(font
 				(size 1.651 1.651)
@@ -7655,7 +7655,7 @@
 	)
 	(text "Data LED"
 		(exclude_from_sim no)
-		(at 247.65 138.43 0)
+		(at 247.65 114.3 0)
 		(effects
 			(font
 				(size 1.651 1.651)
@@ -7748,12 +7748,6 @@
 		(uuid "32108540-416f-44ff-985f-824f4cf333f8")
 	)
 	(junction
-		(at 232.41 107.315)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33df8ff7-9144-403b-a3d8-9aa91b2ddd26")
-	)
-	(junction
 		(at 236.22 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7806,12 +7800,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6962ce61-bbce-4c29-b6e9-abe05707961f")
-	)
-	(junction
-		(at 154.94 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ba1e2cd-b9a0-4aee-b0d5-8c3e4b628a4b")
 	)
 	(junction
 		(at 148.59 104.14)
@@ -8051,7 +8039,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 122.555) (xy 154.94 120.65)
+			(xy 154.94 118.11) (xy 154.94 122.555)
 		)
 		(stroke
 			(width 0)
@@ -8118,16 +8106,6 @@
 			(type default)
 		)
 		(uuid "10cec8cc-4894-4970-9481-22deafdd4613")
-	)
-	(wire
-		(pts
-			(xy 154.94 120.65) (xy 154.94 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1395142e-adde-4dc6-ba99-68c30b76a3ea")
 	)
 	(wire
 		(pts
@@ -9650,7 +9628,7 @@
 		(uuid "153b12dd-c96e-45c6-9e69-61da171c2ef1")
 	)
 	(label "WiFi_LED"
-		(at 257.81 123.19 180)
+		(at 257.81 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9720,7 +9698,7 @@
 		(uuid "45845995-4977-4cad-ab2b-eac143471cbc")
 	)
 	(label "WiFi_LED"
-		(at 34.29 50.8 180)
+		(at 34.29 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9750,7 +9728,7 @@
 		(uuid "5b248632-cee5-4a23-b7b1-57ccc61d9708")
 	)
 	(label "Data_LED"
-		(at 257.81 148.59 180)
+		(at 257.81 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9960,7 +9938,7 @@
 		(uuid "eb9e0943-4d56-4c8e-9f23-e9a95adf43db")
 	)
 	(label "Data_LED"
-		(at 34.29 48.26 180)
+		(at 34.29 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10058,7 +10036,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "0111341a-33c8-42eb-9a95-2b212e274fb7")
-		(property "Reference" "TP9"
+		(property "Reference" "TP6"
 			(at 71.628 151.384 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10120,7 +10098,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP9")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10137,7 +10115,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "021594dc-b7b8-4127-a794-96e4c1966592")
-		(property "Reference" "TP11"
+		(property "Reference" "TP8"
 			(at 193.04 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10199,7 +10177,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP11")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -12247,85 +12225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 265.43 101.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "2b071720-0ca8-4dd7-a4ca-994a3df07581")
-		(property "Reference" "TP8"
-			(at 267.208 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ambient-Light-SNS"
-			(at 267.208 107.188 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 260.35 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 265.43 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2cf753b7-38fd-467b-b1e7-48b50c223bbc")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "CL21B106KOQNNNE_4")
 		(lib_id "EasyEDA:CL21B106KOQNNNE")
 		(at 226.06 63.5 90)
@@ -13224,85 +13123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 120.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "3eaf2a06-2888-487d-9fe5-2166f16d4509")
-		(property "Reference" "TP12"
-			(at 160.274 118.872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ambient-Light-SNS"
-			(at 160.528 118.872 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 154.94 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 154.94 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8ab38484-2f63-4b7b-a64d-d2d88bb7f027")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 191.77 45.72 0)
 		(unit 1)
@@ -14072,7 +13892,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "56236ffe-d5b1-4ff3-b361-1a5b0c0eedcf")
-		(property "Reference" "TP10"
+		(property "Reference" "TP7"
 			(at 72.898 160.274 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14134,7 +13954,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP10")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -14527,85 +14347,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 232.41 107.315 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "644886b9-c467-4770-b46f-3172e205fde5")
-		(property "Reference" "TP7"
-			(at 237.744 105.537 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ambient-Light-SNS"
-			(at 237.998 105.537 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 232.41 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 112.395 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 232.41 107.315 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95bf6ce2-02f6-4246-bab2-037c77f2c251")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 229.87 64.77 0)
 		(unit 1)
 		(body_style 1)
@@ -14771,7 +14512,7 @@
 		(dnp no)
 		(uuid "6b421f90-3417-481d-b67d-cc6252b456cd")
 		(property "Reference" "LED3"
-			(at 266.954 147.32 0)
+			(at 266.954 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16365,85 +16106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 147.32 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "89296fe7-4923-46d3-97c4-0129d671de1b")
-		(property "Reference" "TP5"
-			(at 141.986 105.918 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Ambient-Light-SNS"
-			(at 141.732 105.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 147.32 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2dfae1ca-4017-469e-8bce-2c2e432ffd0e")
-		)
-		(instances
-			(project "transit"
-				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 226.06 147.32 0)
 		(unit 1)
@@ -16687,7 +16349,7 @@
 		(dnp no)
 		(uuid "95e11342-a66f-4fe0-afca-5ca497ac0eee")
 		(property "Reference" "LED2"
-			(at 266.954 121.92 0)
+			(at 266.954 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16881,7 +16543,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "9be6fde6-b4c4-4fc7-818a-f150cd147d73")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 176.276 32.258 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16943,7 +16605,7 @@
 		(instances
 			(project "transit"
 				(path "/3763eade-a8c8-4ec0-9cf2-9db4442b4ee5"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)

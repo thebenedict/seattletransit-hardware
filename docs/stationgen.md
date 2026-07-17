@@ -66,12 +66,12 @@ stations:
 Label positions use compass sides: `N`, `NE`, `E`, `SE`, `S`, `SW`, `W`,
 `NW`, or `C`. `offset_mm` is projected clearance from the station geometry to
 the rendered label geometry in that compass direction, so angled labels and
-horizontal labels use the same spacing rule. Standard labels anchor against a
-style-controlled halo around each selected LED center, which avoids rotated
-footprint bounding boxes creating larger apparent gaps. Tune
-`anchor_radius_mm` on the standard label style if the global standard-station
-spacing needs to move in or out. Transfer labels anchor against the generated
-rounded rectangle. Plain labels default to `align: auto`, which left-aligns
+horizontal labels use the same spacing rule. Labels with `anchor_radius_mm`
+configured and no generated decoration anchor against a style-controlled halo
+around each selected LED center. This avoids rotated footprint bounding boxes
+creating larger apparent gaps. Tune `anchor_radius_mm` on the applicable label
+style if that station class needs to move in or out. Transfer labels anchor
+against the generated rounded rectangle. Plain labels default to `align: auto`, which left-aligns
 east-side labels, right-aligns west-side labels, and centers north/south labels
 so text grows away from the station. Knockout pill labels default to centered
 text.

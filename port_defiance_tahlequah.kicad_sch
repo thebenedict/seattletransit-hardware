@@ -173,7 +173,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:WS2812B-MINI"
+
+		(symbol "EasyEDA:WS2812B-MINI-X2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -183,160 +184,78 @@
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+				(effects (font (size 1.27 1.27)))
 			)
-			(property "Value" "WS2812B-MINI"
+			(property "Value" "WS2812B-MINI-X2"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+				(effects (font (size 1.27 1.27)))
 			)
-			(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
+			(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B-MINI-X2"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+				(effects (font (size 1.27 1.27)))
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-Mini_C527089.html"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C4154873.pdf"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+				(effects (font (size 1.27 1.27)))
 			)
-			(property "Description" ""
+			(property "Description" "Worldsemi WS2812B-MINI-X2 addressable RGB LED, 3.5 x 3.5 x 0.95 mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+				(effects (font (size 1.27 1.27)))
 			)
-			(property "LCSC Part" "C527089"
+			(property "LCSC Part" "C4154873"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+				(effects (font (size 1.27 1.27)))
 			)
-			(symbol "WS2812B-MINI_0_1"
+			(symbol "WS2812B-MINI-X2_0_1"
 				(rectangle
 					(start 2.54 0)
 					(end 17.78 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
+					(stroke (width 0) (type default))
+					(fill (type background))
 				)
 				(circle
 					(center 3.81 -1.27)
 					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(stroke (width 0) (type default))
+					(fill (type none))
 				)
 				(pin power_in line
 					(at 0 -2.54 0)
 					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+					(name "VDD" (effects (font (size 1.27 1.27))))
+					(number "2" (effects (font (size 1.27 1.27))))
 				)
 				(pin output line
 					(at 0 -5.08 0)
 					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 20.32 -5.08 180)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+					(name "DOUT" (effects (font (size 1.27 1.27))))
+					(number "3" (effects (font (size 1.27 1.27))))
 				)
 				(pin input line
 					(at 20.32 -2.54 180)
 					(length 2.54)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
+					(name "DIN" (effects (font (size 1.27 1.27))))
+					(number "1" (effects (font (size 1.27 1.27))))
+				)
+				(pin power_in line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "GND" (effects (font (size 1.27 1.27))))
+					(number "4" (effects (font (size 1.27 1.27))))
 				)
 			)
 			(embedded_fonts no)
@@ -1340,7 +1259,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:WS2812B-MINI")
+		(lib_id "EasyEDA:WS2812B-MINI-X2")
 		(at 86.36 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -1361,7 +1280,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-Mini"
+		(property "Value" "WS2812B-MINI-X2"
 			(at 76.2 40.386 0)
 			(hide yes)
 			(show_name no)
@@ -1372,7 +1291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B-MINI-X2"
 			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1383,7 +1302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-Mini_C527089.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4154873.pdf"
 			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1394,7 +1313,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Worldsemi WS2812B-MINI-X2 addressable RGB LED, 3.5 x 3.5 x 0.95 mm"
 			(at 86.36 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1405,7 +1324,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C527089"
+		(property "LCSC Part" "C4154873"
 			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1426,16 +1345,16 @@
 				)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "4c26f541-a0c9-44ae-867f-49e805693f3e")
 		)
-		(pin "4"
+		(pin "1"
 			(uuid "d4285405-ab40-4c8f-9a76-f657200eae6f")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "61c86e16-0d75-4362-9115-0b1964c5b926")
 		)
-		(pin "3"
+		(pin "4"
 			(uuid "9bfde6b6-c467-4baf-84d6-d12c77d21afb")
 		)
 		(instances
@@ -1623,7 +1542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:WS2812B-MINI")
+		(lib_id "EasyEDA:WS2812B-MINI-X2")
 		(at 209.55 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -1644,7 +1563,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B-Mini"
+		(property "Value" "WS2812B-MINI-X2"
 			(at 199.39 40.386 0)
 			(hide yes)
 			(show_name no)
@@ -1655,7 +1574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
+		(property "Footprint" "EasyEDA:LED-SMD_4P-L3.5-W3.5-TL_WS2812B-MINI-X2"
 			(at 209.55 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -1666,7 +1585,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-Mini_C527089.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C4154873.pdf"
 			(at 209.55 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -1677,7 +1596,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Worldsemi WS2812B-MINI-X2 addressable RGB LED, 3.5 x 3.5 x 0.95 mm"
 			(at 209.55 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -1688,7 +1607,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C527089"
+		(property "LCSC Part" "C4154873"
 			(at 209.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -1709,16 +1628,16 @@
 				)
 			)
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "ee7a2408-f230-4141-ae80-fa67f9224781")
 		)
-		(pin "4"
+		(pin "1"
 			(uuid "1174a386-3eb1-4519-a32d-056ab0ae6415")
 		)
-		(pin "2"
+		(pin "3"
 			(uuid "6928b6a2-3d03-4d33-b87f-29371ce912f1")
 		)
-		(pin "3"
+		(pin "4"
 			(uuid "ccac2aa1-23bf-489e-9382-a9562a4549af")
 		)
 		(instances

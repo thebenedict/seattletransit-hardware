@@ -39,7 +39,7 @@ DEFAULTS: Dict[str, Any] = {
                 "vertical_align": "center",
                 "side": "E",
                 "offset_mm": 0.80,
-                "anchor_radius_mm": 3.40,
+                "anchor_radius_mm": 2.70,
                 "size_mm": 1.20,
                 "stroke_mm": 0.15,
                 "angle_deg": 0.0,

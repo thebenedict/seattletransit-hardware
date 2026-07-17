@@ -852,8 +852,8 @@ class StationGenIPC:
                     float(label_spec.get("pill_padding_y_mm", 0.35)),
                 ).snap_outward(snap_mm)
 
-            if station_class == "standard":
-                anchor_radius_mm = float(label_spec.get("anchor_radius_mm", 1.80))
+            if decoration_kind in ("none", "") and "anchor_radius_mm" in label_spec:
+                anchor_radius_mm = float(label_spec["anchor_radius_mm"])
                 label_anchor_points = [
                     point
                     for anchor_box in footprint_boxes

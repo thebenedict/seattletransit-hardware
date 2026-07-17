@@ -26,7 +26,7 @@ styles:
       vertical_align: center
       side: E
       offset_mm: 0.8
-      anchor_radius_mm: 3.4
+      anchor_radius_mm: 2.7
       size_mm: 1.2
       stroke_mm: 0.15
       angle_deg: 0
@@ -96,9 +96,9 @@ stations:
       align: right
     sublabels:
       - text: Pier 52
-        position_mm: [125.357, 52.69]
+        position_mm: [125.357, 53.0]
       - text: Pier 50
-        position_mm: [125.357, 60.79]
+        position_mm: [125.357, 60.5]
   tacoma_dome:
     class: terminal
     refs: [LED1304, LED1305, LED1306, LED1333, LED1334, LED1335]
@@ -617,7 +617,7 @@ stations:
       side: W
       align: right
   bremerton:
-    class: standard
+    class: ferry_port
     refs: [LED719]
     label:
       text: Bremerton

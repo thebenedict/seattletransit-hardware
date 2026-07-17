@@ -176,10 +176,16 @@ WS2812B_2020_DI = PinDef("3", "DI", 17.78, -5.08)
 WS2812B_MINI_DO = PinDef("2", "DOUT", 0.0, -5.08)
 WS2812B_MINI_DI = PinDef("4", "DIN", 20.32, -2.54)
 
+# WS2812B-MINI-X2 uses the same schematic pin locations but the manufacturer's
+# native pin numbering: 1 DIN, 2 VDD, 3 DOUT, 4 GND.
+WS2812B_MINI_X2_DO = PinDef("3", "DOUT", 0.0, -5.08)
+WS2812B_MINI_X2_DI = PinDef("1", "DIN", 20.32, -2.54)
+
 # Map lib_id patterns to pin definitions
 PIN_DEFS = {
     "WS2812B-2020": (WS2812B_2020_DI, WS2812B_2020_DO),
     "WS2812B-MINI": (WS2812B_MINI_DI, WS2812B_MINI_DO),
+    "WS2812B-MINI-X2": (WS2812B_MINI_X2_DI, WS2812B_MINI_X2_DO),
 }
 
 
@@ -263,8 +269,15 @@ def _parse_led_symbol(node: list) -> Optional[LedSymbol]:
     package = None
     if 'WS2812B-2020' in lib_id:
         package = '2020'
+        pin_key = 'WS2812B-2020'
+    elif 'WS2812B-MINI-X2' in lib_id:
+        # Keep the downstream physical package schema at "mini" while selecting
+        # the X2-specific electrical pin mapping separately.
+        package = 'mini'
+        pin_key = 'WS2812B-MINI-X2'
     elif 'WS2812B-MINI' in lib_id or 'WS2812B-Mini' in lib_id:
         package = 'mini'
+        pin_key = 'WS2812B-MINI'
     else:
         return None
 
@@ -323,8 +336,7 @@ def _parse_led_symbol(node: list) -> Optional[LedSymbol]:
         uuid = uuid_node[1]
 
     # Determine pin definitions
-    key = 'WS2812B-MINI' if package == 'mini' else 'WS2812B-2020'
-    di_def, do_def = PIN_DEFS[key]
+    di_def, do_def = PIN_DEFS[pin_key]
 
     # Compute absolute pin positions
     di_pos = transform_pin(sym_x, sym_y, di_def.x, di_def.y, mirror_y, rotation)

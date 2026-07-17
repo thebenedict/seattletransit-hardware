@@ -2494,7 +2494,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Transit:Kento_LED0805_C229x"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2507,7 +2507,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
+			(property "Reference" "LED"
 				(at -1.27 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2518,7 +2518,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "Kento_LED0805_C229x"
 				(at -4.445 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2529,7 +2529,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "EasyEDA:LED0805-R-RD"
 				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2551,7 +2551,7 @@
 					)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Kento 0805 LED used by LCSC C2293 and C2297; pin 1 anode, pin 2 cathode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2562,7 +2562,7 @@
 					)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "Sim.Pins" "1=A 2=K"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2573,7 +2573,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
+			(property "ki_keywords" "LED diode light-emitting-diode Kento C2293 C2297"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2584,7 +2584,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_fp_filters" "LED0805-R-RD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2595,7 +2595,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "Kento_LED0805_C229x_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -2657,7 +2657,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "Kento_LED0805_C229x_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -2668,7 +2668,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2686,7 +2686,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14501,7 +14501,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Transit:Kento_LED0805_C229x")
 		(at 273.05 148.59 180)
 		(unit 1)
 		(body_style 1)
@@ -14566,7 +14566,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" "1=A 2=K"
 			(at 273.05 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16003,7 +16003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Transit:Kento_LED0805_C229x")
 		(at 278.13 33.02 90)
 		(unit 1)
 		(body_style 1)
@@ -16068,7 +16068,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" "1=A 2=K"
 			(at 278.13 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -16338,7 +16338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Transit:Kento_LED0805_C229x")
 		(at 273.05 123.19 180)
 		(unit 1)
 		(body_style 1)
@@ -16403,7 +16403,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Sim.Pins" "1=A 2=K"
 			(at 273.05 123.19 0)
 			(hide yes)
 			(show_name no)

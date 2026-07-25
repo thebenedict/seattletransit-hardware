@@ -655,7 +655,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CL21B106KOQNNNE_1"
+		(symbol "FCC0805X106K100FT_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -695,7 +695,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -706,7 +706,7 @@
 					)
 				)
 			)
-			(property "Description" "10uF ±10% 25V Ceramic Capacitor X5R 0805"
+			(property "Description" "10uF ±10% 10V Ceramic Capacitor X5R 0805"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -717,7 +717,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C95841"
+			(property "LCSC Part" "C5137471"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -728,7 +728,7 @@
 					)
 				)
 			)
-			(symbol "CL21B106KOQNNNE_1_0_1"
+			(symbol "FCC0805X106K100FT_1_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -2.54) (xy 3.81 -2.54)
@@ -816,7 +816,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CL21B106KOQNNNE_2"
+		(symbol "FCC0805X106K100FT_2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -835,7 +835,7 @@
 					)
 				)
 			)
-			(property "Value" "CL21B106KOQNNNE"
+			(property "Value" "FCC0805X106K100FT"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -856,7 +856,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -878,7 +878,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C95841"
+			(property "LCSC Part" "C5137471"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -889,7 +889,7 @@
 					)
 				)
 			)
-			(symbol "CL21B106KOQNNNE_2_0_1"
+			(symbol "FCC0805X106K100FT_2_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -2.54) (xy 3.81 -2.54)
@@ -977,7 +977,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CL21B106KOQNNNE_3"
+		(symbol "FCC0805X106K100FT_3"
 			(pin_numbers
 				(hide yes)
 			)
@@ -996,7 +996,7 @@
 					)
 				)
 			)
-			(property "Value" "CL21B106KOQNNNE"
+			(property "Value" "FCC0805X106K100FT"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1017,7 +1017,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1039,7 +1039,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C95841"
+			(property "LCSC Part" "C5137471"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1050,7 +1050,7 @@
 					)
 				)
 			)
-			(symbol "CL21B106KOQNNNE_3_0_1"
+			(symbol "FCC0805X106K100FT_3_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -2.54) (xy 3.81 -2.54)
@@ -1138,7 +1138,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CL21B106KOQNNNE_4"
+		(symbol "FCC0805X106K100FT_4"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1157,7 +1157,7 @@
 					)
 				)
 			)
-			(property "Value" "CL21B106KOQNNNE"
+			(property "Value" "FCC0805X106K100FT"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1178,7 +1178,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1200,7 +1200,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C95841"
+			(property "LCSC Part" "C5137471"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1211,7 +1211,7 @@
 					)
 				)
 			)
-			(symbol "CL21B106KOQNNNE_4_0_1"
+			(symbol "FCC0805X106K100FT_4_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -2.54) (xy 3.81 -2.54)
@@ -1299,7 +1299,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CL21B106KOQNNNE_5"
+		(symbol "FCC0805X106K100FT_5"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1318,7 +1318,7 @@
 					)
 				)
 			)
-			(property "Value" "CL21B106KOQNNNE"
+			(property "Value" "FCC0805X106K100FT"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1339,7 +1339,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1361,7 +1361,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C95841"
+			(property "LCSC Part" "C5137471"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1372,7 +1372,7 @@
 					)
 				)
 			)
-			(symbol "CL21B106KOQNNNE_5_0_1"
+			(symbol "FCC0805X106K100FT_5_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -2.54) (xy 3.81 -2.54)
@@ -3665,7 +3665,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:CL21B106KOQNNNE"
+		(symbol "EasyEDA:FCC0805X106K100FT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3684,7 +3684,7 @@
 					)
 				)
 			)
-			(property "Value" "CL21B106KOQNNNE"
+			(property "Value" "FCC0805X106K100FT"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3705,7 +3705,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3727,7 +3727,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C95841"
+			(property "LCSC Part" "C5137471"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3738,7 +3738,7 @@
 					)
 				)
 			)
-			(symbol "CL21B106KOQNNNE_0_1"
+			(symbol "FCC0805X106K100FT_0_1"
 				(polyline
 					(pts
 						(xy 5.08 -2.54) (xy 3.81 -2.54)
@@ -10184,8 +10184,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_2")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_2")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 66.04 120.65 90)
 		(mirror x)
 		(unit 1)
@@ -10228,7 +10228,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C15849.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C26413.html"
 			(at 78.74 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10239,7 +10239,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF ±10% 50V Ceramic Capacitor X5R 0603"
+		(property "Description" "1uF ±10% 10V Ceramic Capacitor X5R 0603"
 			(at 66.04 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10250,7 +10250,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC Part" "C26413"
 			(at 81.28 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11278,8 +11278,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_5")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_5")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 267.97 25.4 270)
 		(unit 1)
 		(body_style 1)
@@ -11320,7 +11320,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 			(at 255.27 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11331,7 +11331,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF ±10% 25V Ceramic Capacitor X5R 0805"
+		(property "Description" "10uF ±10% 10V Ceramic Capacitor X5R 0805"
 			(at 267.97 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11342,7 +11342,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95841"
+		(property "LCSC Part" "C5137471"
 			(at 252.73 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -11369,8 +11369,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_4")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_4")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 219.71 63.5 90)
 		(mirror x)
 		(unit 1)
@@ -11755,7 +11755,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-C3-MINI-1"
+		(property "Value" "ESP32-C3-MINI-1-H4X"
 			(at 64.008 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11799,7 +11799,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2838502"
+		(property "LCSC" "C41349510"
 			(at 62.23 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12225,8 +12225,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_4")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_4")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 226.06 63.5 90)
 		(mirror x)
 		(unit 1)
@@ -12269,7 +12269,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 			(at 238.76 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12280,7 +12280,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF ±10% 25V Ceramic Capacitor X5R 0805"
+		(property "Description" "10uF ±10% 10V Ceramic Capacitor X5R 0805"
 			(at 226.06 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -12291,7 +12291,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95841"
+		(property "LCSC Part" "C5137471"
 			(at 241.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -13961,8 +13961,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_3")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_3")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 264.16 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -14004,7 +14004,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C15849.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C26413.html"
 			(at 264.16 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14015,7 +14015,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF ±10% 50V Ceramic Capacitor X5R 0603"
+		(property "Description" "1uF ±10% 10V Ceramic Capacitor X5R 0603"
 			(at 264.16 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14026,7 +14026,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC Part" "C26413"
 			(at 264.16 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14053,8 +14053,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_4")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_4")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 227.33 25.4 90)
 		(mirror x)
 		(unit 1)
@@ -14097,7 +14097,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 			(at 240.03 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14108,7 +14108,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF ±10% 25V Ceramic Capacitor X5R 0805"
+		(property "Description" "10uF ±10% 10V Ceramic Capacitor X5R 0805"
 			(at 227.33 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14119,7 +14119,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95841"
+		(property "LCSC Part" "C5137471"
 			(at 242.57 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -15834,8 +15834,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_2")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_2")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 25.4 120.65 270)
 		(unit 1)
 		(body_style 1)
@@ -15877,7 +15877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C15849.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C26413.html"
 			(at 12.7 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15888,7 +15888,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF ±10% 50V Ceramic Capacitor X5R 0603"
+		(property "Description" "1uF ±10% 10V Ceramic Capacitor X5R 0603"
 			(at 25.4 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15899,7 +15899,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC Part" "C26413"
 			(at 10.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -17089,7 +17089,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 234.95 109.22 270)
 		(unit 1)
 		(body_style 1)
@@ -17130,7 +17130,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C15849.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C26413.html"
 			(at 222.25 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17141,7 +17141,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF ±10% 50V Ceramic Capacitor X5R 0603"
+		(property "Description" "1uF ±10% 10V Ceramic Capacitor X5R 0603"
 			(at 234.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17152,7 +17152,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15849"
+		(property "LCSC Part" "C26413"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17391,7 +17391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C45783.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C380338.html"
 			(at 158.75 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17402,7 +17402,7 @@
 				)
 			)
 		)
-		(property "Description" "22uF ±20% 25V Ceramic Capacitor X5R 0805"
+		(property "Description" "22uF ±20% 10V Ceramic Capacitor X5R 0805"
 			(at 146.05 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -17413,7 +17413,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C45783"
+		(property "LCSC Part" "C380338"
 			(at 161.29 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -19464,8 +19464,8 @@
 		)
 	)
 	(symbol
-		(lib_name "CL21B106KOQNNNE_1")
-		(lib_id "EasyEDA:CL21B106KOQNNNE")
+		(lib_name "FCC0805X106K100FT_1")
+		(lib_id "EasyEDA:FCC0805X106K100FT")
 		(at 49.53 25.4 0)
 		(unit 1)
 		(body_style 1)
@@ -19506,7 +19506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 			(at 49.53 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19517,7 +19517,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF ±10% 25V Ceramic Capacitor X5R 0805"
+		(property "Description" "10uF ±10% 10V Ceramic Capacitor X5R 0805"
 			(at 49.53 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -19528,7 +19528,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C95841"
+		(property "LCSC Part" "C5137471"
 			(at 49.53 40.64 0)
 			(hide yes)
 			(show_name no)

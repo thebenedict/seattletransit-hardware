@@ -1775,7 +1775,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "CL21B106KOQNNNE"
+	(symbol "FCC0805X106K100FT"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1787,7 +1787,7 @@
 				)
 			)
 		)
-		(property "Value" "CL21B106KOQNNNE"
+		(property "Value" "FCC0805X106K100FT"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -1804,7 +1804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B106KOQNNNE_10uF-106-10-16V_C95841.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5137471.html"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -1822,7 +1822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C95841"
+		(property "LCSC Part" "C5137471"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -1831,7 +1831,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CL21B106KOQNNNE_0_1"
+		(symbol "FCC0805X106K100FT_0_1"
 			(polyline
 				(pts
 					(xy 5.08 -2.54) (xy 3.81 -2.54)

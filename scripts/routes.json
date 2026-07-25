@@ -22,7 +22,7 @@
     "generate_silk": true
   },
   "routes": {
-    "port_defiance_tahlequah": {
+    "point_defiance_tahlequah": {
       "reverse": false,
       "refs": "LED548-LED557",
       "endpoints": {

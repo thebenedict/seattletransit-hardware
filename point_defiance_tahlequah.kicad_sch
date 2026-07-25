@@ -1416,7 +1416,7 @@
 				)
 			)
 		)
-		(property "Ferry Port" "Port_Defiance"
+		(property "Ferry Port" "Point_Defiance"
 			(at 77.47 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)

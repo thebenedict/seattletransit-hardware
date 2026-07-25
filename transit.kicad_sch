@@ -5,9 +5,9 @@
 	(uuid "3763eade-a8c8-4ec0-9cf2-9db4442b4ee5")
 	(paper "A4")
 	(title_block
-		(title "Seattle Transit")
-		(date "2026-05-06")
-		(rev "B")
+		(title "Seattle Transit Live")
+		(date "2026-07-25")
+		(rev "C")
 		(company "Salt River Labs")
 	)
 	(lib_symbols
@@ -7802,12 +7802,6 @@
 		(uuid "6962ce61-bbce-4c29-b6e9-abe05707961f")
 	)
 	(junction
-		(at 148.59 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d14c3aa-8a8a-4cac-9ad9-9d22f14e2152")
-	)
-	(junction
 		(at 262.89 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8733,7 +8727,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 148.59 101.6)
+			(xy 148.59 101.6) (xy 148.59 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9133,16 +9127,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 148.59 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae64b77d-440c-46f4-bae0-306dda1d6345")
-	)
-	(wire
-		(pts
 			(xy 276.86 123.19) (xy 275.59 123.19)
 		)
 		(stroke
@@ -9470,16 +9454,6 @@
 			(type default)
 		)
 		(uuid "ee0910c4-6ee1-43da-879c-403263c1fd29")
-	)
-	(wire
-		(pts
-			(xy 148.59 104.14) (xy 148.59 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f047d497-4791-4ee5-bb74-bf9f6c4f9f94")
 	)
 	(wire
 		(pts

@@ -67,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3862af87-28e4-47af-b657-20dc315ff550")
-		(property "Sheetname" "port_defiance_tahlequah"
+		(property "Sheetname" "point_defiance_tahlequah"
 			(at 64.77 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "port_defiance_tahlequah.kicad_sch"
+		(property "Sheetfile" "point_defiance_tahlequah.kicad_sch"
 			(at 64.77 43.7646 0)
 			(show_name no)
 			(do_not_autoplace no)

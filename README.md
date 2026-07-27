@@ -2,7 +2,9 @@
 
 Schematic and PCB for a circuit board map of Seattle area public transit.
 
-This board uses an `ESP32-C3` to drive `383` individually addressable `WS2812` LEDs arranged as a stylized regional transit map. The LEDs are split across four chains and are intended to represent live movement across rail, ferry, water taxi, and monorail routes.
+[www.seattletransitlive.com](https://www.seattletransitlive.com/)
+
+This board uses an `ESP32-C3` to drive `383` individually addressable `WS2812` LEDs arranged as a stylized regional transit map. The LEDs are split across two chains, and represent live movement across rail, ferry, water taxi, and monorail routes.
 
 ## Main Functionality
 
